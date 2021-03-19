@@ -1,2 +1,2 @@
-
-[a relative link](invited_sessions/ses-I-1.md)
+The links to each invited session are below
+[Session I-1](invited_sessions/ses-I-1.md)
