@@ -4,6 +4,7 @@ Potentially store abstract/session information on this site
 
 
 [a relative link](docs/test_session.md)
+[invited sessions](docs/ses-invited.md)
 
 **Bold** and _Italic_ and `Code` text
 
