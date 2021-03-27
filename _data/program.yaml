@@ -1,0 +1,13 @@
+program: 
+  - Date:
+    dayprog:
+      - time: 9:00 - 1:00
+        title: Introduction to Deep Learning Short Course
+        ifsubprog: FALSE
+      - time: 9:00-10:00
+        title: invited session 
+        ifsubprog: TRUE
+        subprog:
+          - name: Statistical methods for neuroimaging studies of Alzheimer's disease 
+          - organizer: Dana Tudorascu
+          - link: /sdsd/sdsd/sd
