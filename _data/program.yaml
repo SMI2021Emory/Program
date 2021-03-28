@@ -11,11 +11,13 @@ program:
         title: 'Founder’s Talk:   Tim Johnson'                                                                                                                                         
         ifsubprog: FALSE
       - time: 14:55-16:35
-        title: Statistical Software for Imaging Analysis                                                                                                                             
+        title: Statistical Software for Imaging Analysis   
+        link: "/docs/ses-software.html"                                                                                                                          
         ifsubprog: FALSE
       - time: 16:45-19:00
         title: Poster Session and Opening Mixer. (Gather.Town)                                                                                                                       
         ifsubprog: FALSE
+        link: "/docs/ses-poster.html"   
   - date: Tuesday	5/18/21
     dayprog:
       - time: 8:45-9:00  
