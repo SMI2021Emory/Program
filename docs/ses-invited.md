@@ -1,3 +1,9 @@
+---
+title : Inivted Sessions
+layout: default
+order : 1
+---
+
 <!-- The links to each invited session are below
 
 
