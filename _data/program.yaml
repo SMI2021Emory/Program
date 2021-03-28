@@ -22,15 +22,17 @@ program:
         title: Opening remarks                                                                                                                                                       
         ifsubprog: FALSE
       - time: 9:00-10:00
-        title: invited session
+        title: Invited session
         ifsubprog: TRUE
         subprog:
           - name: Statistical methods for neuroimaging studies of Alzheimer's disease
             organizer: Dana Tudorascu
-            link: /sdsd/sdsd/sd
+            id: I-1
+            type: invited
           - name: Recent advances in statistical methods for complex neuroimaging data
             organizer: Fengqing Zhang
-            link: /sdsd/sdsd/sd
+            id: I-4
+            type: invited
       - time: 10:00-10:30
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -46,10 +48,12 @@ program:
         subprog:
           - name: Flexible Bayesian Approaches for Imaging Analysis
             organizer: Suprateek Kundu
-            link: /sdsd/sdsd/sd
+            id: I-2
+            type: invited
           - name: New statistical learning method for imaging data analysis
             organizer: Jian Kang
-            link: /sdsd/sdsd/sd
+            id: 
+            type: invited
       - time: 12:45-13:00 
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE    
@@ -62,10 +66,12 @@ program:
         subprog:
           - name: Statistical Shape Modeling and Analysis Using Imaging Data
             organizer: Anuj Srivastava
-            link: /sdsd/sdsd/sd
+            id: I-11
+            type: invited
           - name: Recent Advances and New Directions in Neuroimaging Statistics
             organizer: Carolyn Lou
-            link: /sdsd/sdsd/sd
+            id: I-3
+            type: invited
       - time: 15:00-15:30  
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -75,10 +81,12 @@ program:
         subprog:
           - name: Advanced imaging
             organizer: Ben Risk
-            link: /sdsd/sdsd/sd
+            id: 
+            type: case_study
           - name: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions
             organizer: Sandra Hurtado Rúa
-            link: /sdsd/sdsd/sd
+            id: 
+            type: case_study
       - time: 16:30-17:00  
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -90,10 +98,12 @@ program:
         subprog:
           - name: Statistical methods for functional neuroimaging
             organizer: Ying Guo
-            link: /sdsd/sdsd/sd
+            id: I-5
+            type: invited
           - name: Complex response, dimension reduction and data integration with application on neuroimaging
             organizer: Yize Zhao
-            link: /sdsd/sdsd/sd
+            id: I-10
+            type: invited
       - time: 10:00-10:30
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -109,10 +119,12 @@ program:
         subprog:
           - name: Regularization methods in medical imaging
             organizer: John Kornak
-            link: /sdsd/sdsd/sd
+            id: I-9
+            type: invited
           - name: Statistical Approaches to Addressing Challenges in Neuroimaging Research
             organizer: Dayu Sun
-            link: /sdsd/sdsd/sd
+            id: I-14
+            type: invited
       - time: 12:45-13:00 
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -125,10 +137,12 @@ program:
         subprog:
           - name: Advances in Statistical Methods for Multiple Sclerosis Imaging
             organizer: Elizabeth Sweeney
-            link: /sdsd/sdsd/sd
+            id: I-6
+            type: invited
           - name: Recent advances in brain network statistics
             organizer: Shuo Chen
-            link: /sdsd/sdsd/sd
+            id: 
+            type: invited
       - time: 15:00-15:30  
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
@@ -138,10 +152,12 @@ program:
         subprog:
           - name: Bayesian supervised and unsupervised image processing and analysis, with applications to radiogenomics and diffusion tensor imaging
             organizer: Rajarshi Guhaniyogi
-            link: /sdsd/sdsd/sd
+            id: I-8
+            type: invited
           - name: Functional and Spatial Techniques in Neuroimaging Data
             organizer: Linglong Kong
-            link: /sdsd/sdsd/sd
+            id: I-12
+            type: invited
       - time: 16:30-17:00  
         title: Floor Discussion                                                                                                                                                      
         ifsubprog: FALSE
