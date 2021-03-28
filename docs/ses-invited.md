@@ -14,6 +14,7 @@ order : 1
 
 {% assign sorted_sessions = site.session | sort:"order" %}
 {% for session in sorted_sessions %}
+  {% if session.type == "invited" %}
   <h2>
     <a href="{{ session.url | prepend: site.relative_url }}">
       Session {{ session.ID }}: {{ session.title }}
@@ -44,5 +45,6 @@ order : 1
   {% endfor %}
 
 
-  <p>{{ session.content | markdownify }}</p>
+  <!-- <p>{{ session.content | markdownify }}</p> -->
+  {% endif %}
 {% endfor %}
