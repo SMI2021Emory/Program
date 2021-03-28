@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+title: SMI 2021
 plugins:
   - jekyll-optional-front-matter
 
