@@ -1,5 +1,5 @@
 ---
-title: SMI 2021 Program
+title: SMI 2021 Programs
 ---
 # SMI 2021 Programs
 
@@ -10,7 +10,7 @@ title: SMI 2021 Program
 {% for daysch in site.data.program.program %}
 
   <h2> {{daysch.date}} </h2>
-  <table class="display" style="width: 100%">
+  <table style="display: block; width: 100%">
         {% for prog in daysch.dayprog %}
             <tr>
                 <td style="width: 140px">{{ prog.time }}</td>
