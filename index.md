@@ -15,7 +15,7 @@ title: SMI 2021 Program
             <tr>
                 <td style="width: 140px">{{ prog.time }}</td>
                 {% if prog.link %}
-                    <td><a href="{{ prog.link }}"> {{ prog.title }} </a></td>                    
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}"> {{ prog.title }} </a></td>                    
                 {% else %}
                     <td>{{ prog.title }}</td>
                 {% endif %}                
@@ -25,7 +25,7 @@ title: SMI 2021 Program
                     <tr>
                         <td> </td>
                         {% if eachsubprog.id %}
-                            <td> <a href="/{{ eachsubprog.type }}/ses-{{ eachsubprog.id }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
+                            <td> <a href="{{ site.relative_url }}/{{ eachsubprog.type }}/ses-{{ eachsubprog.id }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{eachsubprog.id}} {{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
                         {% endif %}                        

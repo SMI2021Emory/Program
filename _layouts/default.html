@@ -34,7 +34,7 @@
     <h3 class="project-tagline">
       {% assign sorted_pages = site.html_pages | sort: "order" %}      
       {% for page in sorted_pages %}
-      <a href="{{ page.url }}" class="btn"> {{ page.title }}</a>
+      <a href="{{ page.url | prepend: site.relative_url }}" class="btn"> {{ page.title }}</a>
       {% endfor %}
       <!-- <a href="https://joshualukemire.github.io/TestSMISite/docs/ses-invited.html">Invited Sessions</a>
       <a href="https://joshualukemire.github.io/TestSMISite/docs/software_sessions/ses-software.html">&nbsp;&nbsp;Software
