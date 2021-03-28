@@ -15,7 +15,7 @@ order : 1
 {% assign sorted_sessions = site.session | sort:"order" %}
 {% for session in sorted_sessions %}
   <h2>
-    <a href="{{ session.url }}">
+    <a href="{{ session.url | prepend: site.relative_url }}">
       Session {{ session.ID }}: {{ session.title }}
     </a>
   </h2>
