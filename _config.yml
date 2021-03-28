@@ -3,4 +3,7 @@ plugins:
   - jekyll-optional-front-matter
 
 collections:
-  - sessions
+  session:
+      output: true
+      permalink: /invited/:name
+      sort_by: order
