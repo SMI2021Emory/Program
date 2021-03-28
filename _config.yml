@@ -8,5 +8,5 @@ baseurl: /TestSMISite
 collections:
   session:
       output: true
-      permalink: /invited/:name
+      permalink: /sessions/:name
       sort_by: order

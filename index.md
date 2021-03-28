@@ -25,7 +25,7 @@ title: SMI 2021 Programs
                     <tr>
                         <td> </td>
                         {% if eachsubprog.id %}
-                            <td> <a href="{{ site.relative_url }}/{{ eachsubprog.type }}/ses-{{ eachsubprog.id | downcase }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
+                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{eachsubprog.id}} {{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
                         {% endif %}                        
