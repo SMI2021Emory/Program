@@ -1,11 +1,11 @@
 ---
-title: Test Site for SMI 2021 Program
+title: SMI 2021 Program
 ---
-### Test Site for SMI 2021 Program
+# SMI 2021 Programs
 
-Potentially store abstract/session information on this site
+<!-- Potentially store abstract/session information on this site
 
-[invited sessions](docs/ses-invited.md)
+[invited sessions](docs/ses-invited.md) -->
 
 {% for daysch in site.data.program.program %}
 
@@ -20,7 +20,12 @@ Potentially store abstract/session information on this site
                 {% for eachsubprog in prog.subprog %}
                     <tr>
                         <td> </td>
-                        <td>{{ eachsubprog.name }} (organizer: {{ eachsubprog.organizer}})</td>
+                        {% if eachsubprog.id %}
+                            <td> <a href="/{{ eachsubprog.type }}/ses-{{ eachsubprog.id }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
+                        {% else %}
+                            <td> <div style="color:red;"> {{eachsubprog.id}} {{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
+                        {% endif %}
+                        
                     </tr>
                 {% endfor %}
             {% endif %}
