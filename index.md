@@ -14,7 +14,11 @@ title: SMI 2021 Program
         {% for prog in daysch.dayprog %}
             <tr>
                 <td style="width: 140px">{{ prog.time }}</td>
-                <td>{{ prog.title }}</td>
+                {% if prog.link %}
+                    <td><a href="{{ prog.link }}"> {{ prog.title }} </a></td>                    
+                {% else %}
+                    <td>{{ prog.title }}</td>
+                {% endif %}                
             </tr>
             {% if prog.ifsubprog %}
                 {% for eachsubprog in prog.subprog %}
@@ -24,8 +28,7 @@ title: SMI 2021 Program
                             <td> <a href="/{{ eachsubprog.type }}/ses-{{ eachsubprog.id }}.html"> {{eachsubprog.id}} {{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{eachsubprog.id}} {{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
-                        {% endif %}
-                        
+                        {% endif %}                        
                     </tr>
                 {% endfor %}
             {% endif %}
