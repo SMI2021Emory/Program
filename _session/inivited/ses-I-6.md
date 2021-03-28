@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-6
-type: inivited
+type: invited
 order: 6
 title: Advances in Statistical Methods for Multiple Sclerosis Imaging
 organizer:

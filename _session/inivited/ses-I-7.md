@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-7
-type: inivited
+type: invited
 order: 7
 title: Recent advances in statistical network inference for group-level brain network analysis   
 organizer:

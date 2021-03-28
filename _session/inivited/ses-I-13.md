@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-13
-type: inivited
+type: invited
 order: 14
 title: Recent advances in statistical learning methods in imaging studies
 organizer:

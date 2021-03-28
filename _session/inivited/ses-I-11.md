@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-11
-type: inivited
+type: invited
 order: 11
 title: Statistical Shape Modeling and Analysis Using Imaging Data
 organizer:

@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-10
-type: inivited
+type: invited
 order: 10
 title: Complex response, dimension reduction and data integration with application on neuroimaging
 organizer:

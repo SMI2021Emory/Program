@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-3
-type: inivited
+type: invited
 order: 3
 title: Recent Advances and New Directions in Neuroimaging Statistics
 organizer:

@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-8
-type: inivited
+type: invited
 order: 8
 title: Bayesian Supervised and Unsupervised Image Processing and Analysis, with Applications to Radiogenomics and Diffusion Tensor Imaging
 organizer:

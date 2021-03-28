@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-4
-type: inivited
+type: invited
 order: 4
 title: Recent advances in statistical methods for complex neuroimaging data
 organizer:

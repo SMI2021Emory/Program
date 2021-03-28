@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-5
-type: inivited
+type: invited
 order: 5
 title: Statistical methods for functional neuroimaging 
 organizer:

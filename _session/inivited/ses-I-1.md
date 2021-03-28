@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-1
-type: inivited
+type: invited
 order: 1
 title: Statistical methods for neuroimaging studies of Alzheimer’s Disease
 organizer:

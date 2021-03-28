@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-2
-type: inivited
+type: invited
 order: 2
 title: Flexible Bayesian Approaches for Imaging Analysis
 organizer:

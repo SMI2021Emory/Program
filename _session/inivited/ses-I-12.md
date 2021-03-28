@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-12
-type: inivited
+type: invited
 order: 12
 title: Functional and Spatial Techniques in Neuroimaging Data 
 organizer:

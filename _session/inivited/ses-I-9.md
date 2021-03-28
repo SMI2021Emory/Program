@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-9
-type: inivited
+type: invited
 order: 9
 title: Regularization methods in medical imaging
 organizer:

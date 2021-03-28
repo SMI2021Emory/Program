@@ -1,7 +1,7 @@
 ---
 layout: session
 ID: I-14
-type: inivited
+type: invited
 order: 14
 title: Statistical Approaches to Addressing Challenges in Neuroimaging Research
 organizer:
