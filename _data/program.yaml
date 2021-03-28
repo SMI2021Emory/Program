@@ -83,11 +83,11 @@ program:
         subprog:
           - name: Advanced imaging
             organizer: Ben Risk
-            id: 
+            id: C-1
             type: case_study
           - name: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions
             organizer: Sandra Hurtado Rúa
-            id: 
+            id: C-2
             type: case_study
       - time: 16:30-17:00  
         title: Floor Discussion                                                                                                                                                      
