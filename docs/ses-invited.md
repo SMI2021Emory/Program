@@ -4,6 +4,8 @@ layout: default
 order : 1
 ---
 
+# {{page.title}}
+
 <!-- The links to each invited session are below
 
 

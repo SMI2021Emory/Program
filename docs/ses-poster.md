@@ -4,6 +4,8 @@ layout: default
 order : 4
 ---
 
+# {{page.title}}
+
 ### Neuroconductor: An R Platform for Medical Imaging Analysis
  
 John Muschelli, Johns Hopkins Bloomberg School of Public Health<br/>

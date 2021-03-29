@@ -3,6 +3,7 @@ title : Software Sessions
 layout: default
 order : 2
 ---
+# {{page.title}}
 
 ### Neuroconductor: An R Platform for Medical Imaging Analysis
  

@@ -4,6 +4,8 @@ layout: default
 order : 3
 ---
 
+# {{page.title}}
+
 {% assign sorted_sessions = site.session | sort:"order" %}
 {% for session in sorted_sessions %}
   {% if session.type == "case_study" %}
