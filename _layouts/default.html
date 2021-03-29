@@ -31,10 +31,9 @@
       style="background-image:url(https://scholarblogs.emory.edu/smi2021/files/2019/07/rollins_3.jpg);background-repeat:no-repeat;background-position:center"
       class="project-name">SMI 2021</h1>
     <h3 class="project-tagline">
-      {% assign sorted_pages = site.html_pages | sort: "order" %}      
-      {% for page in sorted_pages %}
-      <a href="{{ page.url | prepend: site.relative_url }}" class="btn"> {{ page.title }}</a>
-      {% endfor %}
+      <a href="{{ '/' | prepend: site.relative_url }}" class="btn"> SMI 2021 Agenda </a>
+      <a href="{{ '/docs/ses-poster.html' | prepend: site.relative_url }}" class="btn"> Poster </a>
+      <a href="{{ '/docs/speakers.html' | prepend: site.relative_url }}" class="btn"> Speakers </a>
       <!-- <a href="https://joshualukemire.github.io/SMI2021Program/docs/ses-invited.html">Invited Sessions</a>
       <a href="https://joshualukemire.github.io/SMI2021Program/docs/software_sessions/ses-software.html">&nbsp;&nbsp;Software
         Sessions</a>
