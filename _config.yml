@@ -1,1 +1,12 @@
 theme: jekyll-theme-cayman
+title: SMI 2021
+plugins:
+  - jekyll-optional-front-matter
+relative_url: /TestSMISite
+baseurl: /TestSMISite
+
+collections:
+  session:
+      output: true
+      permalink: /sessions/:name
+      sort_by: order

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+
+  <h1>
+    <a href="{{ page.url }}">
+      Session {{ page.ID }}: {{ page.title }}
+    </a>
+  </h1>
+
+  <p>
+  <b>Organizer</b>: {{page.organizer.name}} <br/> 
+   {{page.organizer.affil}} <br/> 
+   Email: {{page.organizer.email}} 
+</p>
+  
+  
+<p>
+  <b>Chair</b>: {{page.chair.name}}<br/> 
+  {{page.chair.affil}} <br/> 
+  Email: {{page.chair.email}}
+</p>
+
+<h2> Speakers: </h2>
+
+  {% for speaker in page.speakers %}
+  <p> 
+  <b>{{speaker.id}}. {{speaker.name}}</b><br/>
+    {{speaker.affil}} <br/> 
+  Email: {{speaker.email}} <br/> 
+  <p> <b>Title</b>: {{speaker.title}} <br/>
+  <b> Abstract</b>: {{speaker.abstract}} </p>
+  {% endfor %}
+
+
+

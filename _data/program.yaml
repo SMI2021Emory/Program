@@ -1,0 +1,165 @@
+program:
+  - date: Monday	5/17/21
+    dayprog:
+      - time: 9:00-13:00
+        title: Introduction to Deep Learning Short Course
+        ifsubprog: FALSE
+      - time: 13:00-14:00
+        title: Lunch Break                                                                                                                                                           
+        ifsubprog: FALSE
+      - time: 14:00-14:55
+        title: 'Founder’s Talk:   Tim Johnson'                                                                                                                                         
+        ifsubprog: FALSE
+      - time: 14:55-16:35
+        title: Statistical Software for Imaging Analysis   
+        link: "/docs/ses-software.html"                                                                                                                          
+        ifsubprog: FALSE
+      - time: 16:45-19:00
+        title: Poster Session and Opening Mixer. (Gather.Town)                                                                                                                       
+        ifsubprog: FALSE
+        link: "/docs/ses-poster.html"   
+  - date: Tuesday	5/18/21
+    dayprog:
+      - time: 8:45-9:00  
+        title: Opening remarks                                                                                                                                                       
+        ifsubprog: FALSE
+      - time: 9:00-10:00
+        title: Invited session
+        ifsubprog: TRUE
+        subprog:
+          - name: Statistical methods for neuroimaging studies of Alzheimer's disease
+            organizer: Dana Tudorascu
+            id: I-1
+            type: invited
+          - name: Recent advances in statistical methods for complex neuroimaging data
+            organizer: Fengqing Zhang
+            id: I-4
+            type: invited
+      - time: 10:00-10:30
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+      - time: 10:30-11:30
+        title: 'Keynote Address: Tom Nicoles'                                                                                                                                        
+        ifsubprog: FALSE
+      - time: 11:30-11:45
+        title: Break                                                                                                                                                                 
+        ifsubprog: FALSE
+      - time: 11:45-12:45
+        title: Invited sessions                                                                                                                                                      
+        ifsubprog: TRUE
+        subprog:
+          - name: Flexible Bayesian Approaches for Imaging Analysis
+            organizer: Suprateek Kundu
+            id: I-2
+            type: invited
+          - name: New statistical learning methods for imaging data analysis
+            organizer: Jian Kang
+            id: I-13
+            type: invited
+      - time: 12:45-13:00 
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE    
+      - time: 13:00-14:00  
+        title: Lunch Break                                                                                                                                                           
+        ifsubprog: FALSE
+      - time: 14:00-15:00  
+        title: Invited sessions                                                                                                                                                      
+        ifsubprog: TRUE
+        subprog:
+          - name: Statistical Shape Modeling and Analysis Using Imaging Data
+            organizer: Anuj Srivastava
+            id: I-11
+            type: invited
+          - name: Recent Advances and New Directions in Neuroimaging Statistics
+            organizer: Carolyn Lou
+            id: I-3
+            type: invited
+      - time: 15:00-15:30  
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+      - time: 15:30-16:30  
+        title: Collaborative Case Studies                                                                                                                                            
+        ifsubprog: TRUE
+        subprog:
+          - name: Advanced imaging
+            organizer: Ben Risk
+            id: C-1
+            type: case_study
+          - name: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions
+            organizer: Sandra Hurtado Rúa
+            id: C-2
+            type: case_study
+      - time: 16:30-17:00  
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+  - date: Wednesday	5/19/21
+    dayprog:
+      - time: 9:00-10:00 
+        title: Invited session                                                                                                                                                       
+        ifsubprog: TRUE
+        subprog:
+          - name: Statistical methods for functional neuroimaging
+            organizer: Ying Guo
+            id: I-5
+            type: invited
+          - name: Complex response, dimension reduction and data integration with application on neuroimaging
+            organizer: Yize Zhao
+            id: I-10
+            type: invited
+      - time: 10:00-10:30
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+      - time: 10:30-11:30
+        title: 'Keynote Address: Vince Calhoun'                                                                                                                                        
+        ifsubprog: FALSE
+      - time: 11:30-11:45
+        title: Break                                                                                                                                                                 
+        ifsubprog: FALSE
+      - time: 11:45-12:45
+        title: Invited sessions                                                                                                                                                      
+        ifsubprog: TRUE
+        subprog:
+          - name: Regularization methods in medical imaging
+            organizer: John Kornak
+            id: I-9
+            type: invited
+          - name: Statistical Approaches to Addressing Challenges in Neuroimaging Research
+            organizer: Dayu Sun
+            id: I-14
+            type: invited
+      - time: 12:45-13:00 
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+      - time: 13:00-14:00  
+        title: Lunch Break                                                                                                                                                           
+        ifsubprog: FALSE
+      - time: 14:00-15:00  
+        title: Invited sessions                                                                                                                                                      
+        ifsubprog: TRUE
+        subprog:
+          - name: Advances in Statistical Methods for Multiple Sclerosis Imaging
+            organizer: Elizabeth Sweeney
+            id: I-6
+            type: invited
+          - name: Recent advances in brain network statistics
+            organizer: Shuo Chen
+            id: I-7
+            type: invited
+      - time: 15:00-15:30  
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
+      - time: 15:30-16:30  
+        title: Invited sessions                                                                                                                                                      
+        ifsubprog: TRUE
+        subprog:
+          - name: Bayesian supervised and unsupervised image processing and analysis, with applications to radiogenomics and diffusion tensor imaging
+            organizer: Rajarshi Guhaniyogi
+            id: I-8
+            type: invited
+          - name: Functional and Spatial Techniques in Neuroimaging Data
+            organizer: Linglong Kong
+            id: I-12
+            type: invited
+      - time: 16:30-17:00  
+        title: Floor Discussion                                                                                                                                                      
+        ifsubprog: FALSE
