@@ -16,7 +16,8 @@ title: SMI 2021 Agenda
                 {% assign sescount = sescount | plus:1 %}                
             {% endif %}
             <tr>
-                <td style="width: 140px">{{ prog.time }}</td>
+                {% assign betime = prog.time | split: "-"  %}
+                <td style="width: 200px">{{ betime[0] | date: "%I:%M%P"}} - {{ betime[1] | date: "%I:%M%P"}}</td>
                 {% assign currentcount = "" %}
                 {% if prog.iscount %}
                     {% assign currentcount = sescount | append: ". " %}
