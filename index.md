@@ -1,7 +1,7 @@
 ---
-title: SMI 2021 Programs
+title: SMI 2021 Agenda
 ---
-# SMI 2021 Programs
+# SMI 2021 Agenda
 
 <!-- Potentially store abstract/session information on this site
 
