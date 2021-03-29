@@ -3,7 +3,7 @@ layout: session
 ID: I-7
 type: invited
 order: 7
-title: Recent advances in statistical network inference for group-level brain network analysis   
+title: Recent advances in brain network statistics   
 organizer:
     name:   Shuo Chen
     affil: University of Maryland, School of Medicine  

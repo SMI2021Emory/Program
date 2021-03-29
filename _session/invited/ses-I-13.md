@@ -3,7 +3,7 @@ layout: session
 ID: I-13
 type: invited
 order: 14
-title: Recent advances in statistical learning methods in imaging studies
+title: New statistical learning methods for imaging data analysis
 organizer:
     name:  Jian Kang
     affil:  University of Michigan
