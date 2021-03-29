@@ -31,7 +31,7 @@ speakers:
       email: aciarleglio@email.gwu.edu
       title:  Multiple imputation in functional regression with applications to EEG data in a depression study
       abstract: Missing data are a common problem in biomedical research.  Valid approaches for addressing this problem have been proposed and are regularly implemented in applications where the data are exclusively scalar-valued.  With advances in technology and data storage, biomedical studies now frequently collect both scalar and functional data, both of which may be subject to missingness.  However, little work has been done to deal with missing functional data.  We propose extensions of multiple imputation and Rubin’s Rules for pooling estimates derived from multiply imputed data sets that accommodate both scalar and functional data. We present results from a simulation study showing the performance of our proposed approach with respect to fidelity to the observed data and estimation of the parameters of interest.  We also present results from applying our proposed approach in the context of fitting a function-on-scalar regression model relating characteristics derived from electroencephalography to depression status (major depressive disorder vs. healthy control).
-- id: 4
+    - id: 4
       name:  Guanqun Cao
       affil: Department of Mathematics and Statistics, Auburn University
       email: gzc0009@auburn.edu 
