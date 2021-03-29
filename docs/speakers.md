@@ -51,6 +51,14 @@ order : 1
 
 <!-- Short course -->
 
+
+{% assign scpage = site.pages | where: 'title', 'Short Course' %}
+{% for item in scpage %}
+## [Short course]({{ item.url | prepend: site.relative_url }})
+   {{ item.content }}
+{% endfor %}
+
+
 <!-- Software -->
 
 ## Statistical Software for Imaging Analysis
