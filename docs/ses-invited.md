@@ -1,5 +1,5 @@
 ---
-title : Inivted Sessions
+title : Invited Sessions
 layout: default
 order : 1
 ---
