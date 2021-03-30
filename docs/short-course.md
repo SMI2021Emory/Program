@@ -4,6 +4,8 @@ layout: default
 order : 3
 ---
 
+## Short Course
+
 ### Introduction to Deep Learning 
 
 Deep Learning is ubiquitous today across data-driven applications as diverse as machine vision, natural language processing, and super-human game-playing. This half-day workshop will introduce the fundamentals of the main types of deep learning models.  You will also learn the motivation and use cases of deep learning through hands-on exercises using R and Python in the cloud environment. This workshop is designed for the audience with a statistics background. No software download or installation is needed, everything is done through an internet browser (Chrome or Firefox) in Databricks free cloud environment.
