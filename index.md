@@ -10,14 +10,14 @@ title: SMI 2021 Agenda
 {% for daysch in site.data.program.program %}
 
   <h2> {{daysch.date}} </h2>
-  <table style="display: block; width: 100%">
+  <table style="display: block; width: 100%" >
         {% for prog in daysch.dayprog %}
             {% if prog.iscount %}
                 {% assign sescount = sescount | plus:1 %}                
             {% endif %}
             <tr>
                 {% assign betime = prog.time | split: "-"  %}
-                <td style="width: 200px">{{ betime[0] | date: "%I:%M%P"}} - {{ betime[1] | date: "%I:%M%P"}}</td>
+                <td style="width: 200px" align="center">{{ betime[0] | date: "%l:%M%P"}} - {{ betime[1] | date: "%l:%M%P"}}</td>
                 {% assign currentcount = "" %}
                 {% if prog.iscount %}
                     {% assign currentcount = sescount | append: ". " %}
