@@ -2,11 +2,14 @@
 layout: default
 ---
 
-
-  <h2>
-    <a href="{{ page.url }}">
-      Session {{ page.ID }}: {{ page.title }}
+<!-- 
+  <a href="{{ page.url | prepend: site.relative_url }}">
+      
     </a>
+-->
+  <h2>
+    Session {{ page.ID }}: {{ page.title }}
+    
   </h2>
 
   <p>
