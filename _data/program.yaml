@@ -5,12 +5,14 @@ program:
         title: Introduction to Deep Learning Short Course
         iscount: TRUE
         ifsubprog: FALSE
+        link: "/docs/short-course.html"   
       - time: 13:00-14:00
         title: Lunch Break
         iscount: FALSE                                                                                                                                                        
         ifsubprog: FALSE
       - time: 14:00-14:55
-        title: 'Founder’s Talk:   Tim Johnson'   
+        title: 'Founder’s Talk:   Tim Johnson'  
+        link: "/session/ses-f.html" 
         iscount: TRUE                                                                                                                                      
         ifsubprog: FALSE
       - time: 14:55-16:35
