@@ -138,7 +138,7 @@ program:
         ifsubprog: FALSE
       - time: 11:45-12:45
         title: Invited sessions     
-        iscount: TRUE                                                                                                                                                 
+        iscount: FALSE                                                                                                                                                 
         ifsubprog: TRUE
         subprog:
           - name: Regularization methods in medical imaging
@@ -159,7 +159,7 @@ program:
         ifsubprog: FALSE
       - time: 14:00-15:00  
         title: Invited sessions      
-        iscount: TRUE                                                                                                                                                
+        iscount: FALSE                                                                                                                                             
         ifsubprog: TRUE
         subprog:
           - name: Advances in Statistical Methods for Multiple Sclerosis Imaging
