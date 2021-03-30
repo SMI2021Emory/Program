@@ -53,8 +53,10 @@ order : 1
 
 {% for item in scpage %}
 ## [Short course]({{ item.url | prepend: site.relative_url }})
-Hui Lin. [(link)]({{ item.url | prepend: site.relative_url }})
-   {{ item.content }}
+<b>Hui Lin</b> <br/>
+Quan Reseacher at Google
+
+<b>Title</b>: Introduction to Deep Learning
 {% endfor %}
 
 
@@ -73,13 +75,13 @@ Hui Lin. [(link)]({{ item.url | prepend: site.relative_url }})
 
 <!-- Invited -->
 
-## Speakers in Invited Oral Sessions
+## Speakers in Invited Oral Sessions and Collaborative Case-Studies 
 
 {% for session in sorted_sessions %}
   {% if session.type == "invited" %}
   {% for speaker in session.speakers %}   
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
+  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
@@ -88,7 +90,7 @@ Hui Lin. [(link)]({{ item.url | prepend: site.relative_url }})
   {% if session.type == "case_study" %}
   {% for speaker in session.speakers %}   
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
+  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
