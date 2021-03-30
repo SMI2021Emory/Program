@@ -10,9 +10,10 @@ organizer:
         Emory University      
     email:  yguo2@emory.edu
 chair:
-    name:  
-    affil: 
-    email: 
+    name:  Ying Guo
+    affil: > 
+        Emory University      
+    email:  yguo2@emory.edu
 speakers:
     - id: 1
       name: Hernando Ombao, Professor
