@@ -17,8 +17,6 @@ order : 1
   </h2>
 
   {% for speaker in session.speakers %}
-
-  ![Photo]({{speaker.photolink}})
   
   <b>{{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
@@ -39,7 +37,6 @@ order : 1
 
   {% for speaker in session.speakers %}
   
-  ![Photo]({{speaker.photolink}})
   
   <b>{{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
@@ -53,8 +50,10 @@ order : 1
 
 
 {% assign scpage = site.pages | where: 'title', 'Short Course' %}
+
 {% for item in scpage %}
 ## [Short course]({{ item.url | prepend: site.relative_url }})
+Hui Lin. [(link)]({{ item.url | prepend: site.relative_url }})
    {{ item.content }}
 {% endfor %}
 
@@ -78,6 +77,15 @@ order : 1
 
 {% for session in sorted_sessions %}
   {% if session.type == "invited" %}
+  {% for speaker in session.speakers %}   
+  <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
+  <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% for session in sorted_sessions %}
+  {% if session.type == "case_study" %}
   {% for speaker in session.speakers %}   
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
   <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
