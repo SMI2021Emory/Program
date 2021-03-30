@@ -53,9 +53,7 @@ order : 1
 
 {% for item in scpage %}
 ## [Short course]({{ item.url | prepend: site.relative_url }})
-<b>Hui Lin</b> <br/>
-Quan Reseacher at Google
-
+<b>Hui Lin</b>, Quan Reseacher at Google <br/>
 <b>Title</b>: Introduction to Deep Learning
 {% endfor %}
 
