@@ -12,7 +12,7 @@ program:
         ifsubprog: FALSE
       - time: 14:00-14:55
         title: 'Founder’s Talk:   Tim Johnson'  
-        link: "/session/ses-f.html" 
+        link: "/sessions/ses-f.html" 
         iscount: TRUE                                                                                                                                      
         ifsubprog: FALSE
       - time: 14:55-16:35
