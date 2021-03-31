@@ -2,7 +2,7 @@
 layout: default
 ID: K-1
 type: keynote
-order: 1
+order: 7
 title: Keynote Speakers
 organizer:
     name: 

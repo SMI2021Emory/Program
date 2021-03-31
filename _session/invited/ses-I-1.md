@@ -2,7 +2,7 @@
 layout: session
 ID: I-1
 type: invited
-order: 1
+order: 5
 title: Statistical methods for neuroimaging studies of Alzheimer’s Disease
 organizer:
     name: Dana Tudorascu, PhD

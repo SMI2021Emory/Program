@@ -2,7 +2,7 @@
 layout: session
 ID: C-2
 type: case_study
-order: 1
+order: 13
 title: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions. 
 organizer:
     name:  Sandra Hurtado Rúa

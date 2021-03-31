@@ -2,7 +2,7 @@
 layout: session
 ID: I-10
 type: invited
-order: 10
+order: 15
 title: Complex response, dimension reduction and data integration with application on neuroimaging
 organizer:
     name: Yize Zhao

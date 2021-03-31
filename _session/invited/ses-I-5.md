@@ -2,7 +2,7 @@
 layout: session
 ID: I-5
 type: invited
-order: 5
+order: 14
 title: Statistical methods for functional neuroimaging 
 organizer:
     name:   Ying Guo

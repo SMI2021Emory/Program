@@ -2,7 +2,7 @@
 layout: session
 ID: I-7
 type: invited
-order: 7
+order: 20
 title: Recent advances in brain network statistics   
 organizer:
     name:   Shuo Chen

@@ -2,7 +2,7 @@
 layout: session
 ID: I-3
 type: invited
-order: 3
+order: 11
 title: Recent Advances and New Directions in Neuroimaging Statistics
 organizer:
     name: Carolyn Lou

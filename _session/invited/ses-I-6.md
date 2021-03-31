@@ -2,7 +2,7 @@
 layout: session
 ID: I-6
 type: invited
-order: 6
+order: 19
 title: Advances in Statistical Methods for Multiple Sclerosis Imaging
 organizer:
     name:  Elizabeth Sweeney 

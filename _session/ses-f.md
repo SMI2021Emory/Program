@@ -2,7 +2,7 @@
 layout: default
 ID: 
 type: founder
-order: 1
+order: 2
 title: Founder's talk
 organizer:
     name: 

@@ -1,7 +1,7 @@
 ---
 title : Short Course
 layout: default
-order : 3
+order : 1
 ---
 
 ## Short Course

@@ -2,7 +2,7 @@
 layout: session
 ID: I-12
 type: invited
-order: 12
+order: 22
 title: Functional and Spatial Techniques in Neuroimaging Data 
 organizer:
     name:  Linglong Kong

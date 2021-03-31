@@ -2,7 +2,7 @@
 layout: session
 ID: I-13
 type: invited
-order: 14
+order: 9
 title: New statistical learning methods for imaging data analysis
 organizer:
     name:  Jian Kang

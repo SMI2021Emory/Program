@@ -2,7 +2,7 @@
 layout: session
 ID: I-11
 type: invited
-order: 11
+order: 10
 title: Statistical Shape Modeling and Analysis Using Imaging Data
 organizer:
     name:  Anuj Srivastava
