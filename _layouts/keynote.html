@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<h2>
+  <a href="{{ page.url | prepend: site.relative_url }}">
+    {{ page.order }}. Keynote Address
+  </a>
+</h2>
+
+
+
+{% for speaker in page.speakers %}
+
+<img src="{{speaker.photolink}}" ><br/>
+
+
+<b>{{speaker.name}}</b><br/>
+  {{speaker.affil}} <br/> 
+{% if speaker.email %}
+Email: {{speaker.email}} <br/> 
+{% endif %}
+<b>Title</b>: {{speaker.title}} <br/>
+<b>Abstract</b>: {{speaker.abstract}} <br/>
+{% endfor %}
