@@ -1,6 +1,6 @@
 ---
 layout: default
-ID: 
+ID: K-2
 type: keynote
 order: 1
 title: Keynote Speakers
@@ -14,13 +14,6 @@ chair:
     email: 
 speakers:
     - id: 1
-      name: Tom Nichols
-      affil: Professor of Neuroimaging Statistics, Nuffield Department of Population Health, University of Oxford
-      email: 
-      title: Statistical Challenges and Opportunities in Population Neuroimaging
-      abstract:  
-      photolink: https://scholarblogs.emory.edu/smi2021/files/2019/10/tomnichols-300x300.png 
-    - id: 2
       name: Vince Calhoun
       affil: Director, Tri-institutional Center for Translational Research in Neuroimaging and Data Science
       email: 
@@ -49,5 +42,6 @@ speakers:
   Email: {{speaker.email}} <br/> 
   {% endif %}
   <b>Title</b>: {{speaker.title}} <br/>
+  <b>Abstract</b>: {{speaker.abstract}} <br/>
   {% endfor %}
 

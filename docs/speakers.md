@@ -27,13 +27,15 @@ order : 1
 
 <!-- Keynote talk -->
 
+## Keynote Speakers
+
 {% for session in sorted_sessions %}
   {% if session.type == "keynote" %}
-  <h2>
+  <!-- <h2>
     <a href="{{ session.url | prepend: site.relative_url }}">
       {{ session.title }}
     </a>
-  </h2>
+  </h2> -->
 
   {% for speaker in session.speakers %}
   
