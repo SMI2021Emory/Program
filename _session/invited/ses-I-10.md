@@ -20,10 +20,10 @@ speakers:
       title: Covariate Assisted Principal Regression for Covariance Matrix Outcomes with an Application to fMRI
       abstract:  'Modeling variances in data has been an important topic in many fields, including in financial and neuroimaging analysis. We consider the problem of regressing covariance matrices on vector covariates, collected from each observational unit. The main aim of this paper is to uncover the variation in the covariance matrices across units that are explained by the covariates. This paper introduces Covariate Assisted Principal (CAP) regression, an optimization-based method for identifying the components predicted by (generalized) linear models of the covariates. We develop computationally efficient algorithms to jointly search the linear projections of the covariance matrices as well as the regression coefficients, and we establish the asymptotic properties. Using extensive simulation studies, our method shows higher accuracy and robustness in coefficient estimation than competing methods. Applied to a resting-state functional magnetic resonance imaging study, our approach identifies the human brain network changes associated with age and sex.'
     - id: 2
-      name:   Leo Duan
+      name: Leo Duan
       affil: Department of Statistics, University of Florida
       email: li.duan@ufl.edu
-      title: 
+      title: Bayesian Vector Autoregression using the Tree Rank Prior with an Application to fMRI Data Analysis
       abstract: 'When analyzing tensor-valued data such as images, the multi-scale factor models are particularly appealing, due to the adaptiveness to local geometry and intuitive interpretation. However, the reliance on the binary tree creates high complexity in the parameter space, making it difficult for model estimation and uncertainty quantification. In this talk, I will introduce a new generative distribution based on a simple matrix manipulation. I will show the sample matrix from this distribution automatically obeys a recursive partitioning structure, making it an appealing prior that simplifies the task of multi-scale analysis. The posterior enjoys nice properties such as linear independence and efficient computation via Hamiltonian Monte Carlo. I will demonstrate its immense potential in a multi-scale factor analysis on human brain connectivity.'
     - id: 3
       name:  Kristin Linn

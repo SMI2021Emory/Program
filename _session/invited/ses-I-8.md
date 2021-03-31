@@ -7,7 +7,7 @@ title: Bayesian Supervised and Unsupervised Image Processing and Analysis, with 
 organizer:
     name: Rajarshi Guhaniyogi
     affil: University of California, Santa Cruz 
-    email:  
+    email:  rguhaniy@ucsc.edu
 chair:
     name: Jaroslaw (Jarek) Harezlak, Professor
     affil: Department of Epidemiology and Biostatistics, School of Public Health, Indiana Univeersity, Bloomington

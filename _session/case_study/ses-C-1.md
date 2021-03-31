@@ -7,11 +7,11 @@ title: Advanced Imaging
 organizer:
     name:  Ben Risk
     affil: Emory University
-    email: 
+    email: benjamin.risk@emory.edu
 chair:
     name:  Ben Risk
     affil: Emory University
-    email: 
+    email: benjamin.risk@emory.edu
 speakers:
     - id: 1
       name: Deqiang Qiu

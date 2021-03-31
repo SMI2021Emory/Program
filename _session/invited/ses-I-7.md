@@ -7,11 +7,11 @@ title: Recent advances in brain network statistics
 organizer:
     name:   Shuo Chen
     affil: University of Maryland, School of Medicine  
-    email:  
+    email: shuochen@som.umaryland.edu  
 chair:
     name:  Qiong Wu
     affil:  University of Maryland, College Park
-    email: 
+    email: qwu1221@terpmail.umd.edu
 speakers:
     - id: 1
       name:  Arroyo

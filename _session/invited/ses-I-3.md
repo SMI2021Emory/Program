@@ -8,12 +8,12 @@ organizer:
     name: Carolyn Lou
     affil: > 
         University of Pennsylvania
-    email: 
+    email: louc@pennmedicine.upenn.edu
 chair:
     name: Carolyn Lou
     affil: > 
         University of Pennsylvania
-    email: 
+    email: louc@pennmedicine.upenn.edu
 speakers:
     - id: 1
       name:  Ani Eloyan
