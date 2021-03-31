@@ -3,7 +3,37 @@ title : Software Sessions
 layout: default
 order : 2
 ---
-# {{page.title}}
+
+{% assign sorted_sessions = site.session | sort:"order" %}
+{% for session in sorted_sessions %}
+  {% if session.type == "software" %}
+  <h2>
+    <a href="{{ session.url | prepend: site.relative_url }}">
+      {{ session.title }}
+    </a>
+  </h2>
+
+
+
+<h3> Speakers: </h3>
+
+  {% for speaker in session.speakers %}
+  <p> 
+  <b>{{speaker.id}}. {{speaker.name}}</b><br/>
+    {{speaker.affil}} <br/> 
+  {% if speaker.email %}
+  Email: {{speaker.email}} <br/> 
+  {% endif %}
+  <p> <b>Title</b>: {{speaker.title}} <br/>
+  <b> Abstract</b>: {{speaker.abstract}} </p>
+  {% endfor %}
+
+
+  <!-- <p>{{ session.content | markdownify }}</p> -->
+  {% endif %}
+{% endfor %}
+
+<!-- # {{page.title}}
 
 ### Neuroconductor: An R Platform for Medical Imaging Analysis
  
@@ -40,7 +70,7 @@ Hernando Ombao, KAUST <br/>
 Marina Vannucci
  
 **Abstract**<br/>
-We first introduce BVAR-connect, a variational inference approach to a Bayesian multi-subjectvector autoregressive (VAR) model for inference on effective brain connectivity based on resting statefunctional MRI data. The modeling framework uses a Bayesian variable selection approach that flexibly integrates multi-modal data into the prior construction. The variational inference approach we develop allows scalability of the methods and results in the ability to estimate subject- and group-level brain connectivity networks over whole-brain parcellations of the data. Next, we describe NPBayes-fMRI, a unified, probabilistically coherent non-parametric Bayesian framework for the analysis of task-related fMRI data from multi-subject experiments. The modeling approach is based on a spatio-temporal linear regression model that specifically accounts for the between-subjects heterogeneity in neuronal activity via a spatially informed multi-subject non-parametric variable selection prior. A characteristic feature of the approach is that it results in a clustering of the subjects into subgroups characterized by similar brain responses, while simultaneously producing group-level as well as subject-level activation maps.
+We first introduce BVAR-connect, a variational inference approach to a Bayesian multi-subjectvector autoregressive (VAR) model for inference on effective brain connectivity based on resting statefunctional MRI data. The modeling framework uses a Bayesian variable selection approach that flexibly integrates multi-modal data into the prior construction. The variational inference approach we develop allows scalability of the methods and results in the ability to estimate subject- and group-level brain connectivity networks over whole-brain parcellations of the data. Next, we describe NPBayes-fMRI, a unified, probabilistically coherent non-parametric Bayesian framework for the analysis of task-related fMRI data from multi-subject experiments. The modeling approach is based on a spatio-temporal linear regression model that specifically accounts for the between-subjects heterogeneity in neuronal activity via a spatially informed multi-subject non-parametric variable selection prior. A characteristic feature of the approach is that it results in a clustering of the subjects into subgroups characterized by similar brain responses, while simultaneously producing group-level as well as subject-level activation maps. -->
  
 
 
