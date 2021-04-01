@@ -27,9 +27,13 @@
 <body>
 
   <header class="page-header" role="banner">
-    <h1
-      style="background-image:url(https://scholarblogs.emory.edu/smi2021/files/2019/07/rollins_3.jpg);background-repeat:no-repeat;background-position:center"
-      class="project-name">SMI 2021</h1>
+    <h2 style="color: #f2a900;"
+      class="project-name"> The Statistical Methods in Imaging Conference 2021 
+    </h2>
+    <div
+      style="background-image:url(https://scholarblogs.emory.edu/smi2021/files/2019/07/rollins_3.jpg);background-repeat:no-repeat;background-position:bottom;height:300px;object-position: 50% 10%;object-fit: cover;"
+      class="project-name"> &nbsp;
+  </div>
     <h3 class="project-tagline">
       <a href="{{ '/' | prepend: site.relative_url }}" class="btn"> SMI 2021 Agenda </a>
       <a href="{{ '/docs/ses-poster.html' | prepend: site.relative_url }}" class="btn"> Posters </a>
@@ -46,12 +50,12 @@
 
   <main id="content" class="main-content" role="main">
     {% if page.title != "SMI 2021 Agenda" %}
-    <a href="{{ "/" | prepend: site.relative_url }}" > Back to the Agenda</a>
-        
+    <a href="{{ " /" | prepend: site.relative_url }}"> Back to the Agenda</a>
+
     {% endif %}
     {{ content }}
 
-    
+
   </main>
 </body>
 

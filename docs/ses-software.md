@@ -1,7 +1,7 @@
 ---
 title : Software Sessions
 layout: default
-order : 2
+order : 3
 ---
 
 {% assign sorted_sessions = site.session | sort:"order" %}

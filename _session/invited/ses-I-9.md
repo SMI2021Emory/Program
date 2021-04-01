@@ -2,7 +2,7 @@
 layout: session
 ID: I-9
 type: invited
-order: 9
+order: 17
 title: Regularization methods in medical imaging
 organizer:
     name: John Kornak

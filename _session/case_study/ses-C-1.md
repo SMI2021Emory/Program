@@ -2,16 +2,16 @@
 layout: session
 ID: C-1
 type: case_study
-order: 1
+order: 12
 title: Advanced Imaging
 organizer:
     name:  Ben Risk
     affil: Emory University
-    email: 
+    email: benjamin.risk@emory.edu
 chair:
     name:  Ben Risk
     affil: Emory University
-    email: 
+    email: benjamin.risk@emory.edu
 speakers:
     - id: 1
       name: Deqiang Qiu

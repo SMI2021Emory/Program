@@ -2,7 +2,7 @@
 layout: session
 ID: I-14
 type: invited
-order: 14
+order: 18
 title: Statistical Approaches to Addressing Challenges in Neuroimaging Research
 organizer:
     name:  Dayu Sun, PhD 

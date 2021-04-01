@@ -2,7 +2,7 @@
 layout: session
 ID: I-4
 type: invited
-order: 4
+order: 6
 title: Recent advances in statistical methods for complex neuroimaging data
 organizer:
     name:  Fengqing (Zoe) Zhang, Assistant Professor

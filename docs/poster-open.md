@@ -1,7 +1,7 @@
 ---
 title : Poster and Opening Mixer
 layout: default
-order : 3
+order : 4
 ---
 
 # {{page.title}}

@@ -2,18 +2,16 @@
 layout: session
 ID: I-2
 type: invited
-order: 2
+order: 8
 title: Flexible Bayesian Approaches for Imaging Analysis
 organizer:
     name: Suprateek Kundu
-    affil: > 
-        
-    email: 
+    affil: Emory University        
+    email: suprateek.kundu@emory.edu
 chair:
-    name: 
-    affil: > 
-        
-    email: 
+    name: Suprateek Kundu
+    affil: Emory University
+    email: suprateek.kundu@emory.edu
 speakers:
     - id: 1
       name: Michele Guindani

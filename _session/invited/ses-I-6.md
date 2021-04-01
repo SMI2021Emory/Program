@@ -2,16 +2,16 @@
 layout: session
 ID: I-6
 type: invited
-order: 6
+order: 19
 title: Advances in Statistical Methods for Multiple Sclerosis Imaging
 organizer:
-    name:  Elizabeth Sweeney
+    name:  Elizabeth Sweeney 
     affil: Weill Cornell  
-    email:  
+    email: ems4003@med.cornell.edu 
 chair:
     name:  Elizabeth Sweeney
     affil: Weill Cornell
-    email: 
+    email: ems4003@med.cornell.edu
 speakers:
     - id: 1
       name:  Russell Shinohara
