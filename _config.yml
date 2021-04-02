@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 title: SMI 2021
 plugins:
   - jekyll-optional-front-matter
-relative_url: /SMI2021Program
-baseurl: /SMI2021Program
+relative_url: /Program
+baseurl: /Program
 
 collections:
   session:
