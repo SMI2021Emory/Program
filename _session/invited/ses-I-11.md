@@ -16,7 +16,7 @@ speakers:
     - id: 1
       name: Sebastian Kurtek
       affil: Ohio State University
-      email: 
+      email: kurtek.1@stat.osu.edu
       title: Visualization and Outlier Detection for Shape Data
       abstract:  'We propose a new method for the construction and visualization of geometrically-motivated boxplot displays for elastic curve data. We use a recent shape analysis framework, based on the square-root velocity function representation of curves, to extract different sources of variability from elastic curves, which include location, scale, shape, orientation and parametrization. We then focus on constructing separate displays for these various components using the Riemannian geometry of their representation spaces. This involves computation of a median, two quartiles, and two extremes based on geometric considerations. The outlyingness of an elastic curve is also defined separately based on each of the five components. We evaluate the proposed methods using multiple simulations, and then focus our attention on real data applications. In particular, we study variability in (a) 3D spirals, (b) handwritten signatures, (c) 3D fibers from diffusion tensor magnetic resonance imaging, and (d) trajectories of the Lorenz system. This work was done in collaboration with Weiyi Xie and Oksana Chkrebtii.'
     - id: 2
