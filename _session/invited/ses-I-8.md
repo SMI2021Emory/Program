@@ -10,7 +10,7 @@ organizer:
     email:  rguhaniy@ucsc.edu
 chair:
     name: Jaroslaw (Jarek) Harezlak, Professor
-    affil: Indiana Univeersity, Bloomington
+    affil: Indiana University, Bloomington
     email:  harezlak@iu.edu
 speakers:
     - id: 1

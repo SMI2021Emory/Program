@@ -28,7 +28,7 @@ speakers:
     - id: 3
       name:  Chao Huang
       affil: Florida State University
-      email: klinn@pennmedicine.upenn.edu
+      email: chaohuang@stat.fsu.edu
       title: Shape-on-Vector Geodesic Regression Model and Its Applications in Image Data Analysis
       abstract: With the rapid growth of modern technology, many large-scale biomedical studies have been conducted to collect massive datasets with large volumes of complex information from increasingly large cohorts. Among these collected images, they usually contain objects of interest (e.g., regions of interest, ROIs) and the major goal is to understand and analyze shapes of these objects in larger biological systems. Due to the complexity of disease progression and mis-registration in image preprocessing, shapes can significantly vary across subjects and distinct shape patterns are more likely to be found within the same patient group. Therefore, understanding such shape heterogeneity is critical for the development of urgently needed approaches to the prevention, diagnosis, and treatment of these diseases, and precision medicine broadly. In order to address this challenge, in this talk, several shape-on-vector regression models are established for heterogeneous imaging data with different structures. This is a joint work with Dr. Anuj Srivastava.
 ---

@@ -15,7 +15,7 @@ chair:
 speakers:
     - id: 1
       name: Timothy Johnson
-      affil: Johns Hopkins University, Department of Biostatistics
+      affil: University of Michigan
       email: 
       title: Bayesian Nonparametric Analysis of Dual-Resolution fMRI for Presurgical Planning
       abstract: "There is growing interest amongst neuroradiologists and neurosurgeons in using functional magnetic resonance imaging (fMRI) to map functionally relevant brain regions to aid in presurgical planning.  This application requires a high degree of spatial accuracy.  However, standard fMRI does not have the spatial resolution required and high spatial resolution fMRI is too noisy for this application. Our idea is to leverage the advantage of standard resolution fMRI (high signal-to-noise ratio) with the advantage of high-resolution fMRI (refined spatial resolution). We develop a new Bayesian nonparametric model to leverage the advantages of both. Working with the unsmoothed z-statistic images from both resolutions, we place a Gaussian process prior to the mean intensity function and use ideas similar to the Gaussian predictive process to infer the mean intensity. We also develop an efficient computational algorithm to integrate these two sources of data. Simulation studies show our method performs better than alternative methods that use only one source of data alone.  Finally, we illustrate our method on real, presurgical data. 

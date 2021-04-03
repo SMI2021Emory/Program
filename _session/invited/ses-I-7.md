@@ -10,7 +10,7 @@ organizer:
     email: shuochen@som.umaryland.edu  
 chair:
     name:  Qiong Wu
-    affil:  University of Maryland
+    affil:  University of Maryland, College Park
     email: qwu1221@terpmail.umd.edu
 speakers:
     - id: 1
@@ -27,7 +27,7 @@ speakers:
       abstract: 'With the popular approach of massively univariate analysis in neuroimaging, one builds as many models as the number of elements, leading to a major contributor to the reproducibility crisis due to three intrinsic problems: 1) modeling inefficiency, 2) artificial dichotomization, and 3) researcher degrees of freedom. We propose a Bayesian multilevel framework that incorporates all elements through global calibration in one integrative model. Statistical inferences at each element are thus achieved from the overall posterior distribution through Markov Chain Monte Carlo simulations. In addition, our framework incorporates multiplicity as an integral component of the modeling structure, not as a separate correction step. By turning multiplicity from an annoying penalty into a strength, we aim to achieve six goals: 1) improve model efficiency, 2) gain a higher predictive accuracy, 3) control the errors of incorrect magnitude and incorrect sign instead of conventional false positives and false negatives, 4) validate each model relative to its competing candidates, 5) reduce the reliance on and the sensitivity to the choice of data space, and 6) promote full results reporting. Our modeling framework reverberates with recent proposals to abandon the dichotomization of statistical evidence (“significant” vs. “non-significant”), to improve the interpretability of research findings, as well as to encourage reporting the full gamut of results (not only “significant” ones), thereby enhancing research transparency and reproducibility.'
     - id: 3
       name:  Shuo Chen
-      affil:  University of Maryland, School of Medicine 
+      affil:  University of Maryland
       email: shuochen@som.umaryland.edu 
       title: l_0 shrinkage in graph space for brain network inference
       abstract: We consider group-level statistical inference for networks, where the outcome variables of each subject are multivariate edges in an adjacency matrix. We assume the nodes of adjacency matrices are identical across all subjects and the goal is to identify and statistically test whether edges in some subnetworks that are associated with the covariates of interest. We propose a group level network statistical framework to extract the subgraphs where edges are likely to be related to the covariate via $l_0$ norm regularization and perform statistical tests on the detected subgraphs by graph combinatorics. Theoretical properties of the novel objective function and network-level inference are provided. We apply the proposed method to a brain connectomic study to identify the subnetworks of brain-connectome that are associated with brain diseases. In addition, we perform extensive simulation studies. The results demonstrate the proposed method outperform existing multivariate statistical methods by simultaneously improve false positive and false negative discovery rates and significantly increase replicability.

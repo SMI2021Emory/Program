@@ -50,7 +50,7 @@ program:
         ifsubprog: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Tom Nichols' 
-        link: "/sessions/ses-K-1.html" 
+        link: "/sessions/ses-k-1.html" 
         id: K-1
         iscount: TRUE                                                                                                                                      
         ifsubprog: FALSE
@@ -134,7 +134,7 @@ program:
         ifsubprog: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Vince Calhoun'   
-        link: "/sessions/ses-K-2.html"
+        link: "/sessions/ses-k-2.html"
         id: K-2
         iscount: TRUE                                                                                                                                     
         ifsubprog: FALSE
