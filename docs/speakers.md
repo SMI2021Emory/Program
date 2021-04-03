@@ -77,20 +77,10 @@ order : 1
 
 ## Speakers in Invited Oral Sessions and Collaborative Case-Studies 
 
-{% for session in sorted_sessions %}
-  {% if session.type == "invited" %}
-  {% for speaker in session.speakers %}   
+{% assign sorted_speakers = site.data.speaker | sort:"lastname" %}
+
+{% for speaker in sorted_speakers %}
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
-  {% endfor %}
-  {% endif %}
+  <b>Title</b>: <a href="{{site.relative_url}}/sessions/ses-{{ speaker.ID | downcase }}.html"> {{speaker.title}} </a><br/>
 {% endfor %}
 
-{% for session in sorted_sessions %}
-  {% if session.type == "case_study" %}
-  {% for speaker in session.speakers %}   
-  <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
-  {% endfor %}
-  {% endif %}
-{% endfor %}
