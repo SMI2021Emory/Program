@@ -1,0 +1,1186 @@
+- ID: I-7
+  type: invited
+  order: 20
+  id: 1
+  name: Jesus Arroyo
+  affil: Johns Hopkins University
+  email: jesus.arroyo@jhu.edu
+  title: Inference for multiple heterogeneous networks with a common invariant subspace
+  abstract: The development of models for multiple heterogeneous network data is of
+    critical importance both in statistical network theory and across multiple application
+    domains, including neuroscience. Although single-graph inference is well-studied,
+    multiple graph inference is largely unexplored, in part because of the challenges
+    inherent in appropriately modeling graph differences and yet retaining sufficient
+    model simplicity to render estimation feasible. The common subspace independent-edge
+    (COSIE) multiple random graph model addresses this gap, by describing a heterogeneous
+    collection of networks with a shared latent structure on the vertices but potentially
+    different connectivity patterns for each graph. The COSIE model is both flexible
+    to account for important graph differences and tractable to allow for accurate
+    spectral inference. The model can be deployed for a number of subsequent network
+    inference tasks, including dimensionality reduction, classification, hypothesis
+    testing, and community detection. Performance is demonstrated on a dataset of
+    connectomes, showing an accurate classification of brain scans by patients and
+    a meaningful determination of heterogeneity across different subjects.
+  firstname: Jesus
+  lastname: Arroyo
+- ID: I-1
+  type: invited
+  order: 5
+  id: 3
+  name: Joanne Beer
+  affil: University of Pennsylvania
+  email: joanne.beer@pennmedicine.upenn.edu
+  title: Extensions of ComBat for harmonization of multi-scanner neuroimaging data
+    in an Alzheimer’s Disease Neuroimaging Initiative dataset
+  abstract: While aggregation of neuroimaging datasets from multiple sites and scanners
+    presents opportunities for larger sample sizes and increased statistical power,
+    it also presents challenges due to systematic scanner effects. In this talk we
+    present several recent extensions of ComBat (Combatting Batch Effects when Combining
+    Batches), a harmonization method originally developed for genomics and later adapted
+    to cross-sectional neuroimaging data. Specifically, we discuss ComBat extended
+    to linear mixed effects models (longitudinal ComBat), generalized additive (mixed)
+    models (ComBatGA(M)M), and harmonization of covariance (CovBat). Using structural
+    MRI data from 663 participants in the Alzheimer’s Disease Neuroimaging Initiative
+    (ADNI) study, we demonstrate the presence of scanner-related effects on the means,
+    variances, and covariance of cortical thickness measures across brain atlas regions.
+    We discuss situations where ComBat increases statistical power, helps control
+    type I error rate, and yields better classification and prediction performance
+    than unharmonized data.
+  firstname: Joanne
+  lastname: Beer
+- ID: I-5
+  type: invited
+  order: 14
+  id: 2
+  name: Brian Caffo
+  affil: Johns Hopkins University
+  email: bcaffo@gmail.com
+  title: Covariance regression for connectome outcomes
+  abstract: 'In this talk, we cover methodology for jointly analyzing a collection
+    of covariance or correlation matrices that depend on other variables. This covariance-as-an-outcome
+    regression problem arises commonly in the study of brain imaging, where the covariance
+    matrix in question is an estimate of functional or structural connectivity. Two
+    main approaches to covariance regression exists: outer product models and joint
+    diagonalization approaches. We investigate joint diagonalization approaches and
+    discuss the benefits and costs of this solution. We distinguish between diagonalization
+    approaches where the eigenvectors are selected in the absence of covariate information
+    and those that chose the eigenvectors so that the result regression model holds
+    best. The methods are applied to resting state functional magnetic resonance imaging
+    data in a study of aphasia and potential interventions.'
+  firstname: Brian
+  lastname: Caffo
+- ID: I-12
+  type: invited
+  order: 22
+  id: 4
+  name: Guanqun Cao
+  affil: Auburn University
+  email: gzc0009@auburn.edu
+  title: Estimation of the Mean Function of Functional Data via Deep Neural Networks
+  abstract: In this work, we propose a deep neural networks based method to perform
+    nonparametric regression for functional data.  The proposed estimators are based
+    on sparsely connected deep neural networks with ReLU activation function. We provide
+    the convergence rate of the proposed deep neural networks estimator  in terms
+    of the empirical norm.  We discuss how to properly select  of the architecture
+    parameters by cross-validation.  Through Monte Carlo simulation studies we examine
+    the finite-sample performance of the proposed method. Finally, the proposed method
+    is applied to analyze positron emission tomography images of patients with Alzheimer
+    disease obtained from the Alzheimer Disease Neuroimaging Initiative database.
+  firstname: Guanqun
+  lastname: Cao
+- ID: I-7
+  type: invited
+  order: 20
+  id: 2
+  name: Gang Chen
+  affil: NIMH
+  email: gangchen@mail.nih.gov
+  title: Improving reproducibility in network modeling
+  abstract: 'With the popular approach of massively univariate analysis in neuroimaging,
+    one builds as many models as the number of elements, leading to a major contributor
+    to the reproducibility crisis due to three intrinsic problems: 1) modeling inefficiency,
+    2) artificial dichotomization, and 3) researcher degrees of freedom. We propose
+    a Bayesian multilevel framework that incorporates all elements through global
+    calibration in one integrative model. Statistical inferences at each element are
+    thus achieved from the overall posterior distribution through Markov Chain Monte
+    Carlo simulations. In addition, our framework incorporates multiplicity as an
+    integral component of the modeling structure, not as a separate correction step.
+    By turning multiplicity from an annoying penalty into a strength, we aim to achieve
+    six goals: 1) improve model efficiency, 2) gain a higher predictive accuracy,
+    3) control the errors of incorrect magnitude and incorrect sign instead of conventional
+    false positives and false negatives, 4) validate each model relative to its competing
+    candidates, 5) reduce the reliance on and the sensitivity to the choice of data
+    space, and 6) promote full results reporting. Our modeling framework reverberates
+    with recent proposals to abandon the dichotomization of statistical evidence (“significant”
+    vs. “non-significant”), to improve the interpretability of research findings,
+    as well as to encourage reporting the full gamut of results (not only “significant”
+    ones), thereby enhancing research transparency and reproducibility.'
+  firstname: Gang
+  lastname: Chen
+- ID: I-7
+  type: invited
+  order: 20
+  id: 3
+  name: Shuo Chen
+  affil: University of Maryland
+  email: shuochen@som.umaryland.edu
+  title: l_0 shrinkage in graph space for brain network inference
+  abstract: We consider group-level statistical inference for networks, where the
+    outcome variables of each subject are multivariate edges in an adjacency matrix.
+    We assume the nodes of adjacency matrices are identical across all subjects and
+    the goal is to identify and statistically test whether edges in some subnetworks
+    that are associated with the covariates of interest. We propose a group level
+    network statistical framework to extract the subgraphs where edges are likely
+    to be related to the covariate via $l_0$ norm regularization and perform statistical
+    tests on the detected subgraphs by graph combinatorics. Theoretical properties
+    of the novel objective function and network-level inference are provided. We apply
+    the proposed method to a brain connectomic study to identify the subnetworks of
+    brain-connectome that are associated with brain diseases. In addition, we perform
+    extensive simulation studies. The results demonstrate the proposed method outperform
+    existing multivariate statistical methods by simultaneously improve false positive
+    and false negative discovery rates and significantly increase replicability.
+  firstname: Shuo
+  lastname: Chen
+- ID: I-12
+  type: invited
+  order: 22
+  id: 3
+  name: Adam Ciarleglio
+  affil: George Washington University
+  email: aciarleglio@email.gwu.edu
+  title: Multiple imputation in functional regression with applications to EEG data
+    in a depression study
+  abstract: Missing data are a common problem in biomedical research.  Valid approaches
+    for addressing this problem have been proposed and are regularly implemented in
+    applications where the data are exclusively scalar-valued.  With advances in technology
+    and data storage, biomedical studies now frequently collect both scalar and functional
+    data, both of which may be subject to missingness.  However, little work has been
+    done to deal with missing functional data.  We propose extensions of multiple
+    imputation and Rubin’s Rules for pooling estimates derived from multiply imputed
+    data sets that accommodate both scalar and functional data. We present results
+    from a simulation study showing the performance of our proposed approach with
+    respect to fidelity to the observed data and estimation of the parameters of interest.  We
+    also present results from applying our proposed approach in the context of fitting
+    a function-on-scalar regression model relating characteristics derived from electroencephalography
+    to depression status (major depressive disorder vs. healthy control).
+  firstname: Adam
+  lastname: Ciarleglio
+- ID: I-1
+  type: invited
+  order: 5
+  id: 1
+  name: Ciprian Crainiceanu
+  affil: Johns Hopkins University
+  email: ccraini1@jhu.edu
+  title: Longitudinal Image Analysis and Inference
+  abstract: We propose massive univariate generalized linear mixed effects models
+    for studies that collect images at multiple visit. Joint inference for fixed effects
+    is conducted using bootstrap of study participants while for random effects we
+    use leave-one-in bootstrap. For conducting inference and sample size calculation
+    we propose to use the upstrap, which samples with replacement either more or fewer
+    samples than the original sample size.
+  firstname: Ciprian
+  lastname: Crainiceanu
+- ID: I-10
+  type: invited
+  order: 15
+  id: 2
+  name: Leo Duan
+  affil: University of Florida
+  email: li.duan@ufl.edu
+  title: Bayesian Vector Autoregression using the Tree Rank Prior with an Application
+    to fMRI Data Analysis
+  abstract: Vector autoregression is very popular for analyzing the multivariate time
+    series. Besides good predictive performance, it enjoys nice interpretation in
+    the Granger-causality graph --- the past values of some variables are helpful
+    for predicting the others. In the high dimensional setting with p variables, one
+    often relies on the matrix-norm/matrix-rank based regularization to induce sparsity;
+    however, this tends to create too many disconnected graph components that are
+    difficult to interpret. To solve this problem, we propose a new type of low-rankness
+    based on the graph topology --- we define the "tree rank" as the  number of spanning
+    trees needed to cover the graph. Each spanning tree is a minimalist subgraph with
+    (p-1) edges but connects p nodes. As the result, having the regression coefficients
+    on a few spanning trees leads to both high sparsity and high connectivity. To
+    allow efficient computation and uncertainty quantification on the estimates, we
+    develop a novel graph-based continuous shrinkage prior, that exploits a continuous
+    relaxation for the spanning trees. This prior, that we call "Tree Rank Prior",
+    avoids the costly combinatorial search in the graph estimation and enjoys the
+    gradient-based Hamiltonian Monte Carlo algorithm for its posterior estimation.
+    We show that this model enjoys appealing theoretical properties, such as the mild
+    stability conditions, posterior consistency, as well as useful information retrieval
+    even under model misspecification. The model is applied to find the Granger causality
+    graph in the functional magnetic resonance imaging data.
+  firstname: Leo
+  lastname: Duan
+- ID: I-3
+  type: invited
+  order: 11
+  id: 1
+  name: Ani Eloyan
+  affil: Brown University
+  email: ani_eloyan@brown.edu
+  title: Analysis of structural imaging data in cancer
+  abstract: Cancer patients routinely undergo radiological evaluations when images
+    of various modalities including computed tomography, positron emission tomography,
+    and magnetic resonance images are collected for diagnosis and for evaluation of
+    disease progression. Tumor characteristics, often referred to as measures of "tumor
+    heterogeneity", can be computed using these clinical images and used as predictors
+    of disease progression and patient survival. Several approaches to quantifying
+    tumor heterogeneity have been proposed including simple intensity histogram-based
+    measures, metrics attempting to quantify average distance from a homogeneous surface,
+    and texture analysis-based methods. I will present a statistical framework for
+    estimating tumor heterogeneity using clustering methods taking into account the
+    topology of the tumors. The proposed approach incorporates the spatial structure
+    of the tumor image using neighborhood summary measures. In addition, I will describe
+    a principal manifold estimation approach for estimating the surface of cancer
+    tumors using a smooth surface.
+  firstname: Ani
+  lastname: Eloyan
+- ID: C-1
+  type: case_study
+  order: 12
+  id: 3
+  name: Candace Fleischer
+  affil: Emory University and Georgia Tech
+  email: candace.fleischer@emory.edu
+  title: In vivo metabolic imaging with magnetic resonance spectroscopy
+  abstract: Magnetic resonance imaging (MRI) in the brain relies on signal from water
+    protons to generate structural and functional images. A lesser known yet complementary
+    method, magnetic resonance spectroscopy (MRS), facilitates quantification of non-water
+    compounds to provide localized chemical and metabolic information. While MRS is
+    a powerful FDA-approved method available on most MR scanners, low signal-to-noise
+    ratios and long acquisition times preclude widespread clinical integration. In
+    this talk, I will review the basic principles of MRS, discuss challenges and opportunities
+    for technical development, and provide case-study examples of MRS applications
+    in brain injury and disease.
+  firstname: Candace
+  lastname: Fleischer
+- ID: C-2
+  type: case_study
+  order: 13
+  id: 1
+  name: Susan Gauthier
+  affil: Weill Cornell Medicine
+  email: sag2015@med.cornell.edu
+  title: The clinical translation of QSM as a new imaging biomarker for disease progression
+    and treatment response in Multiple Sclerosis
+  abstract: Chronic CNS inflammation in the multiple sclerosis (MS) lesions is maintained
+    with iron-containing pro-inflammatory microglia and macrophages at the rim of
+    chronic active MS lesions. Histologically, these lesions demonstrate ongoing demyelination
+    and expansion, which may play an essential role in the pathogenesis of progressive
+    clinical decline. Quantitative susceptibility mapping (QSM) is an imaging technique
+    that provides efficient in vivo quantification of susceptibility changes related
+    to iron deposition.  We have demonstrated that QSM can detect iron at MS lesion
+    rims and have provided in-vivo validation that these lesions have more inflammation
+    and tissue damage. We have also demonstrated that QSM rim lesions (rim+) have
+    a temporal trajectory with an increase and subsequent decrease in susceptibility,
+    which is consistent with the transition from a chronic active to a chronic inactive
+    lesion.  We have preliminary data demonstrating the influence of rim+ lesions
+    on clinical disability, including cognition, promoting the potential for QSM as
+    a tool to understand mechanisms of injury leading to disease progression. Our
+    next stage is to determine the utility of QSM as a biomarker for treatment response.
+    Monitoring chronic MS lesions in response to treatment would provide a novel and
+    essential therapeutic strategy to reduce tissue injury, neuronal degeneration
+    and clinical disability.
+  firstname: Susan
+  lastname: Gauthier
+- ID: I-8
+  type: invited
+  order: 21
+  id: 2
+  name: Sharmistha Guha
+  affil: Duke University
+  email: sg516@duke.edu
+  title: Bayesian Regression with Undirected Network Predictors with an Application
+    to Brain Connectome Data
+  abstract: This article focuses on the relationship between a measure of creativity
+    and the human brain network of subjects from a brain connectome dataset obtained
+    using a diffusion weighted magnetic resonance imaging (DWI) procedure. We identify
+    brain regions and interconnections between them that have a significant effect
+    on the creativity. Brain networks are often expressed in terms of symmetric adjacency
+    matrices, with row and column indices of the matrix representing the regions of
+    interest (ROI), and a cell entry signifying the estimated number of fiber bundles
+    connecting the corresponding row and column ROIs. Current statistical practices
+    for regression analysis with the brain network as the predictor and the measure
+    of creativity as the response typically vectorize the network predictor matrices
+    prior to any analysis, thus failing to account for the important structural information
+    in the network. This results in poor inferential and predictive performance. To
+    answer the scientific questions above, this article develops a flexible Bayesian
+    framework that avoids reshaping the network predictor matrix, draws inference
+    on the brain ROIs and interconnections between ROIs significantly related to creativity
+    and enables accurate prediction of creativity from a brain network. A novel class
+    of network shrinkage priors for the coefficient corresponding to the network predictor
+    is proposed to achieve these inferential goals simultaneously. The principled
+    Bayesian framework allows precise characterization of the uncertainty in detecting
+    an ROI as influential for creativity, as well as the quantification of uncertainty
+    in prediction of creativity from a network predictor. Empirical results in simulation
+    studies illustrate substantial inferential and predictive gains of the proposed
+    framework in comparison with competitors. Our framework yields new insights into
+    the relationship of brain regions with creativity, also providing the uncertainty
+    associated with the scientific findings.
+  firstname: Sharmistha
+  lastname: Guha
+- ID: I-2
+  type: invited
+  order: 8
+  id: 1
+  name: Michele Guindani
+  affil: University of California, Irvine
+  email: michele.guindani@UCI.edu
+  title: A Bayesian Nonparametric approach for the analysis of functional data in
+    neuroimaging
+  abstract: .na.character
+  firstname: Michele
+  lastname: Guindani
+- ID: I-9
+  type: invited
+  order: 17
+  id: 1
+  name: Jaroslaw Harezlak
+  affil: Indiana University, Bloomington
+  email: harezlak@iu.edu
+  title: Regularized regression for multi-modal brain imaging
+  abstract: 'We address the problem of adaptive incorporation of multi-modal brain
+    imagining data in the multiple linear regression setting. We assume the model
+    of the form E[Y|X,Z] = X*beta + Z*b, where the response variable y corresponds
+    to a neuropsychological outcome, X are the possible confounders, and Z are the
+    explanatory variables (e.g. cortical thickness or area) for which the functional
+    and structural connectivity information exists. The connectivity information is
+    used to build the adaptive penalty terms in the regularized regression problem.
+    The general idea of incorporating connectivity information in regularization approach
+    via linear mixed model representation has been recently established in our prior
+    work: ridgified Partially Empirical Eigenvectors for Regression (riPEER). Here,
+    we incorporate multiple sources of information, e.g. functional connectivity network
+    structure, and estimate the regression parameters with multiple penalty terms
+    via a riPEER extension called msPEER (Multi-Source Partially Empirical Eigenvectors
+    for Regression). We present an extensive simulation study testing various realistic
+    scenarios and apply msPEER to data arising from the Human Connectome Project (HCP)
+    study.'
+  firstname: Jaroslaw
+  lastname: Harezlak
+- ID: I-11
+  type: invited
+  order: 10
+  id: 3
+  name: Chao Huang
+  affil: Florida State University
+  email: chaohuang@stat.fsu.edu
+  title: Shape-on-Vector Geodesic Regression Model and Its Applications in Image Data
+    Analysis
+  abstract: With the rapid growth of modern technology, many large-scale biomedical
+    studies have been conducted to collect massive datasets with large volumes of
+    complex information from increasingly large cohorts. Among these collected images,
+    they usually contain objects of interest (e.g., regions of interest, ROIs) and
+    the major goal is to understand and analyze shapes of these objects in larger
+    biological systems. Due to the complexity of disease progression and mis-registration
+    in image preprocessing, shapes can significantly vary across subjects and distinct
+    shape patterns are more likely to be found within the same patient group. Therefore,
+    understanding such shape heterogeneity is critical for the development of urgently
+    needed approaches to the prevention, diagnosis, and treatment of these diseases,
+    and precision medicine broadly. In order to address this challenge, in this talk,
+    several shape-on-vector regression models are established for heterogeneous imaging
+    data with different structures. This is a joint work with Dr. Anuj Srivastava.
+  firstname: Chao
+  lastname: Huang
+- ID: I-13
+  type: invited
+  order: 9
+  id: 3
+  name: Jian Kang
+  affil: University of Michigan
+  email: jiankang@umich.edu
+  title: Bayesian Inferences in EEG-Based Brain-Computer Interface via the Split-and-Merge
+    Gaussian Process
+  abstract: A brain-computer interface (BCI) refers to a system that uses brain activity
+    to control or communicate with technology.  In particular, BCIs can help people
+    with disabilities use technology for communication. The fundamental statistical
+    problem in BCI is classification. A common design for an electroencephalogram
+    (EEG) BCI relies on classification of the P300 event-related potential (ERP),
+    which is a response elicited by the rare occurrence of target stimuli among common
+    non-target stimuli. Many machine learning methods have constructed P300 ERP-based
+    classifiers, but few provide insights on the underlying mechanism of the neural
+    activity. In this work, we propose a new Bayesian generative method to model the
+    conditional distribution of the EEG signals given our EEG-BCI design, from which
+    the predictive probability of brain signals can be derived. Our method focuses
+    on detecting spatial-temporal differences where the EEG signals have strong predictive
+    powers, providing an understanding of the neural activity in response to external
+    stimuli. Extensive simulation studies and analysis of real participants show the
+    advantages of the proposed method compared to previous methods.
+  firstname: Jian
+  lastname: Kang
+- ID: I-8
+  type: invited
+  order: 21
+  id: 1
+  name: John Kornak
+  affil: University of California, San Francisco
+  email: john.kornak@ucsf.edu
+  title: Bayesian image analysis in transformed spaces (BITS)­ and the BIFS/BIWS packages
+  abstract: 'Bayesian image analysis can improve image quality by balancing a priori
+    expectations of image characteristics with a model for the noise process. We will
+    give a reformulation of the conventional image space Bayesian image analysis paradigm
+    into Fourier and wavelet spaces. By specifying the Bayesian model in a transformed
+    space, spatially correlated priors, that are relatively difficult to model and
+    compute in conventional image space, can be efficiently modeled as a set of independent
+    processes in an appropriately transformed space. The originally inter-correlated
+    and high-dimensional problem in image space is thereby broken down into a series
+    of (trivially parallelizable) independent one-dimensional problems. We will describe
+    and show examples of the Bayesian image analysis in transformed space (BITS) modeling
+    approach for both Fourier and wavelet space. In the process, we will showcase
+    our Python package(s): BIFS/BIWS that can allow easy and fast implementation of
+    BITS.'
+  firstname: John
+  lastname: Kornak
+- ID: I-5
+  type: invited
+  order: 14
+  id: 3
+  name: Robert T. Krafty
+  affil: Emory University
+  email: robert.t.krafty@emory.edu
+  title: Adaptive Spectral Analysis of High-Dimensional EEG with Application to Monitoring
+    Transcranial Magnetic Stimulation during Psychosis
+  abstract: Motivated by the analysis of high-density EEG (hdEEG), in this talk we
+    discuss a nonparametric approach to spectral analysis of a high-dimensional multivariate
+    nonstationary time. The procedure is based on a novel frequency-domain factor
+    model that provides a flexible yet parsimonious representation of spectral matrices
+    from a large number of simultaneously observed time series. Real and imaginary
+    parts of the factor loading matrices are modeled independently using a prior that
+    is formulated from the tensor product of penalized splines and multiplicative
+    gamma process shrinkage priors, allowing for infinitely many factors with loadings
+    increasingly shrunk towards zero as the column index increases. Formulated in
+    a fully Bayesian framework, the time series is adaptively partitioned into approximately
+    stationary segments, where both the number and location of partition points are
+    assumed unknown. Stochastic approximation Monte Carlo (SAMC) techniques are used
+    to accommodate the unknown number of segments, and a conditional Whittle likelihood-based
+    Gibbs sampler is developed for efficient sampling within segments.  By averaging
+    over the distribution of partitions, the proposed method can approximate both
+    abrupt and slowly varying changes in spectral matrices.  The method is used to
+    analyze hdEEG from a patient receiving transcranial magnetic stimulation (TMS)
+    while hospitalized for a first-break psychotic episode.
+  firstname: Robert
+  lastname: Krafty
+- ID: I-11
+  type: invited
+  order: 10
+  id: 1
+  name: Sebastian Kurtek
+  affil: Ohio State University
+  email: kurtek.1@stat.osu.edu
+  title: Visualization and Outlier Detection for Shape Data
+  abstract: We propose a new method for the construction and visualization of geometrically-motivated
+    boxplot displays for elastic curve data. We use a recent shape analysis framework,
+    based on the square-root velocity function representation of curves, to extract
+    different sources of variability from elastic curves, which include location,
+    scale, shape, orientation and parametrization. We then focus on constructing separate
+    displays for these various components using the Riemannian geometry of their representation
+    spaces. This involves computation of a median, two quartiles, and two extremes
+    based on geometric considerations. The outlyingness of an elastic curve is also
+    defined separately based on each of the five components. We evaluate the proposed
+    methods using multiple simulations, and then focus our attention on real data
+    applications. In particular, we study variability in (a) 3D spirals, (b) handwritten
+    signatures, (c) 3D fibers from diffusion tensor magnetic resonance imaging, and
+    (d) trajectories of the Lorenz system. This work was done in collaboration with
+    Weiyi Xie and Oksana Chkrebtii.
+  firstname: Sebastian
+  lastname: Kurtek
+- ID: I-4
+  type: invited
+  order: 6
+  id: 2
+  name: Nicole Lazar
+  affil: Penn State University
+  email: nfl5182@psu.edu
+  title: Topological Data Analysis for the Study of Brain Networks
+  abstract: The study of brain networks and brain connectivity has increased in prominence
+    in recent years.  In this talk, I will describe the use of topological data analysis
+    (TDA) for brain networks.  In contrast to more traditional modes of analysis,
+    TDA focuses on the topological features of a data set, and hence offers new insight
+    into the brain network structure and characteristics.  The effectiveness of the
+    approach will be demonstrated on both simulated and real data. <p> This is joint
+    work with Hyunnam Ryu.
+  firstname: Nicole
+  lastname: Lazar
+- ID: I-14
+  type: invited
+  order: 18
+  id: 1
+  name: Lexin Li
+  affil: University of California, Berkeley
+  email: lexinli@berkeley.edu
+  title: Testing Mediation Effects Using Logic of Boolean Matrices with Applications
+    in Neuroimaging Mediation Analysis
+  abstract: A central question in high-dimensional mediation analysis is to infer
+    the significance of individual mediators. The main challenge is that the total
+    number of potential paths that go through any mediator is super-exponential in
+    the number of mediators. Most existing mediation inference solutions either explicitly
+    impose that the mediators are conditionally independent given the exposure, or
+    ignore any potential directed paths among the mediators. In this talk, we present
+    a new hypothesis testing procedure to evaluate individual mediation effects, while
+    taking into account potential interactions among the mediators. Our key idea is
+    to construct the test statistic using the logic of Boolean matrices, which enables
+    us to establish the proper limiting distribution under the null hypothesis. We
+    further employ screening, data splitting, and decorrelated estimation to reduce
+    the bias and increase the power of the test. We show that our test can control
+    both the size and false discovery rate asymptotically, and the power of the test
+    approaches one, while allowing the number of mediators to diverge to infinity
+    with the sample size. We illustrate our method with two applications in neuroimaging-based
+    mediation analysis for Alzheimer's disease.
+  firstname: Lexin
+  lastname: Li
+- ID: I-10
+  type: invited
+  order: 15
+  id: 3
+  name: Kristin Linn
+  affil: University of Pennsylvania
+  email: klinn@pennmedicine.upenn.edu
+  title: Inter-modal Coupling for Multi-modal Image Analysis
+  abstract: Local cortical coupling is a subject-specific measure of the spatially
+    varying relationship between cortical thickness and sulcal depth. Although it
+    is a promising first step towards understanding local covariance patterns between
+    two image-derived measurements, a more general coupling framework that can accommodate
+    multiple volumetric imaging modalities is warranted. We first introduce Inter-Modal
+    Coupling (IMCo), an analogue of local coupling in volumetric space that can be
+    used to produce subject-level, spatially varying feature maps derived from two
+    volumetric imaging modalities. We then leverage IMCo to address partial volume
+    effects when studying localized relationships between gray matter density and
+    cerebral blood flow (CBF) among participants in the Philadelphia Neurodevelopmental
+    Cohort. We also develop a generalized estimating equation approach to study spatial
+    variation in multi-modal image relationships at the population level.
+  firstname: Kristin
+  lastname: Linn
+- ID: I-6
+  type: invited
+  order: 19
+  id: 3
+  name: Carolyn Lou
+  affil: University of Pennsylvania
+  email: louc@pennmedicine.upenn.edu
+  title: Towards an Automatic Detection Method of Chronic Active Lesions in Multiple
+    Sclerosis
+  abstract: Recent developments in magnetic resonance imaging (MRI) have shown that
+    chronic active multiple sclerosis lesions can be assessed in vivo by a hypointense
+    rim of iron deposits around the border of a white matter lesion. These lesions
+    are typically characterized by a dark rim indicating increased iron-laden microglia/macrophages
+    at their edge, and their presence is associated with worse disease outcomes. In
+    this project, we present some candidate methods for the automatic detection of
+    these rims on 3T-weighted MRI images, specifically on T2*-phase images, a byproduct
+    of the T2* imaging sequence. The first method extracts radiomic features from
+    the phase images and aims to predict rim presence on the lesion level. The second
+    quantifies the covariance structure of multi-modal images via inter-modal coupling
+    analysis, and the third method aims to identify these rims with intensity gradients,
+    both of which aim to predict rim presence on the voxel level.
+  firstname: Carolyn
+  lastname: Lou
+- ID: I-10
+  type: invited
+  order: 15
+  id: 1
+  name: Xi Luo
+  affil: The University of Texas
+  email: xi.luo@uth.tmc.edu
+  title: Covariate Assisted Principal Regression for Covariance Matrix Outcomes with
+    an Application to fMRI
+  abstract: Modeling variances in data has been an important topic in many fields,
+    including in financial and neuroimaging analysis. We consider the problem of regressing
+    covariance matrices on vector covariates, collected from each observational unit.
+    The main aim of this paper is to uncover the variation in the covariance matrices
+    across units that are explained by the covariates. This paper introduces Covariate
+    Assisted Principal (CAP) regression, an optimization-based method for identifying
+    the components predicted by (generalized) linear models of the covariates. We
+    develop computationally efficient algorithms to jointly search the linear projections
+    of the covariance matrices as well as the regression coefficients, and we establish
+    the asymptotic properties. Using extensive simulation studies, our method shows
+    higher accuracy and robustness in coefficient estimation than competing methods.
+    Applied to a resting-state functional magnetic resonance imaging study, our approach
+    identifies the human brain network changes associated with age and sex.
+  firstname: Xi
+  lastname: Luo
+- ID: I-3
+  type: invited
+  order: 11
+  id: 2
+  name: Amanda Mejia
+  affil: Indiana University
+  email: afmejia@iu.edu
+  title: Leveraging shared population and spatial information for accurate estimation
+    of subject-level brain networks
+  abstract: |
+    Accurate, reliable fMRI-based measures of functional brain organization and connectivity at the subject level are greatly needed to advance fMRI-based research and translation to clinical care.  Such individual-level insights would allow researchers to deepen understanding of disease, disorders, development and aging, to build imaging-based biomarkers for disease classification, and to impact clinical care.  A common approach used to estimate spatial functional brain organization and functional connectivity is independent component analysis (ICA), wherein independent components (ICs) are spatial maps of the brain that represent functionally coherent regions.  Unfortunately, the low signal-to-noise ratio of fMRI data makes accurate estimation of ICs and their functional connectivity (FC) challenging.  The existence of big fMRI datasets provides an opportunity to establish computationally advantageous empirical prior distributions for use in Bayesian models.  Additionally, recent advances in spatial and Bayesian statistics now make it possible to efficiently and effectively pool information shared across the cortical surface and other grey matter regions, leading to much more accurate estimation over models that implicitly or explicitly assume spatial independence.  We combine these two approaches–pooling over subjects and space–to obtain accurate estimates of subject-level brain networks based on independent component analysis (ICA). Spatial template ICA is a hierarchical Bayesian ICA framework for single-subject brain network organization that uses empirical population priors or "templates", as well as spatial priors on subject effects.  The population priors are spatially varying, providing more shrinkage toward the population in areas of the brain where subjects are similar and more flexibility in areas where they tend to differ.  Spatial template ICA provides a statistically principled alternative to ad-hoc approaches like dual regression, while retaining its primary benefits: subject-level component estimates are matched to existing group-level IC's, and it is applicable to new subjects not included in the original group ICA. Additionally, standard template ICA (without spatial priors) is very fast to estimate.  In contrast to dual regression, template ICA can also estimate subject-specific components representing additional brain networks or sources of noise, thereby avoiding contamination of the components of interest.  Through simulation studies and a reliability study based on data from the Human Connectome Project, we find that the use of empirical population priors substantially improves estimation efficiency, and the use of spatial priors further enhances efficiency and power.  We also present an application of the proposed methods to a study of the effects of psilocybin (a prodrug compound found in mushrooms) to organization and connectivity of the thalamus. The proposed methods are implemented in the R package templateICAr.
+  firstname: Amanda
+  lastname: Mejia
+- ID: I-12
+  type: invited
+  order: 22
+  id: 1
+  name: Michelle F. Miranda
+  affil: University of Victoria
+  email: michellemiranda@uvic.ca
+  title: Composite-hybrid basis approach incorporating residual connectivity in task
+    fMRI data
+  abstract: 'Task-based functional magnetic resonance imaging (fMRI) studies are a
+    powerful tool to understand human sensory, cognitive, and emotional processes.
+    The fMRI measurement consist of an indirect and non-invasive measure of brain
+    activity based on the Blood Oxygen Level Dependent (BOLD) contrast. A critical
+    challenge is to account for the dependencies from the complex structure of the
+    brain. In this talk, I propose an adaptive composite-hybrid basis approach to
+    model task fMRI data. The proposed basis approach tackles the high-dimensionality
+    inherent to the brain data while simultaneously accounting for nearby and distant
+    spatial correlation in a multilevel basis procedure. The first level accounts
+    for whitin-ROI spatial correlation by selecting a sparse set of bases for each
+    ROI. The second level considers between-ROIs correlation and obtains a set of
+    basis functions that represents the entire brain spatial structure. The third
+    level of the approach models time dependencies in the BOLD time series by projecting
+    the time course into a wavelet space and then  assuming a long memory process
+    that accounts for differences in each wavelet decomposition level.  Moreover,
+    residual connectivity between ROIs is incorporated into the estimation procedure
+    and can provide further insights into fMRI tasks. The spatial strategy gives us
+    a sparse representation of the brain improving many folds in computational speed
+    and effectively providing full Bayesian inference at the voxel or ROI level. '
+  firstname: Michelle
+  lastname: Miranda
+- ID: I-8
+  type: invited
+  order: 21
+  id: 3
+  name: Shariq Mohammed
+  affil: University of Michigan
+  email: shariqm@umich.edu
+  title: 'RADIOHEAD: Radiogenomic Analysis incorporating tumor heterogeneity in imaging
+    through densities'
+  abstract: Recent technological advancements have enabled detailed investigation
+    of associations between the molecular architecture and morphological heterogeneity
+    of tumors, through multi-source integration of radiological imaging and genomic
+    (radiogenomic) data. We integrate and harness radiogenomic data in patients with
+    lower grade gliomas (LGG), a type of brain cancer, in order to develop a formal
+    regression framework called RADIOHEAD (RADIOgenomic analysis incorporating tumor
+    HEterogeneity in imAging through Densities) for modelling association between
+    them. Imaging data is represented through voxel intensity probability density
+    functions of tumor sub-regions obtained from multimodal magnetic resonance imaging,
+    and genomic data through molecular signatures in the form of pathway enrichment
+    scores corresponding to their gene expression profiles. Employing a Riemannian-geometric
+    framework for principal component analysis on the set of probability density functions,
+    we map each probability density to a vector of principal component scores, which
+    are then included as predictors in a Bayesian regression model with the pathway
+    enrichment scores as the response. Variable selection compatible with the grouping
+    structure amongst the predictors induced through the tumor sub-regions is carried
+    out under a group spike-and-slab prior. A Bayesian false discovery rate mechanism
+    is then used to infer statistically significant associations based on the posterior
+    distribution of the regression coefficients. Our analyses reveal several pathways,
+    relevant to LGG etiology (such as synaptic transmission, nerve impulse and neurotransmitter
+    pathways), to have significant associations with the corresponding imaging-based
+    predictors.
+  firstname: Shariq
+  lastname: Mohammed
+- ID: I-2
+  type: invited
+  order: 8
+  id: 3
+  name: Jeff Morris
+  affil: University of Pennsylvania
+  email: jeffrey.morris@pennmedicine.upenn.edu
+  title: Connectivity Regression
+  abstract: Assessing heterogeneity of multivariate associations across covariates
+    is an important problem in many areas of modern science, including in neuroscience
+    to discover factors explaining intersubject variability in functional connectivity
+    networks.  In this work, we present general methodological framework to regress
+    subject-specific networks on a set of covariates that produces multiplicity-adjusted
+    hypothesis tests for which covariates affect the networks, as well as statistical
+    measures indicating which network edges are driving these differences.  Our strategy
+    involves projecting a subject-specific empirical correlation matrix into the Fisher
+    correlation space using a matrix logarithm transform, which ensures positive-semidefiniteness
+    and justifies Gaussian modeling.  Using a Gaussian multivariate regression framework
+    in this space with cutting-edge sparsity priors, we regress the networks on predictors
+    while discovering and accounting for second-order dependence across network edges
+    which we show leads to greater efficiency and power for statistical inference
+    using the principles of Seemingly Unrelated Regression.  We apply our approach
+    to analyze functional connectivity networks of 1003 healthy young patients taken
+    from the Human Connectome Project (HCP), finding subject-specific connectivity
+    is associated with their post central gyrus area, precuneus area, and language
+    processing capabilities.  Overall, our framework serves as a promising tool for
+    solving problems in functional connectivity and addresses a growing need for performing
+    inference on observations with complex structure.
+  firstname: Jeff
+  lastname: Morris
+- ID: I-3
+  type: invited
+  order: 11
+  id: 3
+  name: Manjari Narayan
+  affil: Stanford University
+  email: manjarin@stanford.edu
+  title: Operating Characteristics of Network Centrality with applications to Network
+    Neuroscience
+  abstract: .na.character
+  firstname: Manjari
+  lastname: Narayan
+- ID: I-4
+  type: invited
+  order: 6
+  id: 1
+  name: Todd Ogden
+  affil: Columbia University
+  email: to166@cumc.columbia.edu
+  title: Constrained functional additive models for interaction effects between a
+    treatment and functional covariates
+  abstract: A primary goal of precision medicine is to make efficient use of data
+    gathered at the time a patient presents for treatment, including imaging and other
+    high-dimensional data, to select the optimal treatment for each patient.  We present
+    a functional additive regression model, uniquely constrained to represent the
+    effect of the interaction between a categorical treatment variable and a potentially
+    large number of pretreatment functional covariates on a response variable, while
+    allowing the marginal effects of the covariates to remain unspecified.  This method
+    simultaneously selects functional/scalar treatment effect modifiers that exhibit
+    possibly nonlinear interactions with the treatment indicator and that are relevant
+    for making optimal treatment decisions.  We present theoretical properties of
+    the proposed method and demonstrate its performance on both simulated and real
+    data.
+  firstname: Todd
+  lastname: Ogden
+- ID: I-5
+  type: invited
+  order: 14
+  id: 1
+  name: Hernando Ombao
+  affil: King Abdullah University of Science and Technology (KAUST)
+  email: hernando.ombao@kaust.edu.sa
+  title: Exploring Non-Linear Spectral Interactions in Multivariate Time Series
+  abstract: Advances in imaging technology have given neuroscientists unprecedented
+    access to examine various facets of how the brain “works”. Brain activity is complex.
+    A full understanding of brain activity requires careful study of its multi-scale
+    spatial-temporal organization (from neurons to regions of interest; and from transient
+    events to long-term temporal dynamics). Motivated by these challenges, we will
+    explore some characterizations of dependence between components of a multivariate
+    time series and then apply these to the study of brain functional connectivity.  This
+    is potentially interesting for brain scientists because functional brain networks
+    are associated with cognitive function and mental and neurological diseases. There
+    is no single measure of dependence that can capture all facets of brain connectivity.
+    In this talk, we shall present some new models for exploring potential non-linear
+    cross-frequency interactions. These interactions include the impact of phase of
+    one oscillatory activity in one component on the amplitude of another oscillation.
+    The proposed approach captures lead-lag relationships and hence can be used as
+    a general framework for spectral causality.  This is joint work with Marco Pinto
+    (KAUST and Oslo Metropolitan University).
+  firstname: Hernando
+  lastname: Ombao
+- ID: C-1
+  type: case_study
+  order: 12
+  id: 1
+  name: Deqiang Qiu
+  affil: Emory University and Georgia Tech
+  email: deqiang.qiu@emory.edu
+  title: Inverse Problems in Magnetic Resonance Quantitative Susceptibility Mapping
+  abstract: Quantitative susceptibility mapping (QSM) is a recently developed magnetic
+    resonance technique that allows (semi-)quantification of the spatial distribution
+    of the magnetic susceptibility properties of tissues. This technique has been
+    shown to be sensitive to iron concentration, white matter myelination in the brain
+    as well as their alterations in pathological conditions. The reconstruction of
+    QSM images involves solving inverse problems of ill-posed systems. In this presentation,
+    I will introduce the problems and current techniques in solving these inverse
+    problems in QSM as well as pitfalls for further development. Some clinical applications
+    of QSM will also be presented.
+  firstname: Deqiang
+  lastname: Qiu
+- ID: I-13
+  type: invited
+  order: 9
+  id: 2
+  name: Annie Qu
+  affil: University of California, Irvine
+  email: aqu2@uci.edu
+  title: Correlation Tensor Decomposition and Its Application in Spatial Imaging Data
+  abstract: In this paper, motivated by the multimodal optical imaging data in a breast
+    cancer study, we propose a new correlation tensor learning approach to analyze
+    spatial-correlated imaging data. Specifically, we construct a higher-order correlation
+    tensor which effectively represents the spatial information and captures the pixel-wise
+    correlation structure. In addition, we propose a new semi-symmetric tensor decomposition
+    to model spatial correlations, which enables us to identify spatial correlation
+    structures associated with disease, and thus improves the diagnostic power. We
+    also establish the theoretical properties for estimation consistency and classification
+    consistency incorporating spatial correlation and develop scalable computational
+    algorithm. We illustrate the performance of the proposed method in both simulation
+    studies and the application to optical breast cancer imaging data. The numerical
+    results indicate that the proposed method outperforms other competing methods
+    including the Convolutional Neural Network (CNN). This is joint work with Yujia
+    Deng and Xiwei Tang.
+  firstname: Annie
+  lastname: Qu
+- ID: C-1
+  type: case_study
+  order: 12
+  id: 2
+  name: David Reiter
+  affil: Emory University
+  email: david.a.reiter@emory.edu
+  title: Advances in Quantitative MRI Signal Modeling in Musculoskeletal Research
+  abstract: Magnetic resonance imaging is capable of providing a broad range of contrasts
+    reflecting a variety of intrinsic properties of the underlying tissue system.
+    Musculoskeletal tissues have widely varied cellular composition and extracellular
+    matrix components and these have direct impact on their underlying functional
+    properties. New MRI methods have sought to discover early changes in degeneration
+    and disease, when emerging disease-modifying interventions may be most effective.
+    Considerable effort is devoted to the development of quantitative approaches with
+    improved specificity to tissue status. In this talk, I will outline some recent
+    advances in MRI signal modeling and describe some of the opportunities and challenges
+    moving forward as they pertain to applications in diagnostic imaging and musculoskeletal
+    research.
+  firstname: David
+  lastname: Reiter
+- ID: C-2
+  type: case_study
+  order: 13
+  id: 3
+  name: Sandra Hurtado Rúa
+  affil: Cleveland State University
+  email: s.hurtadorua@csuohio.edu
+  title: Statistical challenges in the analysis of QSM maps
+  abstract: Quantitative susceptibility maps (QSM) have the potential to be a biomarker
+    in Multiple Sclerosis with the ability to inform clinical management of disease
+    progression and therapy. In this talk, we introduce a few statistical models for
+    the analysis of group data in the context of QSM with a clinical translation goal.
+    We first address the multiplicity data problem in the context of mixed-effects
+    models with applications to the identification of inflammation in a subset of
+    chronic multiple sclerosis lesions. We then introduce a multilevel growth curve
+    model to compare longitudinal susceptibility among rim+ and rim- lesions. Finally,
+    we explore the advantages and disadvantages of structural equations models in
+    analysis of QSM as a longitudinal biomarker in Multiple Sclerosis.
+  firstname: Sandra
+  lastname: Rúa
+- ID: I-6
+  type: invited
+  order: 19
+  id: 1
+  name: Russell Shinohara
+  affil: University of Pennsylvania
+  email: rshi@mail.med.upenn.edu
+  title: A statistical revisiting of multiple sclerosis lesions based on MRI
+  abstract: Lesions in the white matter of the brain, including those that arise in
+    multiple sclerosis, are abnormalities measurable on MRI. While much literature
+    has focused on the identification of these lesions, less work has focused on the
+    nature of these lesions. As new imaging modalities arise that allow us to better
+    interrogate these lesions, new statistical modeling problems that include spatial
+    constraints and overlapping domains of analysis are increasingly important. Leveraging
+    multi-modal imaging approaches that focus on knowledge about etiology is critical
+    for developing the next generation of robust and generalizable imaging biomarkers.
+  firstname: Russell
+  lastname: Shinohara
+- ID: I-4
+  type: invited
+  order: 6
+  id: 3
+  name: Haochang Shou
+  affil: University of Pennsylvania
+  email: hshou@pennmedicine.upenn.edu
+  title: Correcting Site Differences in the Covariance Structures of Neuroimaging
+    Data
+  abstract: With the increasing needs for big data analytics in medical imaging, pooling
+    and integrating data from multi-site studies has become critical. Yet site differences
+    attributed to various sources including differences in scanner manufacturers,
+    acquisition and preprocessing protocols are known to exist and might have substantial
+    impact towards the analytic results. Recently, batch-effect corrections methods
+    such as ComBat (Johnson et al. 2007; Fortin et al., 2017) have been successfully
+    adapted to remove scanner and site differences in neuroimaging data in many large-scale
+    studies. However, the existing methods have mostly been focusing on correcting
+    the mean shifts and scale differences for individual dimension across sites. However,
+    we demonstrate that the remaining site differences after applying the existing
+    harmonization techniques could hinder the performance of multivariate pattern
+    analysis (MVPA). This poses a concern in validities of multivariate testing as
+    well as analyses for functional connectivity where the focus is on estimating
+    the dependency structures between regions. We propose CovBat, a novel approach
+    that extends ComBat and utilizes covariance decomposition to remove the unwanted
+    spatially-dependent site deviations in the covariance structures. Further developments
+    have been focusing on preserving the biologically-relevant variations by accounting
+    for related covariates effects in the covariance for functional connectivity analysis.
+    We will demonstrate the performance of the methods using data from ADNI and ABCD
+    studies.
+  firstname: Haochang
+  lastname: Shou
+- ID: I-14
+  type: invited
+  order: 18
+  id: 2
+  name: Sean L. Simpson
+  affil: Wake Forest School of Medicine
+  email: slsimpso@wakehealth.edu
+  title: Mixed modeling frameworks for analyzing whole-brain network data
+  abstract: Brain network analyses have exploded in recent years, and hold great potential
+    in helping us understand normal and abnormal brain function. Network science approaches
+    have facilitated these analyses and our understanding of how the brain is structurally
+    and functionally organized. However, the development of statistical methods that
+    allow relating this organization to health outcomes has lagged behind. We have
+    attempted to address this need by developing mixed-modeling frameworks that allow
+    relating system-level properties of brain networks to outcomes of interest. These
+    frameworks serve as a synergistic fusion of multivariate statistical approaches
+    with network science, providing a needed analytic foundation for whole-brain network
+    data. Here we delineate these approaches that have been developed for single-task,
+    multitask, and dynamic brain network data.
+  firstname: Sean
+  lastname: Simpson
+- ID: C-2
+  type: case_study
+  order: 13
+  id: 2
+  name: Elizabeth Sweeney
+  affil: Weill Cornell Medicine
+  email: ems4003@med.cornell.edu
+  title: 'QSM Image Analysis: Automated Lesion Type Identification and Lesion Age
+    Estimation'
+  abstract: 'Quantitative susceptibility mapping (QSM) rim (rim +) positive multiple
+    sclerosis (MS) lesions and their longitudinal behavior have the potential to serve
+    as a biomarker of chronic inflammation and to be utilized to monitor disease progression
+    and evaluate disease-modifying therapies. Here we introduce the image analysis
+    tools that will enable us to use QSM rim+ lesions for this purpose: an automated
+    method for identifying QSM lesion type and methods for determining the accurate
+    inflammatory stage or age of a lesion.  We first introduce an automated algorithm
+    for identifying QSM rim+ MS lesions in order to reduce the bias and burden of
+    manual identification. This algorithm utilizes first-order radiomic features calculated
+    over a lesion and a random forest classification model to classify lesions as
+    QSM rim+. In a validation set, the algorithm obtained an area under the receiver
+    operating characteristic curve (AUC) of 0.88 and an accuracy of 81%. We next introduce
+    methodology for determining the accurate inflammatory stage or age of a QSM rim+
+    lesion in both cross sectional and longitudinal settings.   This is crucial for
+    evaluating the impact of disease-modifying therapies on the longitudinal behavior
+    of these lesions, as temporal misalignment of lesions may obscure treatment effects.
+    We first introduce a random forest model using radiomic features from multi-sequence
+    MRI to classify lesions as less than a year or greater than a year old in a cross-sectional
+    setting.  In a validation set we obtain an AUC of 0.89 and an accuracy of 82%.  We
+    next move to a longitudinal setting where we employ curve-registration techniques
+    to temporally align longitudinal information from these lesions.'
+  firstname: Elizabeth
+  lastname: Sweeney
+- ID: I-1
+  type: invited
+  order: 5
+  id: 2
+  name: Dana Tudorascu
+  affil: University of Pittsburgh
+  email: dlt30@pitt.edu
+  title: Methods for MRI and PET neuroimaging data harmonization across different
+    scanners in Alzheimer Disease.
+  abstract: Positron Emission Tomography (PET) and Structural Magnetic Resonance Imaging
+    (MRI) are two imaging modalities that are frequently used in studies of Alzheimer’s
+    Disease (AD).  [11C]Pittsburgh Compound B (PiB) PET standardized uptake value
+    ratio (SUVR), play a crucial role in studying the progression of AD in the elderly,
+    autosomal dominant AD mutation carriers and Down Syndrome populations. Harmonization
+    of these multimodal imaging studies collected at multiple sites presents a challenging
+    problem. The focus of this work was to investigate an intensity normalization
+    method, Removal of Artificial Voxel Effect by Linear regression (RAVEL) (Fortin
+    et al., 2016), followed by a data harmonization technique, ComBat (Fortin et al.,
+    2018). Effects on cortical thickness, MR-based quantification of [11C]PiB SUVR
+    and a neuraradiological study of accuracy of AD related ROI segmentations, were
+    evaluated. <br/> We found that RAVEL/ ComBat combination was most effective at
+    MRI harmonization. Large differences observed in effect sizes suggest that combining
+    data from different sites/scanners should be properly addressed.
+  firstname: Dana
+  lastname: Tudorascu
+- ID: I-2
+  type: invited
+  order: 8
+  id: 2
+  name: Marina Vannucci
+  affil: Rice University
+  email: marina@rice.edu
+  title: Bayesian Inference for Stationary Points in Gaussian Process Regression Models
+    with Applications to ERP Analysis
+  abstract: Stationary points embedded in the derivatives are often critical for a
+    model to be interpretable and may be considered as key  features of interest in
+    many applications. We propose a semiparametric Bayesian model to efficiently infer
+    the locations of stationary points  of a nonparametric function, while treating
+    the function itself as a  nuisance parameter. We use Gaussian processes as a flexible
+    prior for  the underlying function and impose derivative constraints to control  the
+    function's shape via conditioning. We illustrate the proposed  methods using simulations
+    and then apply the method to the estimation  of event-related potentials (ERP)
+    derived from electroencephalography  (EEG) signals. We show how the proposed method
+    automatically  identifies characteristic components and their latencies at the  individual
+    level, avoiding the excessive averaging across subjects  which is routinely done
+    in the field to obtain smooth curves. By  applying this approach to EEG data collected
+    from younger and older  adults during a speech perception task, we are able to
+    demonstrate how  the time course of speech perception processes change with age.
+  firstname: Marina
+  lastname: Vannucci
+- ID: I-6
+  type: invited
+  order: 19
+  id: 2
+  name: Julia Wrobel
+  affil: University of Colorado, Denver
+  email: julia.wrobel@cuanschutz.edu
+  title: Intensity warping for multisite MRI harmonization
+  abstract: In multisite neuroimaging studies there is often unwanted technical variation
+    across scanners and sites. These scanner effects can hinder detection of biological
+    features of interest, produce inconsistent results, and lead to spurious associations.
+    We assess scanner effects in two brain magnetic resonance imaging (MRI) studies
+    where subjects were measured on multiple scanners within a short time frame, so
+    that one could assume any differences between images were due to technical rather
+    than biological effects. We propose mica (multisite image harmonization by CDF
+    alignment), a tool to harmonize images taken on different scanners by identifying
+    and removing within-subject scanner effects. Our goals in the present study were
+    to (1) establish a method that removes scanner effects by leveraging multiple
+    scans collected on the same subject, and, building on this, (2) develop a technique
+    to quantify scanner effects in large multisite trials so these can be reduced
+    as a preprocessing step. We found that unharmonized images were highly variable
+    across site and scanner type, and our method effectively removed this variability
+    by warping intensity distributions. We further studied the ability to predict
+    intensity harmonization results for a scan taken on an existing subject at a new
+    site using cross-validation.
+  firstname: Julia
+  lastname: Wrobel
+- ID: I-11
+  type: invited
+  order: 10
+  id: 2
+  name: Zhengwu Zhang
+  affil: UNC
+  email: zhengwu_zhang@unc.edu
+  title: Surface-Based Connectivity Integration
+  abstract: 'The integration of structural (SC) and functional connectivity (FC) remains
+    a necessary and challenging frontier for neuroscience research due to signal and
+    image processing limitations. Diffusion (dMRI) and resting-state functional MRI
+    (rs-fMRI) provide the signals in white (WM) and gray matter (GM) for SC and FC.  The
+    integration of structural and functional connectivity thus far has been limited
+    to atlas-based parcellation studies. We present a novel atlas-free processing
+    pipeline and some analysis methods to explore the integration of structural and
+    functional connectivity at high spatial resolution. This processing pipeline overcomes
+    a few important limitations: 1. it utilizes the geometry of the brain to impose
+    prior knowledge, allowing all white matter fibers to end on the WM-GM surfaces;
+    2. it smoothes the sparse SC into a dense one for a better comparison with FC.  The
+    pipeline also outputs a new biomarker that can be used to study various clinical
+    questions - the integrity/correlation between FC and SC at each vertex on the
+    WM-GM surface. We will demonstrate this pipeline using a few healthy subjects.'
+  firstname: Zhengwu
+  lastname: Zhang
+- ID: I-14
+  type: invited
+  order: 18
+  id: 3
+  name: Xin "Henry" Zhang
+  affil: Florida State University
+  email: henry@stat.fsu.edu
+  title: Generalizing liquid association for multimodal neuroimaging
+  abstract: Alzheimer’s disease (AD) is the leading form of dementia, and the number
+    of affected people is drastically increasing along with aging of the worldwide
+    population. A key question of AD research is to understand the spatial associative
+    patterns between two pathological proteins, amyloid-beta and tau, as the subject’s
+    age varies. The problem can be formulated as studying the associations of two
+    sets of random variables conditional on the third set of random variables, a topic
+    that has received relatively little attention in the statistics literature, but
+    is crucial for multimodal neuroimaging analysis in general. In this article, motivated
+    by a multimodal positron emission tomography (PET) study for AD, we extend the
+    notion of liquid association of K.C. Li (2002) from the univariate setting to
+    the multivariate and high-dimensional setting. We propose a novel generalized
+    liquid association analysis approach, which offers a new and unique angle to study
+    associations among three sets of random variables. We establish a population dimension
+    reduction model, transform the problem to sparse Tucker decomposition of a three-way
+    tensor, and develop a higher-order singular value decomposition estimation algorithm.
+    We derive the non-asymptotic error bound and asymptotic consistency of the proposed
+    estimator, while allowing the variable dimensions to be larger than and diverge
+    with the sample size. We analyze the motivating multimodal PET dataset, and identify
+    important brain regions that exhibit the most contrastive associations as age
+    varies. We further complement the data analysis with additional simulations to
+    demonstrate the efficacy of the proposed method.
+  firstname: Xin
+  lastname: Zhang
+- ID: I-9
+  type: invited
+  order: 17
+  id: 2
+  name: Fengqing (Zoe) Zhang
+  affil: Drexel University
+  email: fz53@drexel.edu
+  title: Penalized multi-state models for examining multimodal imaging signatures
+    of Alzheimer's disease.
+  abstract: Identifying antemortem biomarkers for progression from mild cognitive
+    impairment (MCI) to dementia of Alzheimer‘s type is crucial to detect areas particularly
+    sensitive to neurodegeneration caused by Alzheimer’s disease (AD), in addition
+    to potentially providing a strong diagnostic tool at early disease stages. Jointly
+    modeling the multiple states including normal control, MCI, and dementia as well
+    as the transition probability between them provides a new approach to unravel
+    the mechanism underlying the clinical progression of AD with enhanced statistical
+    power. To deal with a large number of imaging features, we incorporate penalization
+    in multi-state Markov transition models to select predictive imaging signatures
+    of AD. We demonstrate the performance of the proposed approach using MRI and metabolism
+    FDG-PET imaging data from the ADNI project.
+  firstname: Fengqing
+  lastname: Zhang
+- ID: I-13
+  type: invited
+  order: 9
+  id: 1
+  name: Yize Zhao
+  affil: Yale University
+  email: yize.zhao@yale.edu
+  title: Imaging Genetics Analysis under Brain Connectivity with Application on Human
+    Connectome Project
+  abstract: With the availability of large-scale brain imaging and genetics data,
+    brain imaging genetics, which studies the relationship between genetic variations
+    and brain imaging phenotypes, is becoming an emerging and rapidly growing research
+    field. Among different imaging quantitative traits, brain connectivity/network
+    is the one plays an essential role to shape physiological and pathological behaviors
+    as well as brain functional or structural composition. However, there are still
+    limited works investigate the impact of genetic variants on brain connectivity
+    and the existing ones typically broke down the contingency matrix via vectorization,
+    ignoring the natural network structure. In this work, we developed a biologically
+    interpretable network response regression under a proposed Bayesian hierarchical
+    shrinkage prior. Our model incorporated the LD information within SNPs as well
+    as the population brain network to better understand which and how genotypes impact
+    the individual level brain connectivity. We also develop an efficient EM algorithm
+    which scales up our method to analyze the whole brain network. We applied our
+    method to Human Connectome Project (HCP).
+  firstname: Yize
+  lastname: Zhao
+- ID: I-9
+  type: invited
+  order: 17
+  id: 3
+  name: Yi Zhao
+  affil: Indiana University-Purdue University
+  email: zhaoyi1026@gmail.com
+  title: Multimodal Neuroimaging Data Integration and Pathway Analysis.
+  abstract: With fast advancements in technologies, the collection of multiple types
+    of measurements on a common set of subjects is becoming routine in science. Some
+    notable examples include multi- modal neuroimaging studies for the simultaneous
+    investigation of brain structure and function, and multi-omics studies for combining
+    genetic and genomic information. Integrative analysis of multimodal data allows
+    scientists to interrogate new mechanistic questions. However, the data collection
+    and generation of integrative hypotheses is outpacing available methodology for
+    joint analysis of multimodal measurements. In this article, we study high-dimensional
+    multimodal data integration in the context of mediation analysis. We aim to understand
+    the roles different data modalities play as possible mediators in the pathway
+    between an exposure variable and an outcome. We propose a mediation model framework
+    with two data types serving as separate sets of mediators, and develop a penalized
+    optimization approach for parameter estimation. We study both the theoretical
+    properties of the estimator through an asymptotic analysis, and its finite-sample
+    performance through simulations. We illustrate our method with a multimodal brain
+    pathway analysis having both structural and functional connectivities as mediators
+    in the association between sex and language processing.
+  firstname: Yi
+  lastname: Zhao
+- ID: I-12
+  type: invited
+  order: 22
+  id: 2
+  name: Jingyi Zheng
+  affil: Auburn University
+  email: jzz0121@auburn.edu
+  title: Time-frequency Spectral Analysis of Scalp EEG signals using Empirical Mode
+    Decomposition
+  abstract: Electroencephalography (EEG) is an electrophysiological monitoring method
+    to record electrical activity of the brain from different electrodes placed on
+    scalp. In this talk, we propose an effective data-driven processing pipeline to
+    first clean, decompose the scalp EEG signals, and perform time-frequency analysis
+    using Hilbert-Huang transform, and further build machine learning classifiers.
+    Specifically, we propose to decompose a EEG signal into a set of Intrinsic Mode
+    Functions (IMFs) using a data-driven method named Empirical Mode Decomposition
+    (EMD). For each IMF, we obtain the instantaneous frequency and amplitude through
+    Hilbert transform. Then we propose a new metric to measure the frequency component
+    of each IMF and further select the IMF to represent certain brain wave. We also
+    propose a metric to measure the averaged amplitude of certain brain wave. Using
+    the proposed metrics, we can test some cognitive hypothesis, as well as build
+    machine learning classifiers. Specifically, we first train a between task classifier
+    using Random Forest to successfully classify four tasks with 99.12% accuracy in
+    average, and further build within task classifiers to classify body/eye movements
+    for each task with at least 94.47% accuracy.
+  firstname: Jingyi
+  lastname: Zheng

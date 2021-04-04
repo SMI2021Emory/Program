@@ -21,7 +21,7 @@ program:
         link: "/docs/ses-software.html"                                                                                                                          
         ifsubprog: FALSE
       - time: 16:45-19:00
-        title: Poster Session and Opening Mixer. (Gather.Town)    
+        title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
         ifsubprog: FALSE
         link: "/docs/poster-open.html"   
@@ -49,8 +49,8 @@ program:
         iscount: FALSE                                                                                                                                                    
         ifsubprog: FALSE
       - time: 10:30-11:30
-        title: 'Keynote Address: Tom Nicoles' 
-        link: "/sessions/ses-K-1.html" 
+        title: 'Keynote Address: Tom Nichols' 
+        link: "/sessions/ses-k-1.html" 
         id: K-1
         iscount: TRUE                                                                                                                                      
         ifsubprog: FALSE
@@ -134,7 +134,7 @@ program:
         ifsubprog: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Vince Calhoun'   
-        link: "/sessions/ses-K-2.html"
+        link: "/sessions/ses-k-2.html"
         id: K-2
         iscount: TRUE                                                                                                                                     
         ifsubprog: FALSE

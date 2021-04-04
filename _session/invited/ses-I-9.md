@@ -14,7 +14,7 @@ chair:
     email: john.kornak@ucsf.edu
 speakers:
     - id: 1
-      name: Jaroslaw Harezlak, Professor in Residence, Head of Data Science Program
+      name: Jaroslaw Harezlak
       affil: Indiana University, Bloomington
       email: harezlak@iu.edu
       title: Regularized regression for multi-modal brain imaging
@@ -28,7 +28,7 @@ speakers:
       abstract: 'Identifying antemortem biomarkers for progression from mild cognitive impairment (MCI) to dementia of Alzheimer‘s type is crucial to detect areas particularly sensitive to neurodegeneration caused by Alzheimer’s disease (AD), in addition to potentially providing a strong diagnostic tool at early disease stages. Jointly modeling the multiple states including normal control, MCI, and dementia as well as the transition probability between them provides a new approach to unravel the mechanism underlying the clinical progression of AD with enhanced statistical power. To deal with a large number of imaging features, we incorporate penalization in multi-state Markov transition models to select predictive imaging signatures of AD. We demonstrate the performance of the proposed approach using MRI and metabolism FDG-PET imaging data from the ADNI project.'
     - id: 3
       name:  Yi Zhao
-      affil: Indiana University‑Purdue University Indianapolis
+      affil: Indiana University‑Purdue University
       email: zhaoyi1026@gmail.com
       title: Multimodal Neuroimaging Data Integration and Pathway Analysis.
       abstract: With fast advancements in technologies, the collection of multiple types of measurements on a common set of subjects is becoming routine in science. Some notable examples include multi- modal neuroimaging studies for the simultaneous investigation of brain structure and function, and multi-omics studies for combining genetic and genomic information. Integrative analysis of multimodal data allows scientists to interrogate new mechanistic questions. However, the data collection and generation of integrative hypotheses is outpacing available methodology for joint analysis of multimodal measurements. In this article, we study high-dimensional multimodal data integration in the context of mediation analysis. We aim to understand the roles different data modalities play as possible mediators in the pathway between an exposure variable and an outcome. We propose a mediation model framework with two data types serving as separate sets of mediators, and develop a penalized optimization approach for parameter estimation. We study both the theoretical properties of the estimator through an asymptotic analysis, and its finite-sample performance through simulations. We illustrate our method with a multimodal brain pathway analysis having both structural and functional connectivities as mediators in the association between sex and language processing.

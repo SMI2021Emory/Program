@@ -15,8 +15,8 @@ chair:
 speakers:
     - id: 1
       name: Michele Guindani
-      affil: 
-      email: 
+      affil: University of California, Irvine
+      email: michele.guindani@UCI.edu
       title: A Bayesian Nonparametric approach for the analysis of functional data in neuroimaging
       abstract: 
     - id: 2
@@ -28,7 +28,7 @@ speakers:
     - id: 3
       name: Jeff Morris
       affil: University of Pennsylvania
-      email: 
-      title: Bayesian Approaches for Functional Data Analysis with Imaging Applications
-      abstract: 
+      email: jeffrey.morris@pennmedicine.upenn.edu
+      title: Connectivity Regression
+      abstract: Assessing heterogeneity of multivariate associations across covariates is an important problem in many areas of modern science, including in neuroscience to discover factors explaining intersubject variability in functional connectivity networks.  In this work, we present general methodological framework to regress subject-specific networks on a set of covariates that produces multiplicity-adjusted hypothesis tests for which covariates affect the networks, as well as statistical measures indicating which network edges are driving these differences.  Our strategy involves projecting a subject-specific empirical correlation matrix into the Fisher correlation space using a matrix logarithm transform, which ensures positive-semidefiniteness and justifies Gaussian modeling.  Using a Gaussian multivariate regression framework in this space with cutting-edge sparsity priors, we regress the networks on predictors while discovering and accounting for second-order dependence across network edges which we show leads to greater efficiency and power for statistical inference using the principles of Seemingly Unrelated Regression.  We apply our approach to analyze functional connectivity networks of 1003 healthy young patients taken from the Human Connectome Project (HCP), finding subject-specific connectivity is associated with their post central gyrus area, precuneus area, and language processing capabilities.  Overall, our framework serves as a promising tool for solving problems in functional connectivity and addresses a growing need for performing inference on observations with complex structure.
 ---
