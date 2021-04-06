@@ -7,10 +7,8 @@ order : 3
 {% assign sorted_sessions = site.session | sort:"order" %}
 {% for session in sorted_sessions %}
   {% if session.type == "software" %}
-  <h2>
-    <a href="{{ session.url | prepend: site.relative_url }}">
+  <h2>    
       {{ session.title }}
-    </a>
   </h2>
 
 

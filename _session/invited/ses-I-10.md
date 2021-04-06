@@ -7,11 +7,11 @@ title: Complex response, dimension reduction and data integration with applicati
 organizer:
     name: Yize Zhao
     affil:  Yale University 
-    email: yz875@yale.edu
+    email: yize.zhao@yale.edu 
 chair:
     name: Yize Zhao
     affil: Yale University
-    email: yz875@yale.edu
+    email: yize.zhao@yale.edu 
 speakers:
     - id: 1
       name: Xi Luo
