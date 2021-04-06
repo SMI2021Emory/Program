@@ -68,7 +68,7 @@ order : 1
   {% if session.type == "software" %}
   {% for speaker in session.speakers %}   
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <a href="{{ session.url | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
+  <a href="{{ '/docs/ses-software.html' | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
