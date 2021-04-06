@@ -17,8 +17,8 @@ speakers:
       name: Michele Guindani
       affil: University of California, Irvine
       email: michele.guindani@UCI.edu
-      title: A Bayesian Nonparametric approach for the analysis of functional data in neuroimaging
-      abstract: 
+      title: Bayesian Time-Varying Tensor Vector Autoregressive Models for Dynamic  Effective Connectivity
+      abstract: Recent developments in functional magnetic resonance imaging (fMRI) investigate how  some brain regions directly influence the activity of other regions of the brain  dynamically throughout the course of an  experiment, i.e. the so-called dynamic effective connectivity. Time-varying vector autoregressive (TV-VAR) models have been  employed to draw inferences for this purpose,  but they are very computationally intensive, since  the  number  of  parameters  to  be  estimated  increases quadratically  with  the  number of  time-series. In this talk, we propose a computationally efficient time-varying Bayesian VAR approach for  modeling  high-dimensional  time  series. The proposed framework employs a tensor decomposition for the VAR coefficient matrices at different lags.  Dynamically varying connectivity patterns are captured by assuming that at any given time the VAR coefficient matrices are  obtained as a mixture of only an active subset of components in the tensor decomposition. Latent binary time-series select the active components at each time via a convenient Ising prior specification. Sparsity-inducing priors are employed to allow for  global-local shrinkage of the coefficients, to determine automatically the rank of the tensor decomposition and to guide the selection of the lags of the auto-regression. The proposed prior structure encourages sparsity in the tensor structure and allows to ascertain model complexity through the posterior distribution. We show the performances of our model formulation via simulation studies and data from a real fMRI study involving a book reading experiment.
     - id: 2
       name: Marina Vannucci
       affil: Rice University
