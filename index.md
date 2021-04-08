@@ -34,7 +34,7 @@ title: SMI 2021 Agenda
                     <tr>
                         <td> </td>
                         {% if eachsubprog.id %}
-                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html"> {{sescount | append: ". "}}{{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
+                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html" style="color: blue;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
                         {% endif %}                        
