@@ -27,7 +27,8 @@ order : 1
 
 <!-- Keynote talk -->
 
-## Keynote Speakers
+<h2 style="color: #120659;">Keynote Speakers</h2>
+
 
 {% for session in sorted_sessions %}
   {% if session.type == "keynote" %}
@@ -54,7 +55,7 @@ order : 1
 {% assign scpage = site.pages | where: 'title', 'Short Course' %}
 
 {% for item in scpage %}
-## [Short course]({{ item.url | prepend: site.relative_url }})
+<h2 style="color: #120659;">Short Course</h2>({{ item.url | prepend: site.relative_url }})
 <b>Hui Lin</b>, Quan Reseacher at Google <br/>
 <b>Title</b>: [Introduction to Deep Learning]({{ item.url | prepend: site.relative_url }})
 {% endfor %}
@@ -62,7 +63,9 @@ order : 1
 
 <!-- Software -->
 
-## Statistical Software for Imaging Analysis
+<!--## Statistical Software for Imaging Analysis-->
+<h2 style="color: #120659;">Statistical Software for Imaging Analysis</h2>
+
 
 {% for session in sorted_sessions %}
   {% if session.type == "software" %}
@@ -75,7 +78,9 @@ order : 1
 
 <!-- Invited -->
 
-## Speakers in Invited Oral Sessions and Collaborative Case-Studies 
+<!-- ## Speakers in Invited Oral Sessions and Collaborative Case-Studies -->
+<h2 style="color: #120659;">Speakers in Invited Oral Sessions and Collaborative Case-Studies</h2>
+
 
 {% assign sorted_speakers = site.data.speaker | sort:"lastname" %}
 
