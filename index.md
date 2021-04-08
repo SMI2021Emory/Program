@@ -23,7 +23,7 @@ title: SMI 2021 Agenda
                     {% assign currentcount = sescount | append: ". " %}
                 {% endif %}
                 {% if prog.link %}
-                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: blue;"> {{currentcount}}{{ prog.title }} </a></td>                    
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0000EE;"> {{currentcount}}{{ prog.title }} </a></td>                    
                 {% else %}
                     <td>{{currentcount}}{{ prog.title }}</td>
                 {% endif %}                
@@ -34,7 +34,7 @@ title: SMI 2021 Agenda
                     <tr>
                         <td> </td>
                         {% if eachsubprog.id %}
-                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html" style="color: blue;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
+                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html" style="color: #0000EE;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </a>(organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
                         {% endif %}                        
