@@ -20,7 +20,7 @@ order : 1
   
   <b>{{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
-  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}"> {{ speaker.title }} </a><br/>
+  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}" style="color: #0073ee;">  {{ speaker.title }} </a><br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
@@ -43,7 +43,7 @@ order : 1
   
   <b>{{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
-  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}">{{speaker.title}}</a> <br/>
+  <b>Title</b>: <a href="{{ session.url | prepend: site.relative_url }}" style="color: #0073ee;"> {{speaker.title}}</a> <br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
@@ -71,7 +71,7 @@ order : 1
   {% if session.type == "software" %}
   {% for speaker in session.speakers %}   
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <a href="{{ '/docs/ses-software.html' | prepend: site.relative_url }}"> {{speaker.title}} </a><br/>
+  <a href="{{ '/docs/ses-software.html' | prepend: site.relative_url }}" style="color: #0073ee;">  {{speaker.title}} </a><br/>
   {% endfor %}
   {% endif %}
 {% endfor %}
@@ -86,6 +86,6 @@ order : 1
 
 {% for speaker in sorted_speakers %}
   <b>{{speaker.name}}</b>, {{speaker.affil}} <br/> 
-  <b>Title</b>: <a href="{{site.relative_url}}/sessions/ses-{{ speaker.ID | downcase }}.html"> {{speaker.title}} </a><br/>
+  <b>Title</b>: <a href="{{site.relative_url}}/sessions/ses-{{ speaker.ID | downcase }}.html" style="color: #0073ee;">  {{speaker.title}} </a><br/>
 {% endfor %}
 
