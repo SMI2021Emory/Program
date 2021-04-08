@@ -29,26 +29,6 @@ tr:nth-child(odd) {
     background-color: SeaShell;
 }
 
-a:link {
-  color: #f2a900;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #f2a900;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #f2a900;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: #f2a900;
-  background-color: transparent;
-  text-decoration: none;
+a {
+    color: inherit;
 }
