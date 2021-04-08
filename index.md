@@ -9,7 +9,7 @@ title: SMI 2021 Agenda
 {% assign sescount = 0 %}
 {% for daysch in site.data.program.program %}
 
-  <h2 style="color: #151a2f;"> {{daysch.date}} </h2>
+  <h2 style="color: #232442;"> {{daysch.date}} </h2>
   <table style="display: block; width: 100%" >
         {% for prog in daysch.dayprog %}
             {% if prog.iscount %}
