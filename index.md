@@ -23,7 +23,7 @@ title: SMI 2021 Agenda
                     {% assign currentcount = sescount | append: ". " %}
                 {% endif %}
                 {% if prog.link %}
-                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: red;"> {{currentcount}}{{ prog.title }} </a></td>                    
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: blue;"> {{currentcount}}{{ prog.title }} </a></td>                    
                 {% else %}
                     <td>{{currentcount}}{{ prog.title }}</td>
                 {% endif %}                
