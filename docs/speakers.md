@@ -56,7 +56,8 @@ order : 1
 
 {% for item in scpage %}
 <h2 style="color: #120659;">Short Course</h2>
-<b>Hui Lin</b>, Quan Reseacher at Google <br/>
+<b>Hui Lin</b><br/>
+Quant Reseacher at Google <br/>
 <b>Title</b>: <a href="{{ item.url | prepend: site.relative_url }}" style="color: #0073ee;"> Introduction to Deep Learning </a>
 {% endfor %}
 
