@@ -7,13 +7,13 @@ order : 3
 {% assign sorted_sessions = site.session | sort:"order" %}
 {% for session in sorted_sessions %}
   {% if session.type == "software" %}
-  <h2>    
+  <h2 style="color: #120659;">  
       {{ session.title }}
   </h2>
 
 
 
-<h3> Speakers: </h3>
+<h3 style="color: #120659;">Speakers: </h3>
 
   {% for speaker in session.speakers %}
   <p> 
