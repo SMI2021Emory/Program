@@ -29,7 +29,7 @@ speakers:
 
 
 
-  <h2>
+  <h2 style="color: #120659;">
     <a href="{{ page.url | prepend: site.relative_url }}">
       {{ page.title }}
     </a>
