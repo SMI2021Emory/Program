@@ -10,7 +10,7 @@ order : 1
 
 {% for session in sorted_sessions %}
   {% if session.type == "founder" %}
-  <h2>
+  <h2 style="color: #120659;">
     <a href="{{ session.url | prepend: site.relative_url }}">
       {{ session.title }}
     </a>
