@@ -17,7 +17,7 @@ speakers:
       name: Vince Calhoun
       affil: Director, Tri-institutional Center for Translational Research in Neuroimaging and Data Science
       email: 
-      title: Swimming in a sea of under-explored dynamics: A survey of approaches for capturing time-varying connectivity
+      title: Swimming in a sea of under-explored dynamics\: A survey of approaches for capturing time-varying connectivity
       abstract:  
       photolink: https://scholarblogs.emory.edu/smi2021/files/2019/11/VinceCalhoun.jpg
 ---
