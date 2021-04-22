@@ -29,6 +29,6 @@ speakers:
       name:  Candace Fleischer
       affil: Emory University and Georgia Tech
       email: candace.fleischer@emory.edu
-      title:  In vivo metabolic imaging with magnetic resonance spectroscopy
-      abstract: Magnetic resonance imaging (MRI) in the brain relies on signal from water protons to generate structural and functional images. A lesser known yet complementary method, magnetic resonance spectroscopy (MRS), facilitates quantification of non-water compounds to provide localized chemical and metabolic information. While MRS is a powerful FDA-approved method available on most MR scanners, low signal-to-noise ratios and long acquisition times preclude widespread clinical integration. In this talk, I will review the basic principles of MRS, discuss challenges and opportunities for technical development, and provide case-study examples of MRS applications in brain injury and disease.
+      title:  Metabolic and thermometric brain imaging with magnetic resonance spectroscopy
+      abstract: Magnetic resonance imaging (MRI) in the brain relies on signal from water protons to generate structural and functional images. A lesser known yet complementary method, magnetic resonance spectroscopy (MRS), facilitates quantification of non-water metabolites and temperature. While MRS is a powerful FDA-approved method available on most MR scanners, low signal-to-noise ratios and long acquisition times preclude widespread clinical integration. In this talk, I will review the basic principles of MRS, discuss challenges and opportunities for technical development, and provide case-study examples of MRS applications in brain injury and disease.
 ---
