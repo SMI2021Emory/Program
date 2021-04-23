@@ -15,7 +15,7 @@ chair:
 speakers:
     - id: 1
       name:  Jesus Arroyo
-      affil: Johns Hopkins University
+      affil: University of Maryland, College Park
       email: jesus.arroyo@jhu.edu
       title: Inference for multiple heterogeneous networks with a common invariant subspace
       abstract: The development of models for multiple heterogeneous network data is of critical importance both in statistical network theory and across multiple application domains, including neuroscience. Although single-graph inference is well-studied, multiple graph inference is largely unexplored, in part because of the challenges inherent in appropriately modeling graph differences and yet retaining sufficient model simplicity to render estimation feasible. The common subspace independent-edge (COSIE) multiple random graph model addresses this gap, by describing a heterogeneous collection of networks with a shared latent structure on the vertices but potentially different connectivity patterns for each graph. The COSIE model is both flexible to account for important graph differences and tractable to allow for accurate spectral inference. The model can be deployed for a number of subsequent network inference tasks, including dimensionality reduction, classification, hypothesis testing, and community detection. Performance is demonstrated on a dataset of connectomes, showing an accurate classification of brain scans by patients and a meaningful determination of heterogeneity across different subjects.
