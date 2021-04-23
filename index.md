@@ -2,6 +2,7 @@
 title: SMI 2021 Agenda
 ---
 <h1 style="color: #120659;"> SMI 2021 Agenda </h1>
+In US Eastern Time
 
 <!-- Potentially store abstract/session information on this site
 
