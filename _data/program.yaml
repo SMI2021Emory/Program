@@ -20,7 +20,7 @@ program:
         iscount: TRUE
         link: "/docs/ses-software.html"                                                                                                                          
         ifsubprog: FALSE
-      - time: 16:45-19:00
+      - time: 17:00-19:00
         title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
         ifsubprog: FALSE
