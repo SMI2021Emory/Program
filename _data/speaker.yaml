@@ -366,8 +366,7 @@
   affil: North Carolina State University
   email: ehector@ncsu.edu
   title: Integrative fused mean structure learning with application to image-on-scalar regression
-  abstract: Motivated by image-on-scalar regression with data aggregated across multiple sites, 
-  we consider a setting in which multiple independent studies each collect multiple dependent vector 
+  abstract: Motivated by image-on-scalar regression with data aggregated across multiple sites, we consider a setting in which multiple independent studies each collect multiple dependent vector 
   outcomes, with potential mean model parameter homogeneity between studies and outcome vectors. To 
   determine the validity of jointly analyzing these data sources, we must learn which of these data 
   sources share mean model parameters. We propose a new model fusion approach that delivers improved 
