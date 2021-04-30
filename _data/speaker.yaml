@@ -377,8 +377,8 @@
   an asymptotically equivalent weighted oracle meta-estimator that is more computationally efficient 
   and privacy preserving. Simulations and application to amplitude of low frequency fluctuations data 
   from the ABIDE neuroimaging consortium highlight the flexibility of the proposed approach.
-  firstname: Emily Hector
-  lastname: Kang
+  firstname: Emily
+  lastname: Hector
 - ID: I-11
   type: invited
   order: 10
