@@ -358,7 +358,7 @@
     study.'
   firstname: Jaroslaw
   lastname: Harezlak
-  ID: I-3
+- ID: I-3
   type: invited
   order: 11
   id: 3
@@ -724,18 +724,6 @@
     inference on observations with complex structure.
   firstname: Jeff
   lastname: Morris
-- ID: I-3
-  type: invited
-  order: 11
-  id: 3
-  name: Manjari Narayan
-  affil: Stanford University
-  email: manjarin@stanford.edu
-  title: Operating Characteristics of Network Centrality with applications to Network
-    Neuroscience
-  abstract: .na.character
-  firstname: Manjari
-  lastname: Narayan
 - ID: I-4
   type: invited
   order: 6
