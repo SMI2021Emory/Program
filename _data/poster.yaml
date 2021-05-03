@@ -627,3 +627,132 @@ containing tumors in the tissue samples.'
   impaired, or diagnosed with dementia to demonstrate that this framework can improve classification performance.
   firstname: Justin
   lastname: Leach
+- ID: UNK
+  type: poster
+  order: 26
+  id: 26
+  name: Jayasinghe Mudiyanselage Thilini Navoda Jayasinghe
+  affil: Texas Tech University
+  email: jmthilini-navoda.jayasinghe@ttu.edu
+  title: Predicting the minimum number of sampling points needed to approximate shapes of planar contours via LINEX regression models
+  abstract: Researchers in statistical shape analysis often analyze outlines of objects. Even though 
+  these contours are infinite-dimensional in theory, they must be discretized in practice. 
+  When discretizing, it is important to reduce the number of sampling points considerably 
+  to reduce computational costs, but to not use too few points so as to result in too much 
+  approximation error. Unfortunately, determining the minimum number of points needed 
+  to sufficiently approximate the contours can be computationally expensive, itself. In this 
+  paper, we fit regression models to predict these lower bounds using characteristics of the 
+  contours that are computationally cheap as predictor variables. 
+  However, least squares regression is inadequate for this task because it treats overestimation 
+  and underestimation equally, but underestimation of lower bounds is far more 
+  serious. Instead, to fit the models, we use the LINEX loss function, which allows us to 
+  penalize underestimation at an exponential rate while penalizing overestimation only linearly. 
+  We present six models to predict the lower bound of required sample points to 
+  approximate the contours using two criteria with a given error threshold for three parameterizations. 
+  Through validation methods, we show that these models work well in 
+  many cases, even when predicting lower bounds for new categories of shapes, with low 
+  approximation error.
+  firstname: Jayasinghe Mudiyanselage Thilini
+  lastname: Navoda Jayasinghe
+- ID: UNK
+  type: poster
+  order: 27
+  id: 27
+  name: Bo Wei
+  affil: Emory University
+  email: bwei8@emory.edu
+  title: Tensor response quantile regression with neuroimaging data
+  abstract: Evaluating the impact of clinical factors on neuroimaging phenotypes is
+  often of interest in neuroimaging studies. To this end, we propose a tensor response 
+  quantile regression framework, where the neuroimaging phenotype is formulated as a tensor response and clinical 
+  factors are allowed to have flexible heterogeneous effects on the tensor response. We develop 
+  a computationally efficient estimation procedure for the regression coefficient tensor 
+  associated with the covariate effects by imposing a sensible low-rank structure for the 
+  coefficient tensor. This approach allows interpretable estimates of covariate effects regarding 
+  the underlying structure of the neuroimaging phenotype. We establish the asymptotic 
+  properties of the proposed estimators. Simulation studies demonstrate good finite-sample 
+  performance of the proposed method. We apply the proposed methods to investigate the 
+  association of post-traumatic stress disorder(PTSD) clinical assessments and fMRI resting-state 
+  functional connectivities in the Grady Trauma Project.
+  firstname: Bo
+  lastname: Wei
+- ID: UNK
+  type: poster
+  order: 28
+  id: 28
+  name: Emilie Campos
+  affil: UCLA
+  email: ejcampos@ucla.edu
+  title: Multilevel hybrid principal components analysis for region-referenced multilevel functional EEG data
+  abstract: Electroencephalography (EEG) experiments produce region-referenced functional
+  data representing brain signals collected across the scalp. The data typically also has a multilevel 
+  structure where the high-dimensional observations are collected across experimental conditions or multiple visits. 
+  Common analysis of EEG reduces the data complexity by collapsing the functional and regional dimensions, 
+  by analyzing specific event-related potential (ERP) features or specific frequency band power in a 
+  pre-specified scalp region. This practice can fail to portray the more comprehensive differences in the 
+  entire ERP signal or the power spectral density (PSD) across the entire scalp. The proposed multilevel 
+  hybrid principal components analysis (M-HPCA) utilizes dimension reduction tools from both vector and 
+  functional principal components analysis (based on weak separability of the high-dimensional covariance process)
+  to decompose total variation into between and within subject components along both the functional and 
+  regional dimensions. The proposed approach enables computationally efficient estimation and inference 
+  through the use of a minorization-maximization (MM) algorithm to target model components coupled with a
+  bootstrap procedure for inference. The diverse array of applications of M-HPCA is showcased with two real 
+  data examples. While ERP responses to match vs. mismatch conditions are compared in an audio odd-ball 
+  paradigm across typically developing (TD), minimally verbal and verbal children diagnosed with Autism 
+  Spectrum Disorders (ASD) in the first example, reliability of the PSD of ASD and TD children collected 
+  across visits that are only a week apart are compared in the second. Finite sample properties of the proposed 
+  methodology are studied in extensive simulations.
+  firstname: Emilie
+  lastname: Campos
+- ID: UNK
+  type: poster
+  order: 29
+  id: 29
+  name: Damon Duc Pham
+  affil: Indiana University Bloomington
+  email: ddpham@iu.edu
+  title: Improving Functional Connectivity Estimates with Data-Driven Scrubbing
+  abstract: 'Functional MRI data require careful pre-processing and denoising to reduce the effects of head 
+  motion, scanner drift, respiration, heartbeat, thermal noise, and other sources of non-neuronal 
+  variation. Denoising techniques typically fall into two categories: regression-based, which 
+  remove components varying across the entire scan (e.g. slow scanner drift), and 
+  scrubbing-based, which remove artifactual volumes (e.g. those concurrent with abrupt head 
+  movement). Motion scrubbing and DVARS are popular scrubbing techniques, but motion 
+  scrubbing only removes noise co-occurring with head motion, and DVARS only takes into 
+  account deviation from the previous frame. Leverage scrubbing is a statistically-principled, 
+  data-driven method for cleaning fMRI. It works by identifying directions in the data likely to 
+  express artifacts. These directions are estimated by first performing independent (or principal) 
+  component analysis, then retaining the components whose scores have kurtosis that statistically 
+  exceeds what would be expected under the null of no outliers. Volumes (time points) that have high 
+  scores associated with these retained components are likely to contain burst noise. We compute an overall
+  leverage score (based on the regression concept) for each volume, which is thresholded to flag volumes for removal. 
+  Using test-retest data from the Human Connectome Project, we compare the performance of 
+  leverage scrubbing with two other scrubbing methods, framewise displacement (FD) and 
+  DVARS. For each method, we assess the reliability of functional connectivity (FC) estimates, 
+  the accuracy of predicting sex based on FC, and the identifiability of individual subjects based 
+  on their FC. We find evidence that leverage-based scrubbing clearly outperforms motion 
+  scrubbing based on all metrics. In general, leverage-based and DVARS-based scrubbing 
+  improves the reliability and sex-predictiveness of FC, but has little effect on their identifiability.'
+  firstname: Damon
+  lastname: Pham
+- ID: UNK
+  type: poster
+  order: 30
+  id: 30
+  name: Andrew Chen
+  affil: University of Pennsylvania
+  email: andrewac@pennmedicine.upenn.edu
+  title: Harmonization of Functional Connectivity Reduces Scanner Effects in Community Detection
+  abstract: 'Community detection on graphs constructed via functional magnetic resonance imaging 
+  (fMRI) scans has become an increasingly popular method for studying brain functional organization. 
+  Similar to other studies involving neuroimaging data, studies of brain community 
+  structure commonly acquire subjects on multiple scanners across different locations.
+  Differences in scanner can introduce variability into the downstream results, often called scanner 
+  effects. These effects have been previously shown to significantly impact common metrics 
+  in brain network analyses. In this study, we identify substantial scanner effects in community
+  detection results and relevant network metrics. We assess a known harmonization method and
+  propose two additional methods for harmonization of functional connectivity. We demonstrate
+  that our new methods perform well to remove scanner effects in community 
+  structure and related metrics at both the scanner and subject level.'
+  firstname: Andrew
+  lastname: Chen
