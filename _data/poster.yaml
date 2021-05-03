@@ -394,3 +394,134 @@ containing tumors in the tissue samples.'
   from a resting-state fMRI study.
   firstname: Jialu
   lastname: Ran
+- ID: UNK
+  type: poster
+  order: 16
+  id: 16
+  name: Thomas Maullin-Sapey
+  affil: University of Oxford
+  email:   thomas.maullin-sapey@linacre.ox.ac.uk
+  title: BLMM: Parallelized Computing for Big Linear Mixed Models
+  abstract: 'Population neuroimaging datasets have transformed fMRI sample sizes from tens to thousands 
+  of subjects. As sample sizes grow, researchers face mounting pressure to detect and account for 
+  complex covariance structures induced by the grouping factors present in the experimental design. 
+  Methods conventionally employed for drawing inference on neuroimaging data (e.g. Ordinary Least Squares regression, 
+  t-tests and F-tests) often cannot account for the grouping structures present in large datasets and, consequently, 
+  can produce erroneous inferences. The linear mixed model (LMM) presents a flexible tool applicable to analyze longitudinal, 
+  heterogeneous or unbalanced clustered data. Here, we present BLMM ("Big" Linear Mixed Models); an efficient tool for 
+  large-scale LMM analyses, implemented in python and designed for use on SGE computer clusters.'
+  firstname: Thomas
+  lastname: Maullin-Sapey
+- ID: UNK
+  type: poster
+  order: 17
+  id: 17
+  name: Jin Ming
+  affil: Emory University
+  email:   jming2@emory.edu
+  title: Integrative Learning for Population of Dynamic Networks with Covariates
+  abstract: Although there is a rapidly growing literature on dynamic connectivity methods, 
+  the primary focus has been on separate network estimation for each individual, which fails 
+  to leverage common patterns of information. We propose novel graph-theoretic approaches for 
+  estimating a population of dynamic networks that are able to borrow information across 
+  multiple heterogeneous samples in an unsupervised manner and guided by covariate information. 
+  Specifically, we develop a Bayesian product mixture model that imposes independent mixture priors 
+  at each time scan and uses covariates to model the mixture weights, which results in time-varying 
+  clusters of samples designed to pool information. The computation is carried out using an 
+  efficient Expectation-Maximization algorithm. Extensive simulation studies illustrate sharp 
+  gains in recovering the true dynamic network over existing dynamic connectivity methods. An
+  analysis of fMRI block task data with behavioral interventions reveal sub-groups of individuals 
+  having similar dynamic connectivity, and identifies intervention-related dynamic network changes 
+  that are concentrated in biologically interpretable brain regions. In contrast, existing dynamic 
+  connectivity approaches are able to detect minimal or no changes in connectivity over time, which
+  seems biologically unrealistic and highlights the challenges resulting from the inability to 
+  systematically borrow information across samples.
+  firstname: Jin
+  lastname: Ming
+- ID: UNK
+  type: poster
+  order: 18
+  id: 18
+  name: Yifan Yu
+  affil: University of Oxford
+  email:   yifan.yu@keble.ox.ac.uk
+  title: Meta Regression for Coordinate Based Meta Analysis Data with a Spatial Model
+  abstract: The most widely used methods for Coordinate Based Meta-Analysis (CBMA) are all
+  based on a mass-univariate approach that does not explicitly model the spatial smoothness of
+  the distribution of activation foci. Some methods, like ALE, lack an interpretable 
+  parameter map which makes regression modelling or group comparisons challenging.  We propose a 
+  spatial model that treats the foci as instances of an inhomogeneous Poisson process. We use a 
+  log-linear regression with either a Poisson model or a Negative Binomial model that can account
+  for excess variance. This provides a generative regression model that estimates a smooth
+  intensity function, and can have group-specific intensity functions and study-level regressors.
+  While similar spatial Bayesian methods have been proposed, this frequentist model uses a 
+  3D tensor product B-spline basis to efficiently model the entire image jointly. We demonstrate the 
+  method on a meta-analysis of working memory (WM), comparing studies using verbal stimuli vs 
+  studies using non-verbal stimuli. 
+  firstname: Yifan
+  lastname: Yu
+- ID: UNK
+  type: poster
+  order: 19
+  id: 19
+  name: Anass El Yaagoubi Bourakna
+  affil: KAUST
+  email:   anass.bourakna@kaust.edu.sa
+  title: Topological data analysis of dependence structure in brain networks
+  abstract: Detecting meaningful pattern structures in neural activity is a key 
+  task in neuroscience. Recent developments in the field of topological data 
+  analysis (TDA) produced tools for practitioners to study and explore the shape 
+  of brain data such as electroencephalogram/local field potentials; such methods
+  are useful to derive powerful classification algorithms. Classical approaches for
+  time series analysis provide tools to analyze “classical features” (such as 
+  cross-correlation, cross-cohrerence, partial coherence etc.) of the time series; 
+  those features are sensitive to many data transformations and thus are not always
+  robust. In contrast, TDA offers a new set of features that provide a summary of
+  the data that has a topological meaning, which is not always easily interpretable. 
+  However, such approaches that consist in the use of TDA to unravel the shape of data 
+  directly can be limited, especially when dealing with stationary snippets of brain
+  signals. There are not many papers in TDA literature that explore brain dependence 
+  structure. In this poster, we propose a method that explores topological features of 
+  coherence matrices. The proposed TopDep method provides a meaningful topological 
+  summary of the observed brain signals. We call those topological summaries persistence
+  surfaces (PSs). At every frequency, the PS displays a persistence landscape that 
+  summaries the topological shape of dependence using the homology groups of different
+  dimensions. The center of the empirical distribution of the sample PSs is the analogue
+  of the population’s PS, because of the random nature of such summary. To illustrate the 
+  ideas above we provide interesting simulations that display a topological behavior in 
+  the dependence structure of a population of persistence surfaces and how it can detect 
+  outliers. As a next step we will analyze EEG data to show topological behavior in the
+  dependece structure of brain signals. The proposed summary is frequency specific (i.e., 
+  the topological features are allowed to change across frequency bands) and has the ability 
+  to capture the interesting patterns that are present in the data. We derive testing
+  procedures based on the bootstrap and permutation approaches that are frequency band 
+  specific. This work demonstrates that the persistence surfaces are a powerful new tool 
+  for dependence matrix analysis in brain signals, where the brain connectivity network 
+  might display interesting topological behavior.
+  firstname: Anass
+  lastname: Bourakna
+- ID: UNK
+  type: poster
+  order: 20
+  id: 20
+  name: Coleman Harris
+  affil: Vanderbilt University
+  email:   coleman.r.harris@vanderbilt.edu
+  title: Combining Batches of High-Dimensional Multiplexed Images
+  abstract: High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
+  populations in healthy and tumorous tissues, offering insight into tumor progression and 
+  improved treatment strategies. However, implicit biases exist in the imaging pipeline - images 
+  are distorted by optical effects, slide and batch effects, and instrument variability. Normalization 
+  of this data is compounded by the number of markers and natural tissue variability within each 
+  image, introducing systematic differences that impact inference. In this work, we introduce an 
+  image normalization pipeline to reduce systematic variability in multiplexed images by correcting 
+  for batch effects. We build on existing methods to compare the following approaches to correct 
+  for the batch effects in the data: a logarithmic transformation, a simple standardization (division 
+  by the mean), and approaches that adapt ComBat and functional data registration. We 
+  demonstrate these methods by analyzing multiplexed immunofluorescence (MxIF) images of 
+  human colorectal tissue samples to quantify the reduction in variability of the data, namely using 
+  thresholding methods and random effects models. We further demonstrate the method's ability 
+  to retain biological signal by evaluating prediction accuracy of models for specific regions 
+  containing tumors in the tissue samples.
+  firstname: Coleman
+  lastname: Harris
