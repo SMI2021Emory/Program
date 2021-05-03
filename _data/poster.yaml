@@ -178,3 +178,219 @@ containing tumors in the tissue samples.'
   illustrated through an application to data from the UK Biobank.
   firstname: Pritam
   lastname: Dey
+- ID: UNK
+  type: poster
+  order: 8
+  id: 8
+  name: Cintya Nirvana Dutta
+  affil: King Abdullah University of Science and Technology
+  email: cintya.dutta@kaust.edu.sa
+  title: Structural Brain Asymmetries in Youths with Combined and Inattentive Presentations of Attention Deficit Hyperactivity Disorder
+  abstract: 'Alterations in structural brain asymmetry are reported in attention- deficit/hyperactivity disorder (ADHD). 
+  Here we replicate left-right asymmetry in combined and inattentive ADHD. Methods: We investigate asymmetry index 
+  (AI) across 13 subcortical and 33 cortical regions from anatomical metrics of volume, surface area, and thickness. 
+  Structural T1- weighted MRI data were obtained from youths with ADHD-C (n1 = 51) and ADHD-I (n2 = 64), and aged-matched 
+  controls (n0 = 298). We used a linear mixed effects model that accounts for data site heterogeneity, while studying 
+  associations between AI and covariates of presentation and age. Results: After study-wide correction for multiple comparisons, 
+  ADHD-Inattentive had greater rightward asymmetry in thickness of the inferior temporal (t = −3.72, p-value < 10−5), along with 
+  age (t = 3.54, p-value < 10−5). Regions that did not satisfy the multiple testing correction support functional MRI results of 
+  disrupted connectivity in motor networks from ADHD-C and default mode from ADHD-I. Conclusions: Temporal deficits may differentiate 
+  ADHD presentations. Symptom severity can determine if brain asymmetry patterns are causal or compensatory. Significance: Structural 
+  brain asymmetry may provide neurobiological insight into ADHD presentations. Using linear mixed effects model, one can conduct formal 
+  statistical inference on associations between brain asymmetries, diagnosis, and neurodevelopment.'
+  firstname: Cintya
+  lastname: Dutta
+- ID: UNK
+  type: poster
+  order: 9
+  id: 9
+  name: Aditi Basu Bal
+  affil: Florida State University
+  email:  juhu.basu@gmail.com
+  title: Statistical Shape Analysis of Elastic Graphs
+  abstract: This research project develops a comprehensive framework for generative statistical 
+  analysis of elastic shape graphs. Examples of such graphs include road networks, brain arterial 
+  networks, brain fiber tracts, retinal blood vessels, etc. We represent an elastic shape graph as a 
+  collection of nodes that are connected by (2D or 3D) curves or edges with arbitrary shapes. Using
+  a novel mathematical representation and a Riemannian metric on this representation, we seek geometrical 
+  tools such as computations of geodesics, means and covariances, and PCA, for modeling and testing 
+  such graphical shapes. This work further introduces an efficient method to calculate means of shape 
+  graphs and also explores the use of landmarks in improving registration of nodes. These ideas are 
+  illustrated using simulated as well as real data examples.
+  firstname: Aditi
+  lastname: Basu
+- ID: UNK
+  type: poster
+  order: 10
+  id: 10
+  name: Meini Tang
+  affil: King Abdullah University of Science and Technology
+  email:  meini.tang@gmail.com
+  title: BICNet: A Bayesian Approach for Estimating Task Effects on Intrinsic Connectivity Networks in fMRI Data
+  abstract: 'Intrinsic connectivity networks (ICNs) are specific dynamic functional brain networks that are 
+  consistently found under various conditions including rest and task. Studies have shown that some stimuli 
+  actually activate intrinsic connectivity through either suppression, excitation, moderation or modification. 
+  Nevertheless, the structure of ICNs and task-related effects on ICNs are not yet fully understood. 
+  In this paper, we propose a Bayesian Intrinsic Connectivity Network (BICNet) model to identify the ICNs 
+  and quantify the task-related effects on the ICN dynamics. Using an extended Bayesian dynamic sparse 
+  latent factor model, the proposed BICNet has the following advantages: (1) it simultaneously identifies the 
+  individual ICNs and group-level ICN spatial maps; (2) it robustly identifies ICNs by jointly 
+  modeling resting-state functional magnetic resonance imaging (rfMRI) and task-related 
+  functional magnetic resonance imaging (tfMRI); (3) compared to independent component 
+  analysis (ICA)-based methods, it can quantify the difference of ICNs amplitudes across 
+  different states; (4) it automatically performs feature selection through the sparsity of the 
+  ICNs rather than ad-hoc thresholding. The proposed BICNet was applied to the rfMRI and 
+  language tfMRI data from the Human Connectome Project (HCP) and the analysis identified several ICNs 
+  related to distinct language processing functions.'
+  firstname: Meini
+  lastname: Tang
+- ID: UNK
+  type: poster
+  order: 11
+  id: 11
+  name: Chenlu Shan
+  affil: Emory University
+  email:  chenlu.shan@emory.edu
+  title: BICNet: A Bayesian Approach for Estimating Task Effects on Intrinsic Connectivity Networks in fMRI Data
+  abstract: 'Anemia detection requires invasive blood testing with the gold standard hemoglobin level by a 
+  complete blood count (CBC). This procedure involves phlebotomy, which could lead to certain adverse effects. 
+  We consider a recently proposed non-invasive method for monitoring anemia with a fingernail image taken from
+  patients. Non-invasive anemia detection involves procedure of extracting color data from patients’ fingernail
+  bed smartphone images. The color data are extracted in RGB (Red, Green, Blue) color space. Since it is unknown
+  that which color space transformation is most useful in discriminating anemia population vs healthy population,
+  our work focused on determining which transformation of RGB (Red, Green, Blue) data would produce the best 
+  separation among anemic and control subjects. Several metrics are used to access the separation between anemia 
+  and healthy groups based on within sum of squares and between sum of squares (Metric 1: Ratio of within variation
+  to between variation). It is shown that HSI (Hue, Saturation, Intensity) color space performs the best in comparison
+  to all other color spaces (Metric 1: 1.02, (95% CI: 0.82-1.35) for HSI, Metric 1: 0.76 (95% CI: 0.56-1.05) for RGB).
+  The HSI color space also produced the lowest mean squared errors in predicting anemia status using Lasso Regression 
+  method (MSE for HSI: 0.085, For RGB: 0.096). We conclude HSI color space as the best color space in separating 
+  anemia vs control.'
+  firstname: Chenlu
+  lastname: Shan
+- ID: UNK
+  type: poster
+  order: 12
+  id: 12
+  name: Guillermo Cuauhtemoctzin Granados Garcia
+  affil: King Abdullah University of Science and Technology
+  email:  guillermo.granadosgarcia@kaust.edu.sa
+  title: Analysis of multichannel brain signals via nonparametric Bayesian mixtures of autoregressive kernels
+  abstract: To analyze multichannel brain signals, we develop a novel approach to identify the most prevalent
+  oscillatory activity within each channel and decompose the multivariate signals in their common
+  oscillatory patterns present among channels to characterize different types of associations between
+  pairs of channels. 
+  The current approach is to analyze power at subjectively predefined frequency bands; this is a
+  serious limitation because it does not allow the data to identify specific peaks power and location
+  that are associated with the cognitive demands. 
+  To overcome the limitations of current approaches, we develop the Multivariate Bayesian Mixture 
+  Auto-Regressive Decomposition (MBMARD) that identifies from the data (rather than apriori 
+  assumed) (i) the number of common prominent peaks across channels, (ii) the frequency peak 
+  locations, and (iii) their corresponding spread of power around the peaks. 
+  The MBMARD method jointly model the spectral functions of multichannel signals as a multimodal 
+  PDF via a Dirichlet Process (DP) mixture based on a kernel derived from second-order 
+  auto-regressive processes (AR(2)) with unique spectral density having a single peak. 
+  Under the MBMARD approach, the multichannel signals are modeled as a mixture of AR(2) latent 
+  processes capturing the associations strength between channels through the mixture weights from 
+  the DP model. 
+  The simulation studies demonstrate the robustness and performance of the MBMARD method. 
+  We present the analysis of local field potential (LFP) activity on multiple tetrodes from the hippocampus 
+  of laboratory rats during a non spatial memory task giving new insightful results on 
+  frequency specific power changes over different experimental conditions. 
+  We also present a second analysis on multichannel human EEG data from an alcoholic and control 
+  subjects were MBMARD accounts for between-subject variation in capturing frequency-specific 
+  power associations among different brain regions.
+  firstname: Guillermo
+  lastname: Granados Garcia
+- ID: UNK
+  type: poster
+  order: 12
+  id: 12
+  name: Chalmer Tomlinson
+  affil: UNC Chapel Hill
+  email:  chalmer.tomlinson@gmail.com
+  title: A Regression Framework for Brain Network Distance Metrics
+  abstract: 'Analyzing brain networks has long been a prominent research topic in neuroimaging. 
+  However, statistical methods to detect differences between these networks and relate them to 
+  phenotypic traits are still sorely needed. Our previous work developed a novel permutation 
+  testing framework to detect differences between two groups. Here we advance that work to allow 
+  both assessing differences by continuous phenotypes and controlling for confounding variables. 
+  To achieve this, we propose an innovative regression framework to relate distances between brain 
+  network features to functions of absolute differences in continuous covariates and indicators of
+  difference for categorical variables. We explore several similarity metrics for comparing distances
+  between connection matrices, and adapt several standard methods for estimation and inference within
+  our framework: Standard F-test, F-test with individual level effects (ILE), Generalized Least Squares 
+  (GLS), Mixed Model, and Permutation. We also propose a novel modification of the standard GLS approach
+  for estimation and inference. We assess all approaches for estimation and inference via simulation 
+  studies, and illustrate the utility of our framework by analyzing the relationship between fluid intelligence 
+  and brain network distances in Human Connectome Project (HCP) data.'
+  firstname: Chalmer
+  lastname: Tomlinson
+- ID: UNK
+  type: poster
+  order: 13
+  id: 13
+  name: Hanwen Hu
+  affil: Florida State University
+  email:   hh19j@my.fsu.edu
+  title: Shape-on-Shape Regression based on Unitary Operators
+  abstract: 'We focus on a specific subproblem in functional regression models where both 
+  predictors and responses are "shapes" of functional variables. We can find examples of this problem 
+  in neuroimaging, epidemiology, finance, and biology. Taking the elastic shape analysis approach, 
+  we represent shapes of functions using the square-root velocity functions (SRVFs), elements of a 
+  unit Hilbert sphere or a preshape space. Removing the unwanted transformations (time warping, etc.) 
+  leads to a quotient space or a shape space. We model the conditional mean of the response shapes as 
+  "rigid rotations" of the predictors on the Hilbert sphere and the noise using the Fisher von Mises 
+  distribution. We derive the theory and algorithms for the pseudo-maximum-likelihood estimator of this 
+  unitary operator given observed paired data. This solution is developed in two steps: we first develop
+  the estimation framework for the preshape space and then extend it to the shape space. We demonstrate 
+  these ideas on two synthetic datasets as well as a real dataset, the pairs of Covid-19 case curves and 
+  death curves in 51 US states.'
+  firstname: Hanwen
+  lastname: Hu
+- ID: UNK
+  type: poster
+  order: 14
+  id: 14
+  name: Zikai Lin
+  affil: University of Michigan
+  email:   zikai@umich.edu
+  title: Image-on-scalar Regression with Latent Subgroup Identification using Expectation Maximization
+  abstract: 'Image-on-scalar regression has been a popular approach to modeling the association between 
+  brain activities (image response) and clinical characteristics (scalar predictors) in neuroimaging
+  research. The recent large neuroimaging studies, e.g., the Adolescent Brain Cognitive Development 
+  (ABCD) study, indicate that this type of association may be heterogenous across individuals in the population. 
+  It is of great interest to identify subgroups of individuals from the population such that: 1) within 
+  each subgroup the brain activity is homogenously associated with the clinical characteristics; 2) across 
+  subgroups the associations are different; and 3) the group allocation depends on individual characteristics.
+  The existing image-on-scalar regression methods, such as the spatially varying coefficient model (SVCM) and
+  other clustering methods, e.g., k-means, cannot directly achieve this goal. To address this challenge, we 
+  propose a novel latent subgroup image-on-scalar regression model (LASIR) for analysis of large-scale and 
+  heterogenous neuroimaging data collected from multiple sites. In LASIR, we introduce the latent subgroup
+  indicator for each individual, the group-specific spatially varying coefficients and random effects for 
+  experimental sites. We adopt an efficient stochastic expectation maximization algorithm for model inferences.
+  We demonstrate that LASIR outperforms the existing alternatives for subgroup identification of brain activation 
+  patterns via extensive simulations and analyses of working-memory task fMRI data in the ABCD study.'
+  firstname: Zikai
+  lastname: Lin
+- ID: UNK
+  type: poster
+  order: 15
+  id: 15
+  name: Jialu Ran
+  affil: Emory University
+  email:   jialu.ran@emory.edu
+  title: Investigating latent neurocircuitry traits underlying brain dynamic functional connectome
+  abstract: In recent years, the analysis of brain network connectivity has become increasingly popular in neuroscience research. 
+  Investigating brain functional connectome as well as its change across time provides insights into the dynamic 
+  nature of brain organizations. However, such analyses often face some major challenges including the high 
+  dimensionality of brain networks, unknown latent sources underlying the observed connectivity, and the large number 
+  of brain connections leading to spurious _ndings. In our research, we aim to characterize 
+  various neural circuits underlying dynamic brain functional connectivity using a novel blind source separation (BSS) 
+  framework with low-rank structure and an angle-based sparsity regularization. Our proposed method captures the 
+  dynamic profiles of different neural circuits, reveals key brain regions or nodes that drive each of these circuits and 
+  identifies neural circuits associated with disease phenotypes. In this talk, we will introduce the methodology of 
+  our dynamic connectome source separation method and also present our findings on dynamic neurocircuitry traits extracted
+  from a resting-state fMRI study.
+  firstname: Jialu
+  lastname: Ran
