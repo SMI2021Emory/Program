@@ -1,5 +1,5 @@
 ---
-title : Founder's talk
+title : Founders talk
 layout: default
 order : 1
 ---
