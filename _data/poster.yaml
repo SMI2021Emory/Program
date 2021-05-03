@@ -1,0 +1,180 @@
+- ID: UNK
+  type: poster
+  order: 1
+  id: 1
+  name: Xueyan Liu
+  affil: University of New Orleans
+  email: xliu10@uno.edu
+  title: A Novel Correlation based Co-localization Analysis of Super-resolution Images
+  abstract: Super resolution imaging techniques have significantly improved the resolution of
+  microscopic images from 250 to a few nanometers over the past decades, resulting in data format
+  evolving from color intensity arrays to precise coordinated locations. Hence, new coordinate based
+  statistical methods using precise locational information to study co localization of dual color
+  spatial points in super resolution microscopy images are in high demand. In this study, we propose
+  a new correlation based method, named Normalized Spatial Intensity Correlation ( NSInC , “in synch”),
+  to quantify the degree of co localization with area based edge effect corrections which removes
+  biasedness in the current available methods. Simulations and real applications are provided for
+  illustrating the validity and applicability. 
+  firstname: Xueyan
+  lastname: Liu
+- ID: UNK
+  type: poster
+  order: 2
+  id: 2
+  name: Coleman Harris
+  affil: Vanderbilt University
+  email: coleman.r.harris@vanderbilt.edu
+  title: Combining Batches of High-Dimensional Multiplexed Images
+  abstract: 'High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell
+populations in healthy and tumorous tissues, offering insight into tumor progression and
+improved treatment strategies. However, implicit biases exist in the imaging pipeline - images
+are distorted by optical effects, slide and batch effects, and instrument variability. Normalization
+of this data is compounded by the number of markers and natural tissue variability within each
+image, introducing systematic differences that impact inference. In this work, we introduce an
+image normalization pipeline to reduce systematic variability in multiplexed images by correcting
+for batch effects. We build on existing methods to compare the following approaches to correct
+for the batch effects in the data: a logarithmic transformation, a simple standardization (division
+by the mean), and approaches that adapt ComBat and functional data registration. We
+demonstrate these methods by analyzing multiplexed immunofluorescence (MxIF) images of
+human colorectal tissue samples to quantify the reduction in variability of the data, namely using
+thresholding methods and random effects models. We further demonstrate the method's ability
+to retain biological signal by evaluating prediction accuracy of models for specific regions
+containing tumors in the tissue samples.'
+  firstname: Coleman
+  lastname: Harris
+- ID: UNK
+  type: poster
+  order: 3
+  id: 3
+  name: Rongjie Liu
+  affil: Florida State University
+  email: rliu3@fsu.edu
+  title: PPA: Principal Parcellation Analysis for Brain Connectomes and Multiple Traits
+  abstract: Our understanding of the structure of the brain and its
+  relationships with human traits is largely determined by how we
+  represent the structural connectome. Standard practice divides
+  the brain into regions of interest (ROIs) and represents the
+  connectome as an adjacency matrix having cells measuring
+  connectivity between pairs of ROIs. Statistical analyses are then
+  heavily driven by the (largely arbitrary) choice of ROIs. We
+  propose a novel tractography-based representation of brain
+  connectomes, which clusters fiber endpoints to define a data
+  adaptive parcellation targeted to explain variation among
+  individuals and predict human traits. This representation leads
+  to Principal Parcellation Analysis (PPA), representing individual
+  brain connectomes by compositional vectors building on a basis
+  system of fiber bundles that captures the connectivity at the
+  population level. PPA reduces subjectivity and facilitates
+  statistical analyses. We illustrate the proposed approach
+  through applications to data from the Human Connectome
+  Project (HCP) and show that PPA connectomes improve power
+  in predicting human traits over state-of-the-art methods based
+  on classical connectomes while dramatically improving
+  parsimony and maintaining interpretability.
+  firstname: Rongjie
+  lastname: Liu
+- ID: UNK
+  type: poster
+  order: 4
+  id: 4
+  name: Yuexuan Wu
+  affil: Florida State University
+  email: yw17g@my.fsu.edu
+  title: There is increasing evidence on the importance of brain morphology in 
+  predicting and classifying mental disorders and behavior. However, most current 
+  shape approaches rely heavily on vertex-wise analysis that may not successfully 
+  capture complexities of subcortical structures. Additionally, the past works do not 
+  include interactions between these structures and exposure factors when modeling 
+  clinical or behavioral outcomes. Predictive modeling with such interactions is of
+  paramount interest in heterogeneous mental disorders such as PTSD, where trauma 
+  exposure and other factors interact with brain shape changes to influence behavior.
+  We propose a comprehensive framework that overcomes these limitations by representing 
+  brain substructures as continuous parameterized surfaces and quantifying their shape 
+  differences using elastic shape metrics. Using the elastic shape metric, we compute 
+  shape summaries (mean, covariance, PCs) of subcortical data and represent individual 
+  shapes by their principal scores under a PCA basis. These representations allow 
+  visualization tools that help understand localized changes when these PCs are varied. 
+  Subsequently, these PCs, the auxiliary exposure variables, and their interactions are 
+  used for regression modeling and prediction. We apply our method to data from the 
+  Grady Trauma Project (GTP), where the goal is to predict clinical measures of PTSD 
+  using shapes of brain substructures such as the hippocampus, amygdala, and putamen. Our 
+  analysis revealed considerably greater predictive power under the elastic shape analysis 
+  than widely used approaches such as the standard vertex-wise shape analysis and even a 
+  volumetric analysis. It helped identify local deformations in brain shapes related to 
+  change in PTSD severity. To our knowledge, this is one of the first brain shape analysis
+  approaches that can seamlessly integrate the pre-processing steps under one umbrella for 
+  improved accuracy and are naturally able to account for interactions between brain shape 
+  and additional covariates to yield superior predictive performance when modeling clinical 
+  outcomes. Interactive visualizations are available in the 
+  GitHub repository (https://github.com/wuyx5/Elastic-Shape-Analysis-PTSD).
+  firstname: Yuexuan
+  lastname: Wu
+- ID: UNK
+  type: poster
+  order: 5
+  id: 5
+  name: Steven Winter
+  affil: Duke University
+  email: steven.winter@duke.edu
+  title: Multi-scale Graph Principal Component Analysis for Connectomics
+  abstract: In brain connectomics, it is common to divide the cortical surface 
+  into discrete regions of interest (ROIs) and then to use these regions to induce a graph. 
+  The structure of the resulting adjacency matrices depends critically on the chosen regions, 
+  leading to dramatically different inference when different regions are chosen. To solve 
+  this problem we develop a multi-scale graph model, which links together scale-specific 
+  factorizations through common individual-specific latent factors. These scores combine information across 
+  from different parcellations to produce a single interpretable summary of an individuals brain structure. We
+  develop a simple, efficient algorithm, and illustrate substantial advantages over comparable 
+  single-scale methods in both simulations and analyses of the Human Connectome Project dataset.
+  firstname: Steven
+  lastname: Winter
+- ID: UNK
+  type: poster
+  order: 6
+  id: 6
+  name: Marco Palma
+  affil: University of Warwick
+  email: M.Palma@warwick.ac.uk
+  title: Quantifying brain age prediction uncertainty from imaging using scalar-on-image quantile regression
+  abstract: Prediction of subject age from brain anatomical MRI has the potential to provide a 
+  sensitive summary of brain changes, indicative of different neurodegenerative diseases. 
+  However, existing studies typically neglect the uncertainty of these predictions. In this work we 
+  take into account this uncertainty by applying methods of functional data analysis. We propose
+  a penalized functional quantile regression model of age on brain structure with cognitively
+  normal (CN) subjects in the Alzheimer’s Disease Neuroimaging Initiative (ADNI) and
+  use it to predict brain age in Mild Cognitive Impairment (MCI) and Alzheimer’s Disease
+  (AD) subjects. Unlike the machine learning approaches available in the literature of brain
+  age prediction, which provide only point predictions, the outcome of our model is a prediction
+  interval for each subject. The prediction accuracy obtained with this model is similar
+  to more sophisticated approaches, while being also more principled and interpretable. The
+  gap between predicted and chronological age correlates with cognitive decline.
+  firstname: Marco
+  lastname: Palma
+- ID: UNK
+  type: poster
+  order: 7
+  id: 7
+  name: Pritam Dey
+  affil: Duke University
+  email: pritam.dey@duke.edu
+  title: Outlier Detection for Multi-Network Data
+  abstract: It has become routine in neuroscience studies to measure brain networks for 
+  different individuals using neuroimaging. These networks are expressed as adjacency matrices, 
+  with each cell containing a summary of connectivity between a pair of brain regions. There is 
+  an emerging statistical literature describing methods for the analysis of such multi-network data
+  in which nodes are common across networks, but the edges vary. However, such brain connectome 
+  data often consist of outliers from various sources. First, the data can be corrupted by noise 
+  from various sources during the data collection phase like physical movement of the subject during
+  the scanning process. In addition, structural connectivity reconstruction is a complex process, 
+  consisting of many steps and relying on many different open-source software suites. A small mistake
+  in the pipeline (e.g., brain tissue segmentation error) will be propagated and amplified to the 
+  final connectivity output. . For such individuals, the resulting adjacency matrix may be mostly 
+  zeros or may exhibit a bizarre pattern not consistent with a normal brain network. Previous quality 
+  controls of these pipelines heavily rely on man power through visualization of intermediate results,
+  which is time consuming and impractical for large datasets such as UK Biobank. However, if not accounted 
+  for carefully, the outlying connectomes can be influential in subsequent statistical analyses. We 
+  propose a simple method for network outlier detection (NOD) relying on an approximation of the influence 
+  function under a hierarchical generalized linear model for the adjacency matrices. Our NOD method is 
+  illustrated through an application to data from the UK Biobank.
+  firstname: Pritam
+  lastname: Dey
