@@ -525,3 +525,105 @@ containing tumors in the tissue samples.'
   containing tumors in the tissue samples.
   firstname: Coleman
   lastname: Harris
+- ID: UNK
+  type: poster
+  order: 21
+  id: 21
+  name: Daniel Spencer
+  affil: Indiana University
+  email:   danieladamspencer@gmail.com
+  title: Large Scale Validation of the Spatial Bayesian General Linear Model for Cortical Surface fMRI Data
+  abstract: Functional magnetic resonance imaging (fMRI) data over a noninvasive measure 
+  for interpreting neuronal processes in subjects in vivo at relatively high spatial and temporal resolutions. 
+  Task fMRI is an imaging technique in which a subject is exposed to a stimulus, sometimes with an expected response, 
+  in order to assess how the brain reacts. However, the signal-to-noise ratio in preprocessed task fMRI data 
+  remains low, requiring innovative methods in order to provide the most statistical power possible. Bayesian spatial 
+  methods allow for explicit, probabilistic definitions of the expected underlying signal spatial dependence,
+  offering significant increases to model power through efficient use of available data. However, most such methods 
+  analyze fMRI data that incorporate spatial dependencies via the locations in the brain represented as a volume. 
+  Such models use distance-based dependence modeling using Euclidean distance, which can drastically distort 
+  the geodesic distances along the folded cortex, resulting in oversmoothed activation amplitude estimates and reduced 
+  power. An alternative is to examine data on the cortical surface, which allows for more accurate measures of 
+  distance between data locations. A recent study proposed such a surface-based spatial Bayesian general 
+  linear model (GLM) for task fMRI and showed improvements when estimating activation amplitude and determining areas of 
+  significant brain activation. This promising study necessitates large scale validation in order to convincingly 
+  demonstrate the value of the method to the broader neuroscience community. In this study, we validate the 
+  surface-based spatial Bayesian GLM using a dataset of test-retest motor task data from the HCP. We assess the reliability 
+  and power of individual and group-average task activations. In addition, we extend the surface-based spatial Bayesian 
+  GLM to incorporate multiple runs in single-subject analyses. Comparisons to a classical massive "univariate" GLM for cortical surface 
+  fMRI are included to show both improved power and reliability of the spatial Bayesian GLM.
+  firstname: Daniel
+  lastname: Spencer
+- ID: UNK
+  type: poster
+  order: 22
+  id: 22
+  name: Matheus Bartolo Guerrero
+  affil: Indiana University
+  email:   matheus.bartologuerrero@kaust.edu.sa
+  title: Clustering brain extreme communities from multi-channel EEG data
+  abstract: Epilepsy is a chronic neurological disorder affecting more than 50 million 
+  people globally. An epileptic seizure acts like a temporary shock to the neuronal system, 
+  disrupting normal electrical activity in the brain. Epilepsy is frequently diagnosed 
+  with electroencephalograms (EEGs). Current cluster methods for characterizing brain 
+  connectivity rely on the bulk of EEG distribution, such as coherence. Here, we use 
+  a spherical k-means procedure based on extreme amplitudes of EEG signals during an 
+  epileptic seizure. With this approach, cluster centers can be interpreted as extremal 
+  prototypes, revealing the dependence structures of EEG channel communities. The way 
+  cluster components relate to each other can be used as an exploratory tool to classify 
+  EEG channels into asymptotic independents or asymptotic dependents. We illustrate the 
+  use of this approach by an application to a real dataset from a patient with left temporal 
+  lobe epilepsy.
+  firstname: Matheus
+  lastname: Bartolo Guerrero
+- ID: UNK
+  type: poster
+  order: 23
+  id: 23
+  name: Jun Young Park
+  affil: University of Toronto
+  email:    junjy.park@utoronto.ca
+  title: SpLoc: Permutation-based spatial scanning for detecting fMRI group-level activation clusters
+  abstract: A new cluster-wise inference method, called SpLoc (“Spatially LOCalized signals”), is introduced to 
+  detect statistically significant voxels/vertices in neuroimaging data. SpLoc increases (i) sensitivity by 
+  taking the average of test statistics within each cluster defined by spatial neighbors and (ii) 
+  specificity by pruning off clusters consisting mainly of the non-signal voxels based on the orderings 
+  of the test statistics. It uses resampling approaches (sign-flipping/permutation) to estimate 
+  potentially nonstationary spatial correlations and control family-wise error. We apply it to the taskfMRI 
+  data from the Human Connectome Project and conduct simulation studies to address the 
+  SpLoc’s performance compared to the existing methods.
+  firstname: Jun Young
+  lastname: Park
+- ID: UNK
+  type: poster
+  order: 24
+  id: 24
+  name: Andrew Gerlach
+  affil: University of Pittsburgh
+  email: arg151@pitt.edu
+  title: Higher Criticism to Understand the Complex Neural Underpinnings of Worry
+  abstract: ''
+  firstname: Andrew
+  lastname: Gerlach
+- ID: UNK
+  type: poster
+  order: 25
+  id: 25
+  name: Justin Leach
+  affil: University of Alabama at Birmingham
+  email: jleach@uab.edu
+  title: The Spike-and-Slab Elastic Net as a Classification Tool in Alzheimer's Disease
+  abstract: Alzheimer's disease (AD) is the leading cause of dementia and has received considerable
+  research attention, including using neuroimaging biomarkers to classify patients and/or predict disease
+  progression. Generalized linear models, e.g., logistic regression, can be used as classifiers, 
+  but since the spatial measurements are correlated and often outnumber subjects, penalized and/or 
+  Bayesian models will be identifiable, while classical models often will not. Many useful models,
+  e.g., the elastic net and spike-and-slab lasso, perform automatic variable selection, which removes
+  extraneous predictors and reduces model variance, but neither model exploits spatial information in
+  selecting variables. Spatial information can be incorporated into variable selection by placing 
+  intrinsic autoregressive priors on the logit probabilities of inclusion within a spike-and-slab elastic net 
+  framework. We use cortical thickness and tau-PET images from the Alzheimer's Disease Neuroimaging Initiative
+  (ADNI) study for binary classification of subjects who are cognitively normal, mildly cognitively 
+  impaired, or diagnosed with dementia to demonstrate that this framework can improve classification performance.
+  firstname: Justin
+  lastname: Leach
