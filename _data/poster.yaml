@@ -6,7 +6,7 @@
   affil: University of New Orleans
   email: xliu10@uno.edu
   title: A Novel Correlation based Co-localization Analysis of Super-resolution Images
-  abstract: Super resolution imaging techniques have significantly improved the resolution of
+  abstract: 'Super resolution imaging techniques have significantly improved the resolution of
   microscopic images from 250 to a few nanometers over the past decades, resulting in data format
   evolving from color intensity arrays to precise coordinated locations. Hence, new coordinate based
   statistical methods using precise locational information to study co localization of dual color
@@ -14,7 +14,7 @@
   a new correlation based method, named Normalized Spatial Intensity Correlation ( NSInC , “in synch”),
   to quantify the degree of co localization with area based edge effect corrections which removes
   biasedness in the current available methods. Simulations and real applications are provided for
-  illustrating the validity and applicability. 
+  illustrating the validity and applicability.'
   firstname: Xueyan
   lastname: Liu
 - ID: UNK
