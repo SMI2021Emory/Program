@@ -3,7 +3,7 @@ layout: default
 ID: 
 type: founder
 order: 2
-title: Founder's talk
+title: Founders talk
 organizer:
     name: 
     affil: 
