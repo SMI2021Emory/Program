@@ -206,7 +206,7 @@ containing tumors in the tissue samples.'
   id: 9
   name: Aditi Basu Bal
   affil: Florida State University
-  email:  juhu.basu@gmail.com
+  email: juhu.basu@gmail.com
   title: Statistical Shape Analysis of Elastic Graphs
   abstract: This research project develops a comprehensive framework for generative statistical 
   analysis of elastic shape graphs. Examples of such graphs include road networks, brain arterial 
@@ -225,7 +225,7 @@ containing tumors in the tissue samples.'
   id: 10
   name: Meini Tang
   affil: King Abdullah University of Science and Technology
-  email:  meini.tang@gmail.com
+  email: meini.tang@gmail.com
   title: BICNet: A Bayesian Approach for Estimating Task Effects on Intrinsic Connectivity Networks in fMRI Data
   abstract: 'Intrinsic connectivity networks (ICNs) are specific dynamic functional brain networks that are 
   consistently found under various conditions including rest and task. Studies have shown that some stimuli 
@@ -250,7 +250,7 @@ containing tumors in the tissue samples.'
   id: 11
   name: Chenlu Shan
   affil: Emory University
-  email:  chenlu.shan@emory.edu
+  email: chenlu.shan@emory.edu
   title: BICNet: A Bayesian Approach for Estimating Task Effects on Intrinsic Connectivity Networks in fMRI Data
   abstract: 'Anemia detection requires invasive blood testing with the gold standard hemoglobin level by a 
   complete blood count (CBC). This procedure involves phlebotomy, which could lead to certain adverse effects. 
@@ -274,7 +274,7 @@ containing tumors in the tissue samples.'
   id: 12
   name: Guillermo Cuauhtemoctzin Granados Garcia
   affil: King Abdullah University of Science and Technology
-  email:  guillermo.granadosgarcia@kaust.edu.sa
+  email: guillermo.granadosgarcia@kaust.edu.sa
   title: Analysis of multichannel brain signals via nonparametric Bayesian mixtures of autoregressive kernels
   abstract: To analyze multichannel brain signals, we develop a novel approach to identify the most prevalent
   oscillatory activity within each channel and decompose the multivariate signals in their common
@@ -308,7 +308,7 @@ containing tumors in the tissue samples.'
   id: 12
   name: Chalmer Tomlinson
   affil: UNC Chapel Hill
-  email:  chalmer.tomlinson@gmail.com
+  email: chalmer.tomlinson@gmail.com
   title: A Regression Framework for Brain Network Distance Metrics
   abstract: 'Analyzing brain networks has long been a prominent research topic in neuroimaging. 
   However, statistical methods to detect differences between these networks and relate them to 
@@ -332,7 +332,7 @@ containing tumors in the tissue samples.'
   id: 13
   name: Hanwen Hu
   affil: Florida State University
-  email:   hh19j@my.fsu.edu
+  email: hh19j@my.fsu.edu
   title: Shape-on-Shape Regression based on Unitary Operators
   abstract: 'We focus on a specific subproblem in functional regression models where both 
   predictors and responses are "shapes" of functional variables. We can find examples of this problem 
@@ -354,7 +354,7 @@ containing tumors in the tissue samples.'
   id: 14
   name: Zikai Lin
   affil: University of Michigan
-  email:   zikai@umich.edu
+  email: zikai@umich.edu
   title: Image-on-scalar Regression with Latent Subgroup Identification using Expectation Maximization
   abstract: 'Image-on-scalar regression has been a popular approach to modeling the association between 
   brain activities (image response) and clinical characteristics (scalar predictors) in neuroimaging
@@ -379,7 +379,7 @@ containing tumors in the tissue samples.'
   id: 15
   name: Jialu Ran
   affil: Emory University
-  email:   jialu.ran@emory.edu
+  email: jialu.ran@emory.edu
   title: Investigating latent neurocircuitry traits underlying brain dynamic functional connectome
   abstract: In recent years, the analysis of brain network connectivity has become increasingly popular in neuroscience research. 
   Investigating brain functional connectome as well as its change across time provides insights into the dynamic 
@@ -400,7 +400,7 @@ containing tumors in the tissue samples.'
   id: 16
   name: Thomas Maullin-Sapey
   affil: University of Oxford
-  email:   thomas.maullin-sapey@linacre.ox.ac.uk
+  email: thomas.maullin-sapey@linacre.ox.ac.uk
   title: BLMM: Parallelized Computing for Big Linear Mixed Models
   abstract: 'Population neuroimaging datasets have transformed fMRI sample sizes from tens to thousands 
   of subjects. As sample sizes grow, researchers face mounting pressure to detect and account for 
@@ -418,7 +418,7 @@ containing tumors in the tissue samples.'
   id: 17
   name: Jin Ming
   affil: Emory University
-  email:   jming2@emory.edu
+  email: jming2@emory.edu
   title: Integrative Learning for Population of Dynamic Networks with Covariates
   abstract: Although there is a rapidly growing literature on dynamic connectivity methods, 
   the primary focus has been on separate network estimation for each individual, which fails 
@@ -444,7 +444,7 @@ containing tumors in the tissue samples.'
   id: 18
   name: Yifan Yu
   affil: University of Oxford
-  email:   yifan.yu@keble.ox.ac.uk
+  email: yifan.yu@keble.ox.ac.uk
   title: Meta Regression for Coordinate Based Meta Analysis Data with a Spatial Model
   abstract: The most widely used methods for Coordinate Based Meta-Analysis (CBMA) are all
   based on a mass-univariate approach that does not explicitly model the spatial smoothness of
@@ -466,7 +466,7 @@ containing tumors in the tissue samples.'
   id: 19
   name: Anass El Yaagoubi Bourakna
   affil: KAUST
-  email:   anass.bourakna@kaust.edu.sa
+  email: anass.bourakna@kaust.edu.sa
   title: Topological data analysis of dependence structure in brain networks
   abstract: Detecting meaningful pattern structures in neural activity is a key 
   task in neuroscience. Recent developments in the field of topological data 
@@ -506,7 +506,7 @@ containing tumors in the tissue samples.'
   id: 20
   name: Coleman Harris
   affil: Vanderbilt University
-  email:   coleman.r.harris@vanderbilt.edu
+  email: coleman.r.harris@vanderbilt.edu
   title: Combining Batches of High-Dimensional Multiplexed Images
   abstract: High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
   populations in healthy and tumorous tissues, offering insight into tumor progression and 
@@ -531,7 +531,7 @@ containing tumors in the tissue samples.'
   id: 21
   name: Daniel Spencer
   affil: Indiana University
-  email:   danieladamspencer@gmail.com
+  email: danieladamspencer@gmail.com
   title: Large Scale Validation of the Spatial Bayesian General Linear Model for Cortical Surface fMRI Data
   abstract: Functional magnetic resonance imaging (fMRI) data over a noninvasive measure 
   for interpreting neuronal processes in subjects in vivo at relatively high spatial and temporal resolutions. 
@@ -560,7 +560,7 @@ containing tumors in the tissue samples.'
   id: 22
   name: Matheus Bartolo Guerrero
   affil: Indiana University
-  email:   matheus.bartologuerrero@kaust.edu.sa
+  email: matheus.bartologuerrero@kaust.edu.sa
   title: Clustering brain extreme communities from multi-channel EEG data
   abstract: Epilepsy is a chronic neurological disorder affecting more than 50 million 
   people globally. An epileptic seizure acts like a temporary shock to the neuronal system, 
@@ -582,7 +582,7 @@ containing tumors in the tissue samples.'
   id: 23
   name: Jun Young Park
   affil: University of Toronto
-  email:    junjy.park@utoronto.ca
+  email: junjy.park@utoronto.ca
   title: SpLoc: Permutation-based spatial scanning for detecting fMRI group-level activation clusters
   abstract: A new cluster-wise inference method, called SpLoc (“Spatially LOCalized signals”), is introduced to 
   detect statistically significant voxels/vertices in neuroimaging data. SpLoc increases (i) sensitivity by 
