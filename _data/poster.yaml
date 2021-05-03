@@ -401,7 +401,7 @@ containing tumors in the tissue samples.'
   name: Thomas Maullin-Sapey
   affil: University of Oxford
   email: thomas.maullin-sapey@linacre.ox.ac.uk
-  title: BLMM: Parallelized Computing for Big Linear Mixed Models
+  title: 'BLMM: Parallelized Computing for Big Linear Mixed Models'
   abstract: 'Population neuroimaging datasets have transformed fMRI sample sizes from tens to thousands 
   of subjects. As sample sizes grow, researchers face mounting pressure to detect and account for 
   complex covariance structures induced by the grouping factors present in the experimental design. 
@@ -420,7 +420,7 @@ containing tumors in the tissue samples.'
   affil: Emory University
   email: jming2@emory.edu
   title: Integrative Learning for Population of Dynamic Networks with Covariates
-  abstract: Although there is a rapidly growing literature on dynamic connectivity methods, 
+  abstract: 'Although there is a rapidly growing literature on dynamic connectivity methods, 
   the primary focus has been on separate network estimation for each individual, which fails 
   to leverage common patterns of information. We propose novel graph-theoretic approaches for 
   estimating a population of dynamic networks that are able to borrow information across 
@@ -435,7 +435,7 @@ containing tumors in the tissue samples.'
   that are concentrated in biologically interpretable brain regions. In contrast, existing dynamic 
   connectivity approaches are able to detect minimal or no changes in connectivity over time, which
   seems biologically unrealistic and highlights the challenges resulting from the inability to 
-  systematically borrow information across samples.
+  systematically borrow information across samples.'
   firstname: Jin
   lastname: Ming
 - ID: UNK
@@ -446,7 +446,7 @@ containing tumors in the tissue samples.'
   affil: University of Oxford
   email: yifan.yu@keble.ox.ac.uk
   title: Meta Regression for Coordinate Based Meta Analysis Data with a Spatial Model
-  abstract: The most widely used methods for Coordinate Based Meta-Analysis (CBMA) are all
+  abstract: 'The most widely used methods for Coordinate Based Meta-Analysis (CBMA) are all
   based on a mass-univariate approach that does not explicitly model the spatial smoothness of
   the distribution of activation foci. Some methods, like ALE, lack an interpretable 
   parameter map which makes regression modelling or group comparisons challenging.  We propose a 
@@ -457,7 +457,7 @@ containing tumors in the tissue samples.'
   While similar spatial Bayesian methods have been proposed, this frequentist model uses a 
   3D tensor product B-spline basis to efficiently model the entire image jointly. We demonstrate the 
   method on a meta-analysis of working memory (WM), comparing studies using verbal stimuli vs 
-  studies using non-verbal stimuli. 
+  studies using non-verbal stimuli.'
   firstname: Yifan
   lastname: Yu
 - ID: UNK
@@ -468,7 +468,7 @@ containing tumors in the tissue samples.'
   affil: KAUST
   email: anass.bourakna@kaust.edu.sa
   title: Topological data analysis of dependence structure in brain networks
-  abstract: Detecting meaningful pattern structures in neural activity is a key 
+  abstract: 'Detecting meaningful pattern structures in neural activity is a key 
   task in neuroscience. Recent developments in the field of topological data 
   analysis (TDA) produced tools for practitioners to study and explore the shape 
   of brain data such as electroencephalogram/local field potentials; such methods
@@ -497,7 +497,7 @@ containing tumors in the tissue samples.'
   procedures based on the bootstrap and permutation approaches that are frequency band 
   specific. This work demonstrates that the persistence surfaces are a powerful new tool 
   for dependence matrix analysis in brain signals, where the brain connectivity network 
-  might display interesting topological behavior.
+  might display interesting topological behavior.'
   firstname: Anass
   lastname: Bourakna
 - ID: UNK
@@ -508,7 +508,7 @@ containing tumors in the tissue samples.'
   affil: Vanderbilt University
   email: coleman.r.harris@vanderbilt.edu
   title: Combining Batches of High-Dimensional Multiplexed Images
-  abstract: High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
+  abstract: 'High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
   populations in healthy and tumorous tissues, offering insight into tumor progression and 
   improved treatment strategies. However, implicit biases exist in the imaging pipeline - images 
   are distorted by optical effects, slide and batch effects, and instrument variability. Normalization 
@@ -520,9 +520,9 @@ containing tumors in the tissue samples.'
   by the mean), and approaches that adapt ComBat and functional data registration. We 
   demonstrate these methods by analyzing multiplexed immunofluorescence (MxIF) images of 
   human colorectal tissue samples to quantify the reduction in variability of the data, namely using 
-  thresholding methods and random effects models. We further demonstrate the method's ability 
+  thresholding methods and random effects models. We further demonstrate the method''s ability 
   to retain biological signal by evaluating prediction accuracy of models for specific regions 
-  containing tumors in the tissue samples.
+  containing tumors in the tissue samples.'
   firstname: Coleman
   lastname: Harris
 - ID: UNK
@@ -533,7 +533,7 @@ containing tumors in the tissue samples.'
   affil: Indiana University
   email: danieladamspencer@gmail.com
   title: Large Scale Validation of the Spatial Bayesian General Linear Model for Cortical Surface fMRI Data
-  abstract: Functional magnetic resonance imaging (fMRI) data over a noninvasive measure 
+  abstract: 'Functional magnetic resonance imaging (fMRI) data over a noninvasive measure 
   for interpreting neuronal processes in subjects in vivo at relatively high spatial and temporal resolutions. 
   Task fMRI is an imaging technique in which a subject is exposed to a stimulus, sometimes with an expected response, 
   in order to assess how the brain reacts. However, the signal-to-noise ratio in preprocessed task fMRI data 
@@ -551,7 +551,7 @@ containing tumors in the tissue samples.'
   surface-based spatial Bayesian GLM using a dataset of test-retest motor task data from the HCP. We assess the reliability 
   and power of individual and group-average task activations. In addition, we extend the surface-based spatial Bayesian 
   GLM to incorporate multiple runs in single-subject analyses. Comparisons to a classical massive "univariate" GLM for cortical surface 
-  fMRI are included to show both improved power and reliability of the spatial Bayesian GLM.
+  fMRI are included to show both improved power and reliability of the spatial Bayesian GLM.'
   firstname: Daniel
   lastname: Spencer
 - ID: UNK
@@ -562,7 +562,7 @@ containing tumors in the tissue samples.'
   affil: Indiana University
   email: matheus.bartologuerrero@kaust.edu.sa
   title: Clustering brain extreme communities from multi-channel EEG data
-  abstract: Epilepsy is a chronic neurological disorder affecting more than 50 million 
+  abstract: 'Epilepsy is a chronic neurological disorder affecting more than 50 million 
   people globally. An epileptic seizure acts like a temporary shock to the neuronal system, 
   disrupting normal electrical activity in the brain. Epilepsy is frequently diagnosed 
   with electroencephalograms (EEGs). Current cluster methods for characterizing brain 
@@ -573,7 +573,7 @@ containing tumors in the tissue samples.'
   cluster components relate to each other can be used as an exploratory tool to classify 
   EEG channels into asymptotic independents or asymptotic dependents. We illustrate the 
   use of this approach by an application to a real dataset from a patient with left temporal 
-  lobe epilepsy.
+  lobe epilepsy.'
   firstname: Matheus
   lastname: Bartolo Guerrero
 - ID: UNK
@@ -583,15 +583,15 @@ containing tumors in the tissue samples.'
   name: Jun Young Park
   affil: University of Toronto
   email: junjy.park@utoronto.ca
-  title: SpLoc: Permutation-based spatial scanning for detecting fMRI group-level activation clusters
-  abstract: A new cluster-wise inference method, called SpLoc (“Spatially LOCalized signals”), is introduced to 
+  title: 'SpLoc: Permutation-based spatial scanning for detecting fMRI group-level activation clusters'
+  abstract: 'A new cluster-wise inference method, called SpLoc (“Spatially LOCalized signals”), is introduced to 
   detect statistically significant voxels/vertices in neuroimaging data. SpLoc increases (i) sensitivity by 
   taking the average of test statistics within each cluster defined by spatial neighbors and (ii) 
   specificity by pruning off clusters consisting mainly of the non-signal voxels based on the orderings 
   of the test statistics. It uses resampling approaches (sign-flipping/permutation) to estimate 
   potentially nonstationary spatial correlations and control family-wise error. We apply it to the taskfMRI 
   data from the Human Connectome Project and conduct simulation studies to address the 
-  SpLoc’s performance compared to the existing methods.
+  SpLoc’s performance compared to the existing methods.'
   firstname: Jun Young
   lastname: Park
 - ID: UNK
@@ -613,7 +613,7 @@ containing tumors in the tissue samples.'
   affil: University of Alabama at Birmingham
   email: jleach@uab.edu
   title: The Spike-and-Slab Elastic Net as a Classification Tool in Alzheimer's Disease
-  abstract: Alzheimer's disease (AD) is the leading cause of dementia and has received considerable
+  abstract: 'Alzheimer''s disease (AD) is the leading cause of dementia and has received considerable
   research attention, including using neuroimaging biomarkers to classify patients and/or predict disease
   progression. Generalized linear models, e.g., logistic regression, can be used as classifiers, 
   but since the spatial measurements are correlated and often outnumber subjects, penalized and/or 
@@ -622,9 +622,9 @@ containing tumors in the tissue samples.'
   extraneous predictors and reduces model variance, but neither model exploits spatial information in
   selecting variables. Spatial information can be incorporated into variable selection by placing 
   intrinsic autoregressive priors on the logit probabilities of inclusion within a spike-and-slab elastic net 
-  framework. We use cortical thickness and tau-PET images from the Alzheimer's Disease Neuroimaging Initiative
+  framework. We use cortical thickness and tau-PET images from the Alzheimer''s Disease Neuroimaging Initiative
   (ADNI) study for binary classification of subjects who are cognitively normal, mildly cognitively 
-  impaired, or diagnosed with dementia to demonstrate that this framework can improve classification performance.
+  impaired, or diagnosed with dementia to demonstrate that this framework can improve classification performance.'
   firstname: Justin
   lastname: Leach
 - ID: UNK
@@ -635,7 +635,7 @@ containing tumors in the tissue samples.'
   affil: Texas Tech University
   email: jmthilini-navoda.jayasinghe@ttu.edu
   title: Predicting the minimum number of sampling points needed to approximate shapes of planar contours via LINEX regression models
-  abstract: Researchers in statistical shape analysis often analyze outlines of objects. Even though 
+  abstract: 'Researchers in statistical shape analysis often analyze outlines of objects. Even though 
   these contours are infinite-dimensional in theory, they must be discretized in practice. 
   When discretizing, it is important to reduce the number of sampling points considerably 
   to reduce computational costs, but to not use too few points so as to result in too much 
@@ -651,7 +651,7 @@ containing tumors in the tissue samples.'
   approximate the contours using two criteria with a given error threshold for three parameterizations. 
   Through validation methods, we show that these models work well in 
   many cases, even when predicting lower bounds for new categories of shapes, with low 
-  approximation error.
+  approximation error.'
   firstname: Jayasinghe Mudiyanselage Thilini
   lastname: Navoda Jayasinghe
 - ID: UNK
@@ -662,7 +662,7 @@ containing tumors in the tissue samples.'
   affil: Emory University
   email: bwei8@emory.edu
   title: Tensor response quantile regression with neuroimaging data
-  abstract: Evaluating the impact of clinical factors on neuroimaging phenotypes is
+  abstract: 'Evaluating the impact of clinical factors on neuroimaging phenotypes is
   often of interest in neuroimaging studies. To this end, we propose a tensor response 
   quantile regression framework, where the neuroimaging phenotype is formulated as a tensor response and clinical 
   factors are allowed to have flexible heterogeneous effects on the tensor response. We develop 
@@ -673,7 +673,7 @@ containing tumors in the tissue samples.'
   properties of the proposed estimators. Simulation studies demonstrate good finite-sample 
   performance of the proposed method. We apply the proposed methods to investigate the 
   association of post-traumatic stress disorder(PTSD) clinical assessments and fMRI resting-state 
-  functional connectivities in the Grady Trauma Project.
+  functional connectivities in the Grady Trauma Project.'
   firstname: Bo
   lastname: Wei
 - ID: UNK
@@ -684,7 +684,7 @@ containing tumors in the tissue samples.'
   affil: UCLA
   email: ejcampos@ucla.edu
   title: Multilevel hybrid principal components analysis for region-referenced multilevel functional EEG data
-  abstract: Electroencephalography (EEG) experiments produce region-referenced functional
+  abstract: 'Electroencephalography (EEG) experiments produce region-referenced functional
   data representing brain signals collected across the scalp. The data typically also has a multilevel 
   structure where the high-dimensional observations are collected across experimental conditions or multiple visits. 
   Common analysis of EEG reduces the data complexity by collapsing the functional and regional dimensions, 
@@ -701,7 +701,7 @@ containing tumors in the tissue samples.'
   paradigm across typically developing (TD), minimally verbal and verbal children diagnosed with Autism 
   Spectrum Disorders (ASD) in the first example, reliability of the PSD of ASD and TD children collected 
   across visits that are only a week apart are compared in the second. Finite sample properties of the proposed 
-  methodology are studied in extensive simulations.
+  methodology are studied in extensive simulations.'
   firstname: Emilie
   lastname: Campos
 - ID: UNK
