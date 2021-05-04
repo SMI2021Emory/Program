@@ -11,6 +11,21 @@ order : 3
       {{ session.title }}
   </h2>
 
+<p>
+  <b>Organizer</b>: {{session.organizer.name}} <br/> 
+   {{session.organizer.affil}} <br/> 
+   {% if session.organizer.email %}
+   Email: {{session.organizer.email}} <br/> 
+   {% endif %}
+  </p>
+  
+  <p>
+  <b>Chair</b>: {{session.chair.name}}<br/> 
+  {{session.chair.affil}} <br/> 
+  {% if session.chair.email %}
+  Email: {{session.chair.email}}<br/> 
+  {% endif %}
+  </p>
 
 
 <h3 style="color: #120659;">Speakers: </h3>
