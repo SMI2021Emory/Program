@@ -5,13 +5,13 @@ type: software
 order: 1
 title: Software Sessions
 organizer:
-    name:  
-    affil: 
-    email: 
+    name: Ying Guo
+    affil: Emory University
+    email: yguo2@emory.edu
 chair:
-    name:  
-    affil: 
-    email: 
+    name: Shijia Bian
+    affil: Emory University
+    email: shijia.bian@emory.edu
 speakers:
     - id: 1
       name: John Muschelli
