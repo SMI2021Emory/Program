@@ -36,14 +36,10 @@ speakers:
   </h2>
   
   <p>
-  <b>Chair</b>: {{session.chair.name}}<br/> 
-  {{session.chair.affil}} <br/> 
-  {% if session.chair.email %}
-  Email: {{session.chair.email}}<br/> 
-  {% endif %}
+  <b>Chair</b>: Tingting Zhang<br/> 
+  University of Pittsburgh <br/> 
+  Email: tiz67@pitt.edu<br/> 
   </p>
-
-
 
   {% for speaker in page.speakers %}
   ![Photo]({{speaker.photolink}})
