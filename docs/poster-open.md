@@ -9,7 +9,7 @@ order : 4
 
 <h3> Poster Presenters: </h3>
 
-  {% for speaker in site.data.posters %}
+  {% for speaker in site.data.poster %}
   <p> 
   <b>{{speaker.id}}. {{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
