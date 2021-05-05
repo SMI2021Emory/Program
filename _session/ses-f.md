@@ -9,9 +9,9 @@ organizer:
     affil: 
     email: 
 chair:
-    name: 
-    affil: 
-    email: 
+    name: Tingting Zhang
+    affil: University of Pittsburgh
+    email: tiz67@pitt.edu
 speakers:
     - id: 1
       name: Timothy Johnson
@@ -34,6 +34,14 @@ speakers:
       {{ page.title }}
     </a>
   </h2>
+  
+  <p>
+  <b>Chair</b>: {{session.chair.name}}<br/> 
+  {{session.chair.affil}} <br/> 
+  {% if session.chair.email %}
+  Email: {{session.chair.email}}<br/> 
+  {% endif %}
+  </p>
 
 
 
