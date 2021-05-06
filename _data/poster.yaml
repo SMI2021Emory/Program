@@ -631,7 +631,7 @@ containing tumors in the tissue samples.'
   type: poster
   order: 27
   id: 27
-  name: Jayasinghe Mudiyanselage Thilini Navoda Jayasinghe
+  name: J. M. Thilini Jayasinghe
   affil: Texas Tech University
   email: jmthilini-navoda.jayasinghe@ttu.edu
   title: Predicting the minimum number of sampling points needed to approximate shapes of planar contours via LINEX regression models
@@ -652,8 +652,8 @@ containing tumors in the tissue samples.'
   Through validation methods, we show that these models work well in 
   many cases, even when predicting lower bounds for new categories of shapes, with low 
   approximation error.'
-  firstname: Jayasinghe Mudiyanselage Thilini
-  lastname: Navoda Jayasinghe
+  firstname: Thilini
+  lastname: Jayasinghe
 - ID: UNK
   type: poster
   order: 28
