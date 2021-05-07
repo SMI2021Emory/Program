@@ -2,7 +2,7 @@
 
 The poster session and opening mixer will be held in a virtual space via gather.town
 
-![mixerroom](/assets/mixer_room.JPG)
+<img src="assets/mixer_room.JPG" alt="hi" class="inline"/>
 
 
 ![posterroom](/assets/poster_room.JPG)
