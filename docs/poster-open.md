@@ -28,7 +28,7 @@ function showFun(pID,pbnID) {
 {% for speaker in site.data.poster %}
 <div class="poster" style="border: 1px solid black; margin: 20px;padding: 10px; box-shadow: 5px 5px 4px 5px #888888;">
   <div>
-  <img alt= '{{speaker.id | prepend: "poster" }}' data-pdf-thumbnail-file="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.pdf" style="float: left;width: 25%;padding:1px;margin-right:10px;border: 5px solid Gainsboro">
+  <img alt= '{{speaker.id | prepend: "poster" }}' data-pdf-thumbnail-file="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.pdf" style="float: left;width: 22%;padding:1px;margin-right:10px;border: 5px solid Gainsboro">
   {{speaker.id}}. <b>{{speaker.title}}</b> <br/>
   {{speaker.name}}<br/>
     {{speaker.affil}} 
