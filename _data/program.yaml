@@ -24,7 +24,7 @@ program:
         title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
         ifsubprog: FALSE
-        link: "/docs/poster-open.html"   
+        link: "/docs/gathertown.html"   
   - date: Tuesday	5/18/21
     dayprog:
       - time: 8:45-9:00  
