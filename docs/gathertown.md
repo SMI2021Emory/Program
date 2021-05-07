@@ -6,3 +6,9 @@ The poster session and opening mixer will be held in a virtual space via gather.
 
 
 ![posterroom](/assets/poster_room.JPG)
+
+
+A tutorial for using gather.town can be found here:
+
+
+{% include youtubePlayer.html id="_eAEgZ6LT3k" %}
