@@ -30,6 +30,19 @@ h2 {
     background-color: #007dba;
 }
 
+.btn-ps {
+    color: #ffffff;
+    background-color: #232442;
+    text-align: center;
+    width: 180px;
+}
+
+.btn-ps:hover {
+    color: #f2a900;
+    text-decoration: none;
+    background-color: #007dba;
+}
+
 tr:nth-child(odd) {
     background-color: SeaShell;
 }
