@@ -80,7 +80,8 @@ containing tumors in the tissue samples.'
   name: Yuexuan Wu
   affil: Florida State University
   email: yw17g@my.fsu.edu
-  title: 'There is increasing evidence on the importance of brain morphology in 
+  title: Elastic Shape Analysis of Brain Structures for Predictive Modeling of PTSD
+  abstract: 'There is increasing evidence on the importance of brain morphology in 
   predicting and classifying mental disorders and behavior. However, most current 
   shape approaches rely heavily on vertex-wise analysis that may not successfully 
   capture complexities of subcortical structures. Additionally, the past works do not 
@@ -381,17 +382,17 @@ containing tumors in the tissue samples.'
   affil: Emory University
   email: jialu.ran@emory.edu
   title: Investigating latent neurocircuitry traits underlying brain dynamic functional connectome
-  abstract: 'In recent years, the analysis of brain network connectivity has become increasingly popular in neuroscience research. 
-  Investigating brain functional connectome as well as its change across time provides insights into the dynamic 
-  nature of brain organizations. However, such analyses often face some major challenges including the high 
-  dimensionality of brain networks, unknown latent sources underlying the observed connectivity, and the large number 
-  of brain connections leading to spurious _ndings. In our research, we aim to characterize 
-  various neural circuits underlying dynamic brain functional connectivity using a novel blind source separation (BSS) 
-  framework with low-rank structure and an angle-based sparsity regularization. Our proposed method captures the 
-  dynamic profiles of different neural circuits, reveals key brain regions or nodes that drive each of these circuits and 
-  identifies neural circuits associated with disease phenotypes. In this talk, we will introduce the methodology of 
-  our dynamic connectome source separation method and also present our findings on dynamic neurocircuitry traits extracted
-  from a resting-state fMRI study.'
+  abstract: 'In recent years, the analysis of brain network connectivity has become increasingly popular 
+  in neuroscience research. Investigating brain functional connectome as well as its change across time provides 
+  insights into the dynamic nature of brain organizations. However, such analyses often face some major challenges
+  including the high dimensionality of brain networks, and unknown latent sources underlying the observed connectivity. 
+  Meanwhile, the large number of brain connections may lead to spurious findings. In our research, we aim to 
+  characterize various neural circuits underlying dynamic brain functional connectivity using a novel blind source
+  separation (BSS) framework with a low-rank structure and an angle-based sparsity regularization. Our proposed method
+  captures the dynamic profiles of different neural circuits, reveals key brain regions or nodes that drive each of these 
+  circuits and identifies neural circuits associated with disease phenotypes. Our dynamic connectome source separation
+  method is further applied to resting-state fMRI data from the Philadelphia Neurodevelopmental Cohort (PNC) study.
+  We will present our findings on extracted dynamic neurocircuitry traits.'
   firstname: Jialu
   lastname: Ran
 - ID: UNK
