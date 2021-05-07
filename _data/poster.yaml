@@ -504,27 +504,13 @@ containing tumors in the tissue samples.'
   type: poster
   order: 21
   id: 21
-  name: Coleman Harris
-  affil: Vanderbilt University
-  email: coleman.r.harris@vanderbilt.edu
-  title: Combining Batches of High-Dimensional Multiplexed Images
-  abstract: 'High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
-  populations in healthy and tumorous tissues, offering insight into tumor progression and 
-  improved treatment strategies. However, implicit biases exist in the imaging pipeline - images 
-  are distorted by optical effects, slide and batch effects, and instrument variability. Normalization 
-  of this data is compounded by the number of markers and natural tissue variability within each 
-  image, introducing systematic differences that impact inference. In this work, we introduce an 
-  image normalization pipeline to reduce systematic variability in multiplexed images by correcting 
-  for batch effects. We build on existing methods to compare the following approaches to correct 
-  for the batch effects in the data: a logarithmic transformation, a simple standardization (division 
-  by the mean), and approaches that adapt ComBat and functional data registration. We 
-  demonstrate these methods by analyzing multiplexed immunofluorescence (MxIF) images of 
-  human colorectal tissue samples to quantify the reduction in variability of the data, namely using 
-  thresholding methods and random effects models. We further demonstrate the method''s ability 
-  to retain biological signal by evaluating prediction accuracy of models for specific regions 
-  containing tumors in the tissue samples.'
-  firstname: Coleman
-  lastname: Harris
+  name: Raphiel Murden
+  affil: Emory University
+  email: r.j.murden@emory.edu
+  title: Joint and individual statistical analysis of brain MRI and cognition measures in Alzheimer's Disease
+  abstract: 'Alzheimer’s Disease is associated with changes that can be measured using multiple modalities such as cognitive assessment and brain volumetry using MRI. Data integration methods, such as the classic Hotelling's canonical correlation analysis (CCA) can find shared or joint structure across multiple datasets/modalities (i.e. data blocks, data matrices). More recent approaches include multiset Canonical Correlation Analysis or M-CCA, Joint and Individual Variance Explained (JIVE), Angle-based JIVE (AJIVE), and others. The JIVE framework decomposes each of two or more data blocks into a joint subspace shared across all blocks, an individual subspace that is unique to each data block, and noise. Here, individual refers to signal unique to a dataset. However, interpreting these subspaces remains challenging. To aid interpretation, we propose an alternative view of the JIVE decomposition and provide an updated estimation method called Canonical JIVE or CJIVE. We apply CJIVE to measurements of brain morphology and cognition from The Alzheimer's Disease Prediction of Longitudinal Evolution (TADPOLE) Challenge. Our results show the utility of JIVE analyses by obtaining summary measures of the signal shared in our morphometry and cognition measures are associated with Alzheimer’s diagnoses.'
+  firstname: Raphiel
+  lastname: Murden
 - ID: UNK
   type: poster
   order: 22
