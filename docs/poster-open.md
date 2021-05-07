@@ -47,15 +47,3 @@ function showFun(pID,pbnID) {
 {% endfor %}
 
 
-
-  <!-- {% for speaker in site.data.poster %}
-  <p> 
-  <b>{{speaker.id}}. {{speaker.name}}</b><br/>
-    {{speaker.affil}} <br/> 
-  {% if speaker.email %}
-  Email: {{speaker.email}} <br/> 
-  {% endif %}
-  <p> <b>Title</b>: {{speaker.title}} <br/>
-  <b> Abstract</b>: {{speaker.abstract}} </p>
-  {% endfor %} --> -->
-
