@@ -21,6 +21,7 @@
     testing, and community detection. Performance is demonstrated on a dataset of
     connectomes, showing an accurate classification of brain scans by patients and
     a meaningful determination of heterogeneity across different subjects.
+  speakertime: 2:00-2:20
   firstname: Jesus
   lastname: Arroyo
 - ID: I-1
