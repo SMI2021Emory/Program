@@ -7,6 +7,13 @@ layout: default
       
     </a>
 -->
+{% assign sorted_speakers = site.data.speaker | sort:"lastname" %}
+
+<script>
+  var myObj =  {{ sorted_speakers | json }};
+</script>
+  
+
   <h2 style="color: #120659;">
     {{ page.order }}. {{ page.title }}
     
@@ -35,10 +42,16 @@ layout: default
   <p> 
   <b>{{speaker.id}}. {{speaker.name}}</b><br/>
     {{speaker.affil}} <br/> 
+  
+   
   {% if speaker.email %}
   Email: {{speaker.email}} <br/> 
   {% endif %} 
   <p> <b>Title</b>: {{speaker.title}} <br/>
+  {% assign speakertime_all = sorted_speakers | where: "email", speaker.email %}
+  {% for st in speakertime_all %}
+  <b>Time</b>: {{ st.speakertime }}
+  {% endfor %} <br/>
   <b> Abstract</b>: <br/>{{speaker.abstract}} </p>
   {% endfor %}
 

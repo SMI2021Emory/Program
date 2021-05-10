@@ -32,9 +32,10 @@ Please click the thumbnails of posters to see the full-sized posters.
   <div>
     <!-- <img alt= '{{speaker.id | prepend: "poster" }}' data-pdf-thumbnail-file="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.pdf" style="float: left;width: 22%;padding:1px;margin-right:10px;border: 5px solid Gainsboro"> -->
     <div style="float: left; width: 27%">
-      <a target="_blank" href="{{site.baseurl }}/assets/posters/{{speaker.psfile}}">
+      {% assign poster_filename = speaker.psfile %}
+      <a target="_blank" href="{{site.baseurl }}/assets/posters/{{ poster_filename | default: "default.jpg" }}">
         <img class="psimg" alt='{{speaker.id | prepend: "poster" }}'
-          src="{{site.baseurl }}/assets/posters/{{speaker.psfile}}"
+          src="{{site.baseurl }}/assets/posters/{{ poster_filename | default: "default.jpg" }}"
           onerror="if (this.src != '{{site.baseurl }}/assets/posters/default.jpg') this.src = '{{site.baseurl }}/assets/posters/default.jpg';">
       </a>
     </div>
@@ -43,7 +44,7 @@ Please click the thumbnails of posters to see the full-sized posters.
       {{speaker.name}}
       <div style="float: right;">
         <button id="{{speaker.id | prepend: 'poster-bn'}}" class="btn btn-ps"
-          onclick="showFun('{{speaker.id | prepend: " poster" }}','{{speaker.id | prepend: "poster-bn" }}')">Show
+          onclick="showFun('{{speaker.id | prepend: "poster" }}','{{speaker.id | prepend: "poster-bn" }}')">Show
           abstract</button>
       </div>
       <br />
@@ -51,12 +52,11 @@ Please click the thumbnails of posters to see the full-sized posters.
       {% if speaker.email %}
       Email: {{speaker.email}}
       {% endif %}
-      <br />
+      <br/>
       <div id="{{speaker.id | prepend: 'poster'}}" style="display: none">
         <b> Abstract</b>: {{speaker.abstract}}
       </div>
     </div>
-
   </div>
 </div>
 {% endfor %}
