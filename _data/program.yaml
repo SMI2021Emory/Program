@@ -28,9 +28,13 @@ program:
   - date: Tuesday	5/18/21
     dayprog:
       - time: 8:45-9:00  
-        title: "Opening remarks\nCiprian Crainiceanu"
+        title: "Opening remarks"
         ifsubprog: FALSE
         iscount: FALSE
+        isopenremark: TRUE
+        openschedule: 
+          - speaker: Test
+          - speakertime: 8:45-8:50
       - time: 9:00-10:00
         title: Invited session
         iscount: FALSE
