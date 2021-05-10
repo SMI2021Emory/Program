@@ -29,6 +29,11 @@ In US Eastern Time
                     <td>{{currentcount}}{{ prog.title }}</td>
                 {% endif %}                
             </tr>
+            {% if prog.isopenremark %}
+                <tr>
+                  <td> test </td>
+                </tr>
+            {% endif %}
             {% if prog.ifsubprog %}
                 {% for eachsubprog in prog.subprog %}
                     {% assign sescount = sescount | plus:1 %}
