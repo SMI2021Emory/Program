@@ -532,7 +532,7 @@
   name: Nicole Lazar
   affil: Penn State University
   email: nfl5182@psu.edu
-  speakertime: '9:20am-9:40am'
+  speakertime: 9:20am-9:40am
   title: Topological Data Analysis for the Study of Brain Networks
   abstract: The study of brain networks and brain connectivity has increased in prominence
     in recent years.  In this talk, I will describe the use of topological data analysis
