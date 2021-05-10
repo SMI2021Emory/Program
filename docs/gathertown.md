@@ -6,6 +6,7 @@ The poster session and opening mixer will be held in a virtual space via gather.
 The mixer room can be seen below. This room includes a main podium for making announcements to the entire group, as well as many smaller spaces for small group conversations.
 <img src="{{site.baseurl}}/assets/mixer_room.JPG" class="inline"/>
 
+We have prepared written instructions for using gather.town, which can be found <a href="{{site.baseurl}}/assets/SMI Conference Gather Town Guideline.pdf" target="_blank">here.</a>
 
 A tutorial for using gather.town can be found here:
 {% include youtubePlayer.html id="_eAEgZ6LT3k" %}
