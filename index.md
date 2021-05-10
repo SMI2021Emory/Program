@@ -33,11 +33,19 @@ In US Eastern Time
                 <tr>
                   <td> </td>
                   <td> <p style="text-align:left;">
-                      Ciprian Crainiceanu <br>Robert Krafty <br>Ying Guo
+                      Ciprian Crainiceanu
                       <span style="float:right;">
                           8:45-8:50<br>
+                      </span>
+                      <p style="text-align:left;">
+                      Robert Krafty 
+                      <span style="float:right;">
                           8:50-8:55<br>
-                          8:55-9:00
+                      </span>
+                      <p style="text-align:left;">
+                      Ying Guo
+                      <span style="float:right;">
+                          8:55-9:00<br>
                       </span>
                   </p> </td>
                 </tr>
