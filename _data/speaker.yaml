@@ -31,6 +31,7 @@
   name: Joanne Beer
   affil: University of Pennsylvania
   email: joanne.beer@pennmedicine.upenn.edu
+  speakertime: 9:40am-10:00am
   title: Extensions of ComBat for harmonization of multi-scanner neuroimaging data
     in an Alzheimer’s Disease Neuroimaging Initiative dataset
   abstract: While aggregation of neuroimaging datasets from multiple sites and scanners
@@ -173,6 +174,7 @@
   name: Ciprian Crainiceanu
   affil: Johns Hopkins University
   email: ccraini1@jhu.edu
+  speakertime: 9:00am-9:20am
   title: Longitudinal Image Analysis and Inference
   abstract: We propose massive univariate generalized linear mixed effects models
     for studies that collect images at multiple visit. Joint inference for fixed effects
@@ -966,6 +968,7 @@
   name: Dana Tudorascu
   affil: University of Pittsburgh
   email: dlt30@pitt.edu
+  speakertime: 9:20am-9:40am
   title: Methods for MRI and PET neuroimaging data harmonization across different
     scanners in Alzheimer Disease.
   abstract: Positron Emission Tomography (PET) and Structural Magnetic Resonance Imaging
