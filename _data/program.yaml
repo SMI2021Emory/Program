@@ -5,25 +5,30 @@ program:
         title: Introduction to Deep Learning Short Course
         iscount: TRUE
         ifsubprog: FALSE
+        isopenremark: FALSE
         link: "/docs/short-course.html"   
       - time: 13:00-14:00
         title: Lunch Break
         iscount: FALSE                                                                                                                                                        
         ifsubprog: FALSE
+        isopenremark: FALSE
       - time: 14:00-14:55
         title: 'Founders Talk:   Tim Johnson'  
         link: "/sessions/ses-f.html" 
         iscount: TRUE                                                                                                                                      
         ifsubprog: FALSE
+        isopenremark: FALSE
       - time: 14:55-16:35
         title: Statistical Software for Imaging Analysis   
         iscount: TRUE
         link: "/docs/ses-software.html"                                                                                                                          
         ifsubprog: FALSE
+        isopenremark: FALSE
       - time: 17:00-19:00
         title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
         ifsubprog: FALSE
+        isopenremark: FALSE
         link: "/docs/gathertown.html"   
   - date: Tuesday	5/18/21
     dayprog:
@@ -38,6 +43,7 @@ program:
       - time: 9:00-10:00
         title: Invited session
         iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Statistical methods for neuroimaging studies of Alzheimer's disease
@@ -50,21 +56,25 @@ program:
             type: invited
       - time: 10:00-10:30
         title: Floor Discussion  
-        iscount: FALSE                                                                                                                                                    
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Tom Nichols' 
         link: "/sessions/ses-k-1.html" 
         id: K-1
-        iscount: TRUE                                                                                                                                      
+        iscount: TRUE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 11:30-11:45
         title: Break        
-        iscount: FALSE                                                                                                                                                         
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 11:45-12:45
         title: Invited sessions     
-        iscount: FALSE                                                                                                                                                 
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Flexible Bayesian Approaches for Imaging Analysis
@@ -77,15 +87,18 @@ program:
             type: invited
       - time: 12:45-13:00 
         title: Floor Discussion
-        iscount: FALSE                                                                                                                                                      
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE    
       - time: 13:00-14:00  
         title: Lunch Break  
-        iscount: FALSE                                                                                                                                                         
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 14:00-15:00  
         title: Invited sessions 
-        iscount: FALSE                                                                                                                                                     
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Statistical Shape Modeling and Analysis Using Imaging Data
@@ -98,11 +111,13 @@ program:
             type: invited
       - time: 15:00-15:30  
         title: Floor Discussion   
-        iscount: FALSE                                                                                                                                                   
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 15:30-16:30  
         title: Collaborative Case Studies                                                                                                                                            
         iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Advanced imaging
@@ -115,13 +130,15 @@ program:
             type: case_study
       - time: 16:30-17:00  
         title: Floor Discussion    
-        iscount: FALSE                                                                                                                                                  
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
   - date: Wednesday	5/19/21
     dayprog:
       - time: 9:00-10:00 
         title: Invited session 
-        iscount: FALSE                                                                                                                                                      
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Statistical methods for functional neuroimaging
@@ -134,21 +151,25 @@ program:
             type: invited
       - time: 10:00-10:30
         title: Floor Discussion 
-        iscount: FALSE                                                                                                                                                     
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Vince Calhoun'   
         link: "/sessions/ses-k-2.html"
         id: K-2
-        iscount: TRUE                                                                                                                                     
+        iscount: TRUE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 11:30-11:45
         title: Break       
-        iscount: FALSE                                                                                                                                                          
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 11:45-12:45
         title: Invited sessions     
-        iscount: FALSE                                                                                                                                                 
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Regularization methods in medical imaging
@@ -161,15 +182,18 @@ program:
             type: invited
       - time: 12:45-13:00 
         title: Floor Discussion     
-        iscount: FALSE                                                                                                                                                 
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 13:00-14:00  
         title: Lunch Break  
-        iscount: FALSE                                                                                                                                                         
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 14:00-15:00  
         title: Invited sessions      
-        iscount: FALSE                                                                                                                                             
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Advances in Statistical Methods for Multiple Sclerosis Imaging
@@ -182,11 +206,13 @@ program:
             type: invited
       - time: 15:00-15:30  
         title: Floor Discussion    
-        iscount: FALSE                                                                                                                                                  
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
       - time: 15:30-16:30  
         title: Invited sessions    
-        iscount: FALSE                                                                                                                                                  
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: TRUE
         subprog:
           - name: Bayesian supervised and unsupervised image processing and analysis, with applications to radiogenomics and diffusion tensor imaging
@@ -199,5 +225,6 @@ program:
             type: invited
       - time: 16:30-17:00  
         title: Floor Discussion   
-        iscount: FALSE                                                                                                                                                   
+        iscount: FALSE
+        isopenremark: FALSE
         ifsubprog: FALSE
