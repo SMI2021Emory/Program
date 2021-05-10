@@ -31,7 +31,8 @@ In US Eastern Time
             </tr>
             {% if prog.isopenremark %}
                 <tr>
-                  <td> test </td>
+                  <td> </td>
+                  <td> Ciprian Crainiceanu  8:45-8:50 </td>
                 </tr>
             {% endif %}
             {% if prog.ifsubprog %}
