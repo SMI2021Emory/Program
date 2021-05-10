@@ -32,7 +32,14 @@ In US Eastern Time
             {% if prog.isopenremark %}
                 <tr>
                   <td> </td>
-                  <td> Ciprian Crainiceanu  8:45-8:50 <br>Robert Krafty &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8:50-8:55<br>Ying Guo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:55-9:00 </td>
+                  <td> <p style="text-align:left;">
+                      Ciprian Crainiceanu <br>Robert Krafty <br>Ying Guo
+                      <span style="float:right;">
+                          8:45-8:50<br>
+                          8:50-8:55<br>
+                          8:55-9:00
+                      </span>
+                  </p> </td>
                 </tr>
             {% endif %}
             {% if prog.ifsubprog %}
