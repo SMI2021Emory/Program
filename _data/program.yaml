@@ -24,6 +24,11 @@ program:
         link: "/docs/ses-software.html"                                                                                                                          
         ifsubprog: FALSE
         isopenremark: FALSE
+      - time: 16:35-16:55
+        title: Floor Discussion
+        iscount: FALSE
+        ifsubprog: FALSE
+        isopenremark: FALSE
       - time: 17:00-19:00
         title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
