@@ -31,23 +31,11 @@ In US Eastern Time
             </tr>
             {% if prog.isopenremark %}
                 <tr>
-                  <td> </td>
+                  <td> 8:45-8:50 </td>
                   <td> <p style="text-align:left;">
-                      Ciprian Crainiceanu
-                      <span style="float:right;">
-                          8:45-8:50<br>
-                      </span>
-                      <p style="text-align:left;">
-                      Robert Krafty 
-                      <span style="float:right;">
-                          8:50-8:55<br>
-                      </span>
-                      <p style="text-align:left;">
-                      Ying Guo
-                      <span style="float:right;">
-                          8:55-9:00<br>
-                      </span>
-                  </p> </td>
+                      Ciprian Crainiceanu<br>
+                    Robert Krafty <br>
+                    Ying Guo</p> </td>
                 </tr>
             {% endif %}
             {% if prog.ifsubprog %}
