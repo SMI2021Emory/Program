@@ -31,7 +31,7 @@ In US Eastern Time
             </tr>
             {% if prog.isopenremark %}
                 <tr>
-                  <td> 8:45-8:50 </td>
+                  <td> 8:45-8:50am<br>8:50-8:55am<br>8:55-9:00 </td>
                   <td> <p style="text-align:left;">
                       Ciprian Crainiceanu<br>
                     Robert Krafty <br>
