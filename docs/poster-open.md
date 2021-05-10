@@ -32,9 +32,9 @@ Please click the thumbnails of posters to see the full-sized posters.
   <div>
     <!-- <img alt= '{{speaker.id | prepend: "poster" }}' data-pdf-thumbnail-file="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.pdf" style="float: left;width: 22%;padding:1px;margin-right:10px;border: 5px solid Gainsboro"> -->
     <div style="float: left; width: 27%">
-      <a target="_blank" href="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: " poster" }}.jpg">
+      <a target="_blank" href="{{site.baseurl }}/assets/posters/{{speaker.psfile}}">
         <img class="psimg" alt='{{speaker.id | prepend: "poster" }}'
-          src="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: " poster" }}.jpg"
+          src="{{site.baseurl }}/assets/posters/{{speaker.psfile}}"
           onerror="if (this.src != '{{site.baseurl }}/assets/posters/default.jpg') this.src = '{{site.baseurl }}/assets/posters/default.jpg';">
       </a>
     </div>
