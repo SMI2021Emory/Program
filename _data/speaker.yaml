@@ -222,6 +222,7 @@
   name: Ani Eloyan
   affil: Brown University
   email: ani_eloyan@brown.edu
+  speakertime: 9:00am-9:20am
   title: Analysis of structural imaging data in cancer
   abstract: Cancer patients routinely undergo radiological evaluations when images
     of various modalities including computed tomography, positron emission tomography,
@@ -330,6 +331,7 @@
   name: Michele Guindani
   affil: University of California, Irvine
   email: michele.guindani@UCI.edu
+  speakertime: 11:45am-12:05pm
   title: A Bayesian Nonparametric approach for the analysis of functional data in
     neuroimaging
   abstract: .na.character
@@ -368,6 +370,7 @@
   name: Emily Hector
   affil: North Carolina State University
   email: ehector@ncsu.edu
+  speakertime: 9:40am-10:00am
   title: Integrative fused mean structure learning with application to image-on-scalar regression
   abstract: 'Motivated by image-on-scalar regression with data aggregated across multiple sites, we consider a setting in which multiple independent studies each collect multiple dependent vector 
   outcomes, with potential mean model parameter homogeneity between studies and outcome vectors. To 
@@ -412,6 +415,7 @@
   name: Jian Kang
   affil: University of Michigan
   email: jiankang@umich.edu
+  speakertime: 12:25pm-12:45pm
   title: Bayesian Inferences in EEG-Based Brain-Computer Interface via the Split-and-Merge
     Gaussian Process
   abstract: A brain-computer interface (BCI) refers to a system that uses brain activity
@@ -627,6 +631,7 @@
   name: Amanda Mejia
   affil: Indiana University
   email: afmejia@iu.edu
+  speakertime: 9:20am-9:40am
   title: Leveraging shared population and spatial information for accurate estimation
     of subject-level brain networks
   abstract: |
@@ -703,6 +708,7 @@
   name: Jeff Morris
   affil: University of Pennsylvania
   email: jeffrey.morris@pennmedicine.upenn.edu
+  speakertime: 12:25pm-12:45pm
   title: Connectivity Regression
   abstract: Assessing heterogeneity of multivariate associations across covariates
     is an important problem in many areas of modern science, including in neuroscience
@@ -800,6 +806,7 @@
   id: 2
   name: Annie Qu
   affil: University of California, Irvine
+  speakertime: 12:05pm-12:25pm
   email: aqu2@uci.edu
   title: Correlation Tensor Decomposition and Its Application in Spatial Imaging Data
   abstract: In this paper, motivated by the multimodal optical imaging data in a breast
@@ -994,6 +1001,7 @@
   name: Marina Vannucci
   affil: Rice University
   email: marina@rice.edu
+  speakertime: 12:05pm-12:25pm
   title: Bayesian Inference for Stationary Points in Gaussian Process Regression Models
     with Applications to ERP Analysis
   abstract: Stationary points embedded in the derivatives are often critical for a
@@ -1123,6 +1131,7 @@
   name: Yize Zhao
   affil: Yale University
   email: yize.zhao@yale.edu
+  speakertime: 11:45am-12:05pm
   title: Imaging Genetics Analysis under Brain Connectivity with Application on Human
     Connectome Project
   abstract: With the availability of large-scale brain imaging and genetics data,
