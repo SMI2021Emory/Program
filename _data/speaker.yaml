@@ -5,6 +5,7 @@
   name: Jesus Arroyo
   affil: University of Maryland, College Park
   email: jesus.arroyo@jhu.edu
+  speakertime: 2:00pm-2:20pm
   title: Inference for multiple heterogeneous networks with a common invariant subspace
   abstract: The development of models for multiple heterogeneous network data is of
     critical importance both in statistical network theory and across multiple application
@@ -21,7 +22,6 @@
     testing, and community detection. Performance is demonstrated on a dataset of
     connectomes, showing an accurate classification of brain scans by patients and
     a meaningful determination of heterogeneity across different subjects.
-  speakertime: 2:00-2:20
   firstname: Jesus
   lastname: Arroyo
 - ID: I-1
@@ -57,6 +57,7 @@
   name: Brian Caffo
   affil: Johns Hopkins University
   email: bcaffo@gmail.com
+  speakertime: 9:20am-9:40am
   title: Covariance regression for connectome outcomes
   abstract: 'In this talk, we cover methodology for jointly analyzing a collection
     of covariance or correlation matrices that depend on other variables. This covariance-as-an-outcome
@@ -77,6 +78,7 @@
   id: 4
   name: Guanqun Cao
   affil: Auburn University
+  speakertime: 4:30pm-4:50pm
   email: gzc0009@auburn.edu
   title: Estimation of the Mean Function of Functional Data via Deep Neural Networks
   abstract: In this work, we propose a deep neural networks based method to perform
@@ -97,6 +99,7 @@
   name: Gang Chen
   affil: NIMH
   email: gangchen@mail.nih.gov
+  speakertime: 2:20pm-2:40pm
   title: Improving reproducibility in network modeling
   abstract: 'With the popular approach of massively univariate analysis in neuroimaging,
     one builds as many models as the number of elements, leading to a major contributor
@@ -126,6 +129,7 @@
   name: Shuo Chen
   affil: University of Maryland
   email: shuochen@som.umaryland.edu
+  speakertime: 2:40pm-3:00pm
   title: l_0 shrinkage in graph space for brain network inference
   abstract: We consider group-level statistical inference for networks, where the
     outcome variables of each subject are multivariate edges in an adjacency matrix.
@@ -150,6 +154,7 @@
   name: Adam Ciarleglio
   affil: George Washington University
   email: aciarleglio@email.gwu.edu
+  speakertime: 4:10pm-4:30pm
   title: Multiple imputation in functional regression with applications to EEG data
     in a depression study
   abstract: Missing data are a common problem in biomedical research.  Valid approaches
@@ -191,6 +196,7 @@
   name: Leo Duan
   affil: University of Florida
   email: li.duan@ufl.edu
+  speakertime: 9:20am-9:40am
   title: Bayesian Vector Autoregression using the Tree Rank Prior with an Application
     to fMRI Data Analysis
   abstract: Vector autoregression is very popular for analyzing the multivariate time
@@ -297,6 +303,7 @@
   name: Sharmistha Guha
   affil: Duke University
   email: sg516@duke.edu
+  speakertime: 3:50pm-4:10pm
   title: Bayesian Regression with Undirected Network Predictors with an Application
     to Brain Connectome Data
   abstract: This article focuses on the relationship between a measure of creativity
@@ -346,6 +353,7 @@
   name: Jaroslaw Harezlak
   affil: Indiana University, Bloomington
   email: harezlak@iu.edu
+  speakertime: 11:45am-12:05pm
   title: Regularized regression for multi-modal brain imaging
   abstract: 'We address the problem of adaptive incorporation of multi-modal brain
     imagining data in the multiple linear regression setting. We assume the model
@@ -445,6 +453,7 @@
   name: John Kornak
   affil: University of California, San Francisco
   email: john.kornak@ucsf.edu
+  speakertime: 3:30pm-3:50pm
   title: Bayesian image analysis in transformed spaces (BITS)­ and the BIFS/BIWS packages
   abstract: 'Bayesian image analysis can improve image quality by balancing a priori
     expectations of image characteristics with a model for the noise process. We will
@@ -468,6 +477,7 @@
   name: Robert T. Krafty
   affil: Emory University
   email: robert.t.krafty@emory.edu
+  speakertime: 9:40am-10:00am
   title: Adaptive Spectral Analysis of High-Dimensional EEG with Application to Monitoring
     Transcranial Magnetic Stimulation during Psychosis
   abstract: Motivated by the analysis of high-density EEG (hdEEG), in this talk we
@@ -540,6 +550,7 @@
   name: Lexin Li
   affil: University of California, Berkeley
   email: lexinli@berkeley.edu
+  speakertime: 11:45am-12:05pm
   title: Testing Mediation Effects Using Logic of Boolean Matrices with Applications
     in Neuroimaging Mediation Analysis
   abstract: A central question in high-dimensional mediation analysis is to infer
@@ -567,6 +578,7 @@
   name: Kristin Linn
   affil: University of Pennsylvania
   email: klinn@pennmedicine.upenn.edu
+  speakertime: 9:40am-10:00am
   title: Inter-modal Coupling for Multi-modal Image Analysis
   abstract: Local cortical coupling is a subject-specific measure of the spatially
     varying relationship between cortical thickness and sulcal depth. Although it
@@ -589,6 +601,7 @@
   name: Carolyn Lou
   affil: University of Pennsylvania
   email: louc@pennmedicine.upenn.edu
+  speakertime: 2:40pm-3:00pm
   title: Towards an Automatic Detection Method of Chronic Active Lesions in Multiple
     Sclerosis
   abstract: Recent developments in magnetic resonance imaging (MRI) have shown that
@@ -612,6 +625,7 @@
   name: Xi Luo
   affil: The University of Texas
   email: xi.luo@uth.tmc.edu
+  speakertime: 9:00am-9:20am
   title: Covariate Assisted Principal Regression for Covariance Matrix Outcomes with
     an Application to fMRI
   abstract: Modeling variances in data has been an important topic in many fields,
@@ -650,6 +664,7 @@
   name: Michelle F. Miranda
   affil: University of Victoria
   email: michellemiranda@uvic.ca
+  speakertime: 3:30pm-3:50pm
   title: Composite-hybrid basis approach incorporating residual connectivity in task
     fMRI data
   abstract: 'Task-based functional magnetic resonance imaging (fMRI) studies are a
@@ -680,6 +695,7 @@
   name: Shariq Mohammed
   affil: University of Michigan
   email: shariqm@umich.edu
+  speakertime: 4:10pm-4:30pm
   title: 'RADIOHEAD: Radiogenomic Analysis incorporating tumor heterogeneity in imaging
     through densities'
   abstract: Recent technological advancements have enabled detailed investigation
@@ -768,6 +784,7 @@
   name: Hernando Ombao
   affil: King Abdullah University of Science and Technology (KAUST)
   email: hernando.ombao@kaust.edu.sa
+  speakertime: 9:00am-9:20am
   title: Exploring Non-Linear Spectral Interactions in Multivariate Time Series
   abstract: Advances in imaging technology have given neuroscientists unprecedented
     access to examine various facets of how the brain “works”. Brain activity is complex.
@@ -882,6 +899,7 @@
   name: Russell Shinohara
   affil: University of Pennsylvania
   email: rshi@mail.med.upenn.edu
+  speakertime: 2:00pm-2:20pm
   title: A statistical revisiting of multiple sclerosis lesions based on MRI
   abstract: Lesions in the white matter of the brain, including those that arise in
     multiple sclerosis, are abnormalities measurable on MRI. While much literature
@@ -932,6 +950,7 @@
   name: Sean L. Simpson
   affil: Wake Forest School of Medicine
   email: slsimpso@wakehealth.edu
+  speakertime: 12:05pm-12:25pm
   title: Mixed modeling frameworks for analyzing whole-brain network data
   abstract: Brain network analyses have exploded in recent years, and hold great potential
     in helping us understand normal and abnormal brain function. Network science approaches
@@ -1038,6 +1057,7 @@
   name: Julia Wrobel
   affil: University of Colorado, Denver
   email: julia.wrobel@cuanschutz.edu
+  speakertime: 2:20pm-2:40pm
   title: Intensity warping for multisite MRI harmonization
   abstract: In multisite neuroimaging studies there is often unwanted technical variation
     across scanners and sites. These scanner effects can hinder detection of biological
@@ -1090,6 +1110,7 @@
   name: Xin "Henry" Zhang
   affil: Florida State University
   email: henry@stat.fsu.edu
+  speakertime: 12:25pm-12:45pm
   title: Generalizing liquid association for multimodal neuroimaging
   abstract: Alzheimer’s disease (AD) is the leading form of dementia, and the number
     of affected people is drastically increasing along with aging of the worldwide
@@ -1121,6 +1142,7 @@
   name: Fengqing (Zoe) Zhang
   affil: Drexel University
   email: fz53@drexel.edu
+  speakertime: 12:05pm-12:25pm
   title: Penalized multi-state models for examining multimodal imaging signatures
     of Alzheimer's disease.
   abstract: Identifying antemortem biomarkers for progression from mild cognitive
@@ -1170,6 +1192,7 @@
   name: Yi Zhao
   affil: Indiana University-Purdue University
   email: zhaoyi1026@gmail.com
+  speakertime: 12:25pm-12:45pm
   title: Multimodal Neuroimaging Data Integration and Pathway Analysis.
   abstract: With fast advancements in technologies, the collection of multiple types
     of measurements on a common set of subjects is becoming routine in science. Some
@@ -1197,6 +1220,7 @@
   name: Jingyi Zheng
   affil: Auburn University
   email: jzz0121@auburn.edu
+  speakertime: 3:50pm-4:10pm
   title: Time-frequency Spectral Analysis of Scalp EEG signals using Empirical Mode
     Decomposition
   abstract: Electroencephalography (EEG) is an electrophysiological monitoring method
