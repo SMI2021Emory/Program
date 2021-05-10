@@ -1,5 +1,5 @@
 ---
-title : Poster and Opening Mixer
+title : Poster Session
 layout: default
 order : 4
 ---
@@ -17,20 +17,20 @@ function showFun(pID,pbnID) {
   }  
 }
 </script>
-
 <script src="{{ site.baseurl }}/assets/js/pdfThumbnails/pdfThumbnails.js" data-pdfjs-src="{{site.baseurl }}/assets/js/pdfThumbnails/build/pdf.js"></script>
+
 
 <h1 style="color: #120659;"> {{page.title}} </h1>
 <h3> Poster Presenters: </h3>
 
-
+Please click the thumbnails of posters to see the full-sized posters.
 
 {% for speaker in site.data.poster %}
 <div class="poster" style="border: 1px solid black; margin: 20px;padding: 10px; box-shadow: 5px 5px 4px 5px #888888;">
   <div>
   <!-- <img alt= '{{speaker.id | prepend: "poster" }}' data-pdf-thumbnail-file="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.pdf" style="float: left;width: 22%;padding:1px;margin-right:10px;border: 5px solid Gainsboro"> -->
   <a target="_blank" href="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.jpg">
-  <img class="psimg" alt= '{{speaker.id | prepend: "poster" }}' src="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.jpg" style="float: left;width: 22%;padding:1px;margin-right:10px;border: 5px solid Gainsboro">
+  <img class="psimg" alt= '{{speaker.id | prepend: "poster" }}' src="{{site.baseurl }}/assets/posters/{{speaker.id | prepend: "poster" }}.jpg" onerror="if (this.src != '{{site.baseurl }}/assets/posters/default.jpg') this.src = '{{site.baseurl }}/assets/posters/default.jpg';">
   </a>
   {{speaker.id}}. <b>{{speaker.title}}</b> <br/>
   {{speaker.name}}<br/>
