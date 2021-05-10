@@ -18,7 +18,7 @@ In US Eastern Time
             {% endif %}
             <tr>
                 {% assign betime = prog.time | split: "-"  %}
-                <td style="width: 200px" align="center">{{ betime[0] | date: "%l:%M%P"}} - {{ betime[1] | date: "%l:%M%P"}}</td>
+                <td style="width: 230px" align="center">{{ betime[0] | date: "%l:%M%P"}} - {{ betime[1] | date: "%l:%M%P"}}</td>
                 {% assign currentcount = "" %}
                 {% if prog.iscount %}
                     {% assign currentcount = sescount | append: ". " %}
@@ -31,7 +31,7 @@ In US Eastern Time
             </tr>
             {% if prog.isopenremark %}
                 <tr>
-                  <td style="vertical-align: middle;"> <p style="text-align:right;"> 8:45am-8:50am<br>8:50am-8:55am<br>8:55am-9:00am </p> </td>
+                  <td style="vertical-align: middle;"> <p style="text-align:right;"> 8:45am - 8:50am<br>8:50am - 8:55am<br>8:55am - 9:00am </p> </td>
                   <td style="vertical-align: middle;"> <p style="text-align:left;">
                       Ciprian Crainiceanu<br>
                     Robert Krafty <br>
