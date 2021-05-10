@@ -28,7 +28,9 @@ program:
   - date: Tuesday	5/18/21
     dayprog:
       - time: 8:45-9:00  
-        title: Opening remarks                                                                                                                                                       
+        title: >
+            Opening remarks         
+            Ciprian Crainiceanu
         ifsubprog: FALSE
         iscount: FALSE
       - time: 9:00-10:00
