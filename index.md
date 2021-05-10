@@ -29,6 +29,15 @@ In US Eastern Time
                     <td>{{currentcount}}{{ prog.title }}</td>
                 {% endif %}                
             </tr>
+            {% if prog.isopenremark %}
+                <tr>
+                  <td style="vertical-align: middle;"> <p style="text-align:right;"> 8:45am-8:50am<br>8:50am-8:55am<br>8:55am-9:00am </p> </td>
+                  <td style="vertical-align: middle;"> <p style="text-align:left;">
+                      Ciprian Crainiceanu<br>
+                    Robert Krafty <br>
+                    Ying Guo</p> </td>
+                </tr>
+            {% endif %}
             {% if prog.ifsubprog %}
                 {% for eachsubprog in prog.subprog %}
                     {% assign sescount = sescount | plus:1 %}

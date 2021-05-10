@@ -44,6 +44,7 @@ order : 1
   {% for speaker in session.speakers %}
   <p> 
   <b>{{speaker.id}}. {{speaker.name}}</b><br/>
+  {{speaker.speakertime}} <br/>
     {{speaker.affil}} <br/> 
   {% if speaker.email %}
   Email: {{speaker.email}} <br/> 

@@ -14,9 +14,9 @@ chair:
     email: shijia.bian@emory.edu
 speakers:
     - id: 1
-      name: John Muschelli
-      affil: Johns Hopkins Bloomberg School of Public Health
-      email: jmusche1@jhu.edu
+      name: Ciprian Crainiceanu
+      affil: Johns Hopkins University 
+      email: ccraini1@jhu.edu 
       title: 'Neuroconductor: An R Platform for Medical Imaging Analysis'
       abstract: "Neuroconductor (https://neuroconductor.org) is an open-source platform for rapid testing and dissemination of reproducible computational imaging software. The goals of the project are to: 1) provide a centralized repository of R software dedicated to image analysis, 2) disseminate software updates quickly, 3) train a large, diverse community of scientists using detailed tutorials and short courses, 4) increase software quality via automatic and manual quality controls, and 5) promote reproducibility of image data analysis. 
       <p> 

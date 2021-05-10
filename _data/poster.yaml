@@ -80,7 +80,7 @@ containing tumors in the tissue samples.'
   name: Yuexuan Wu
   affil: Florida State University
   email: yw17g@my.fsu.edu
-  title: 
+  title: Elastic Shape Analysis of Brain Structures for Predictive Modeling of PTSD
   abstract: 'There is increasing evidence on the importance of brain morphology in 
   predicting and classifying mental disorders and behavior. However, most current 
   shape approaches rely heavily on vertex-wise analysis that may not successfully 
@@ -382,17 +382,17 @@ containing tumors in the tissue samples.'
   affil: Emory University
   email: jialu.ran@emory.edu
   title: Investigating latent neurocircuitry traits underlying brain dynamic functional connectome
-  abstract: 'In recent years, the analysis of brain network connectivity has become increasingly popular in neuroscience research. 
-  Investigating brain functional connectome as well as its change across time provides insights into the dynamic 
-  nature of brain organizations. However, such analyses often face some major challenges including the high 
-  dimensionality of brain networks, unknown latent sources underlying the observed connectivity, and the large number 
-  of brain connections leading to spurious _ndings. In our research, we aim to characterize 
-  various neural circuits underlying dynamic brain functional connectivity using a novel blind source separation (BSS) 
-  framework with low-rank structure and an angle-based sparsity regularization. Our proposed method captures the 
-  dynamic profiles of different neural circuits, reveals key brain regions or nodes that drive each of these circuits and 
-  identifies neural circuits associated with disease phenotypes. In this talk, we will introduce the methodology of 
-  our dynamic connectome source separation method and also present our findings on dynamic neurocircuitry traits extracted
-  from a resting-state fMRI study.'
+  abstract: 'In recent years, the analysis of brain network connectivity has become increasingly popular 
+  in neuroscience research. Investigating brain functional connectome as well as its change across time provides 
+  insights into the dynamic nature of brain organizations. However, such analyses often face some major challenges
+  including the high dimensionality of brain networks, and unknown latent sources underlying the observed connectivity. 
+  Meanwhile, the large number of brain connections may lead to spurious findings. In our research, we aim to 
+  characterize various neural circuits underlying dynamic brain functional connectivity using a novel blind source
+  separation (BSS) framework with a low-rank structure and an angle-based sparsity regularization. Our proposed method
+  captures the dynamic profiles of different neural circuits, reveals key brain regions or nodes that drive each of these 
+  circuits and identifies neural circuits associated with disease phenotypes. Our dynamic connectome source separation
+  method is further applied to resting-state fMRI data from the Philadelphia Neurodevelopmental Cohort (PNC) study.
+  We will present our findings on extracted dynamic neurocircuitry traits.'
   firstname: Jialu
   lastname: Ran
 - ID: UNK
@@ -505,27 +505,24 @@ containing tumors in the tissue samples.'
   type: poster
   order: 21
   id: 21
-  name: Coleman Harris
-  affil: Vanderbilt University
-  email: coleman.r.harris@vanderbilt.edu
-  title: Combining Batches of High-Dimensional Multiplexed Images
-  abstract: 'High-dimensional multiplexed imaging methods can help quantify the heterogeneity of cell 
-  populations in healthy and tumorous tissues, offering insight into tumor progression and 
-  improved treatment strategies. However, implicit biases exist in the imaging pipeline - images 
-  are distorted by optical effects, slide and batch effects, and instrument variability. Normalization 
-  of this data is compounded by the number of markers and natural tissue variability within each 
-  image, introducing systematic differences that impact inference. In this work, we introduce an 
-  image normalization pipeline to reduce systematic variability in multiplexed images by correcting 
-  for batch effects. We build on existing methods to compare the following approaches to correct 
-  for the batch effects in the data: a logarithmic transformation, a simple standardization (division 
-  by the mean), and approaches that adapt ComBat and functional data registration. We 
-  demonstrate these methods by analyzing multiplexed immunofluorescence (MxIF) images of 
-  human colorectal tissue samples to quantify the reduction in variability of the data, namely using 
-  thresholding methods and random effects models. We further demonstrate the method''s ability 
-  to retain biological signal by evaluating prediction accuracy of models for specific regions 
-  containing tumors in the tissue samples.'
-  firstname: Coleman
-  lastname: Harris
+  name: Raphiel Murden
+  affil: Emory University
+  email: 'r.j.murden@emory.edu'
+  title: 'Joint and individual statistical analysis of brain MRI and cognition measures in Alzheimer''s Disease'
+  abstract: 'Alzheimer''s Disease is associated with changes that can be measured using multiple modalities 
+  such as cognitive assessment and brain volumetry using MRI. Data integration methods, such as the 
+  classic Hotelling''s canonical correlation analysis (CCA) can find shared or joint structure across
+  multiple datasets/modalities (i.e. data blocks, data matrices). More recent approaches include multiset
+  Canonical Correlation Analysis or M-CCA, Joint and Individual Variance Explained (JIVE), Angle-based JIVE
+  (AJIVE), and others. The JIVE framework decomposes each of two or more data blocks into a joint subspace shared
+  across all blocks, an individual subspace that is unique to each data block, and noise. Here, individual refers 
+  to signal unique to a dataset. However, interpreting these subspaces remains challenging. To aid interpretation,
+  we propose an alternative view of the JIVE decomposition and provide an updated estimation method called Canonical 
+  JIVE or CJIVE. We apply CJIVE to measurements of brain morphology and cognition from The Alzheimer''s Disease 
+  Prediction of Longitudinal Evolution (TADPOLE) Challenge. Our results show the utility of JIVE analyses by obtaining
+  summary measures of the signal shared in our morphometry and cognition measures are associated with Alzheimer’s diagnoses.'
+  firstname: Raphiel
+  lastname: Murden
 - ID: UNK
   type: poster
   order: 22
