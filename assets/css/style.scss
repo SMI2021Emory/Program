@@ -4,53 +4,61 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    color: #ffff;
-    background-color: #151a2f;
-    background-image: linear-gradient(120deg,#03010f,#232442);
+  color: #ffff;
+  background-color: #151a2f;
+  background-image: linear-gradient(120deg, #03010f, #232442);
 }
 
 h1 {
-    color: #151a2f;
-    padding: 2em;
-    text-align: center;
-    vertical-align: middle;
+  color: #151a2f;
+  padding: 2em;
+  text-align: center;
+  vertical-align: middle;
 }
 
 h2 {
-    color: #151a2f;
+  color: #151a2f;
 }
 
 .btn {
-    color: #f2a900;
+  color: #f2a900;
 }
 
 .btn:hover {
-    color: #000000;
-    text-decoration: none;
-    background-color: #007dba;
+  color: #000000;
+  text-decoration: none;
+  background-color: #007dba;
 }
 
 .btn-ps {
-    color: #ffffff;
-    background-color: #232442;
-    text-align: center;
-    width: 180px;
+  color: #ffffff;
+  background-color: #232442;
+  text-align: center;
+  width: 180px;
 }
 
 .btn-ps:hover {
-    color: #f2a900;
-    text-decoration: none;
-    background-color: #007dba;
+  color: #f2a900;
+  text-decoration: none;
+  background-color: #007dba;
 }
 
 tr:nth-child(odd) {
-    background-color: SeaShell;
+  background-color: SeaShell;
 }
 
 a {
-    color: inherit;
+  color: inherit;
+}
+
+.psimg {
+  float: left;
+  width: 22%;
+  padding: 1px;
+  margin-right: 10px;
+  border: 5px solid Gainsboro;
 }
 
 .psimg:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
