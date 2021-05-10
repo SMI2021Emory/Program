@@ -222,7 +222,7 @@
   name: Ani Eloyan
   affil: Brown University
   email: ani_eloyan@brown.edu
-  speakertime: 9:00am-9:20am
+  speakertime: 2:00pm-2:20pm
   title: Analysis of structural imaging data in cancer
   abstract: Cancer patients routinely undergo radiological evaluations when images
     of various modalities including computed tomography, positron emission tomography,
@@ -247,6 +247,7 @@
   name: Candace Fleischer
   affil: Emory University and Georgia Tech
   email: candace.fleischer@emory.edu
+  speakertime: 4:10pm-4:30pm
   title: In vivo metabolic imaging with magnetic resonance spectroscopy
   abstract: Magnetic resonance imaging (MRI) in the brain relies on signal from water
     protons to generate structural and functional images. A lesser known yet complementary
@@ -266,6 +267,7 @@
   name: Susan Gauthier
   affil: Weill Cornell Medicine
   email: sag2015@med.cornell.edu
+  speakertime: 3:30pm-3:50pm
   title: The clinical translation of QSM as a new imaging biomarker for disease progression
     and treatment response in Multiple Sclerosis
   abstract: Chronic CNS inflammation in the multiple sclerosis (MS) lesions is maintained
@@ -370,7 +372,7 @@
   name: Emily Hector
   affil: North Carolina State University
   email: ehector@ncsu.edu
-  speakertime: 9:40am-10:00am
+  speakertime: 2:40pm-3:00pm
   title: Integrative fused mean structure learning with application to image-on-scalar regression
   abstract: 'Motivated by image-on-scalar regression with data aggregated across multiple sites, we consider a setting in which multiple independent studies each collect multiple dependent vector 
   outcomes, with potential mean model parameter homogeneity between studies and outcome vectors. To 
@@ -391,6 +393,7 @@
   name: Chao Huang
   affil: Florida State University
   email: chaohuang@stat.fsu.edu
+  speakertime: 2:40pm-3:00pm
   title: Shape-on-Vector Geodesic Regression Model and Its Applications in Image Data
     Analysis
   abstract: With the rapid growth of modern technology, many large-scale biomedical
@@ -494,6 +497,7 @@
   name: Sebastian Kurtek
   affil: Ohio State University
   email: kurtek.1@stat.osu.edu
+  speakertime: 2:00pm-2:20pm
   title: Visualization and Outlier Detection for Shape Data
   abstract: We propose a new method for the construction and visualization of geometrically-motivated
     boxplot displays for elastic curve data. We use a recent shape analysis framework,
@@ -518,6 +522,7 @@
   name: Nicole Lazar
   affil: Penn State University
   email: nfl5182@psu.edu
+  speakertime: 9:20am-9:40am
   title: Topological Data Analysis for the Study of Brain Networks
   abstract: The study of brain networks and brain connectivity has increased in prominence
     in recent years.  In this talk, I will describe the use of topological data analysis
@@ -631,7 +636,7 @@
   name: Amanda Mejia
   affil: Indiana University
   email: afmejia@iu.edu
-  speakertime: 9:20am-9:40am
+  speakertime: 2:20pm-2:40pm
   title: Leveraging shared population and spatial information for accurate estimation
     of subject-level brain networks
   abstract: |
@@ -739,6 +744,7 @@
   name: Todd Ogden
   affil: Columbia University
   email: to166@cumc.columbia.edu
+  speakertime: 9:00am-9:20am
   title: Constrained functional additive models for interaction effects between a
     treatment and functional covariates
   abstract: A primary goal of precision medicine is to make efficient use of data
@@ -788,6 +794,7 @@
   name: Deqiang Qiu
   affil: Emory University and Georgia Tech
   email: deqiang.qiu@emory.edu
+  speakertime: 3:30pm-3:50pm
   title: Inverse Problems in Magnetic Resonance Quantitative Susceptibility Mapping
   abstract: Quantitative susceptibility mapping (QSM) is a recently developed magnetic
     resonance technique that allows (semi-)quantification of the spatial distribution
@@ -832,6 +839,7 @@
   name: David Reiter
   affil: Emory University
   email: david.a.reiter@emory.edu
+  speakertime: 3:50pm-4:10pm
   title: Advances in Quantitative MRI Signal Modeling in Musculoskeletal Research
   abstract: Magnetic resonance imaging is capable of providing a broad range of contrasts
     reflecting a variety of intrinsic properties of the underlying tissue system.
@@ -853,6 +861,7 @@
   name: Sandra Hurtado Rúa
   affil: Cleveland State University
   email: s.hurtadorua@csuohio.edu
+  speakertime: 4:10pm-4:30pm
   title: Statistical challenges in the analysis of QSM maps
   abstract: Quantitative susceptibility maps (QSM) have the potential to be a biomarker
     in Multiple Sclerosis with the ability to inform clinical management of disease
@@ -891,6 +900,7 @@
   name: Haochang Shou
   affil: University of Pennsylvania
   email: hshou@pennmedicine.upenn.edu
+  speakertime: 9:40am-10:00am
   title: Correcting Site Differences in the Covariance Structures of Neuroimaging
     Data
   abstract: With the increasing needs for big data analytics in medical imaging, pooling
@@ -943,6 +953,7 @@
   name: Elizabeth Sweeney
   affil: Weill Cornell Medicine
   email: ems4003@med.cornell.edu
+  speakertime: 3:50pm-4:10pm
   title: 'QSM Image Analysis: Automated Lesion Type Identification and Lesion Age
     Estimation'
   abstract: 'Quantitative susceptibility mapping (QSM) rim (rim +) positive multiple
@@ -1054,6 +1065,7 @@
   name: Zhengwu Zhang
   affil: UNC
   email: zhengwu_zhang@unc.edu
+  speakertime: 2:20pm-2:40pm
   title: Surface-Based Connectivity Integration
   abstract: 'The integration of structural (SC) and functional connectivity (FC) remains
     a necessary and challenging frontier for neuroscience research due to signal and
