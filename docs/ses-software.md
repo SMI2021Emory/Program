@@ -36,7 +36,7 @@ order : 3
     {{speaker.affil}} <br/> 
   {% if speaker.email %}
   Email: {{speaker.email}} <br/> 
-  {{speaker.speakertime}}<br/>
+  <b>Time: {{speaker.speakertime}}</b> <br/>
   {% endif %}
   <p> <b>Title</b>: {{speaker.title}} <br/>
   <b> Abstract</b>: {{speaker.abstract}} </p>
