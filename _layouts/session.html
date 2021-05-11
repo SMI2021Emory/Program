@@ -50,7 +50,7 @@ layout: default
   <p> <b>Title</b>: {{speaker.title}} <br/>
   {% assign speakertime_all = sorted_speakers | where: "email", speaker.email %}
   {% for st in speakertime_all %}
-  <b>Time</b>: {{ st.speakertime }}
+  <b>Time: {{ st.speakertime }}</b>
   {% endfor %} <br/>
   <b> Abstract</b>: <br/>{{speaker.abstract}} </p>
   {% endfor %}
