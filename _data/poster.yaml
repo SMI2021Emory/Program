@@ -17,6 +17,7 @@
   illustrating the validity and applicability.'
   firstname: Xueyan
   lastname: Liu
+  psfile: Poster 1.png
 - ID: UNK
   type: poster
   order: 2
@@ -42,6 +43,7 @@ to retain biological signal by evaluating prediction accuracy of models for spec
 containing tumors in the tissue samples.'
   firstname: Coleman
   lastname: Harris
+  psfile: Poster 2.jpg
 - ID: UNK
   type: poster
   order: 3
@@ -73,6 +75,7 @@ containing tumors in the tissue samples.'
   parsimony and maintaining interpretability.'
   firstname: Rongjie
   lastname: Liu
+  psfile: Poster 3.png
 - ID: UNK
   type: poster
   order: 4
@@ -110,6 +113,7 @@ containing tumors in the tissue samples.'
   GitHub repository (https://github.com/wuyx5/Elastic-Shape-Analysis-PTSD).'
   firstname: Yuexuan
   lastname: Wu
+  psfile: Poster 4.png
 - ID: UNK
   type: poster
   order: 5
@@ -129,6 +133,7 @@ containing tumors in the tissue samples.'
   single-scale methods in both simulations and analyses of the Human Connectome Project dataset.'
   firstname: Steven
   lastname: Winter
+  psfile: Poster 5.png
 - ID: UNK
   type: poster
   order: 6
@@ -151,6 +156,7 @@ containing tumors in the tissue samples.'
   gap between predicted and chronological age correlates with cognitive decline.'
   firstname: Marco
   lastname: Palma
+  psfile: Poster 6.jpg
 - ID: UNK
   type: poster
   order: 7
@@ -179,6 +185,7 @@ containing tumors in the tissue samples.'
   illustrated through an application to data from the UK Biobank.'
   firstname: Pritam
   lastname: Dey
+  psfile: Poster 7.jpg
 - ID: UNK
   type: poster
   order: 8
@@ -201,6 +208,7 @@ containing tumors in the tissue samples.'
   statistical inference on associations between brain asymmetries, diagnosis, and neurodevelopment.'
   firstname: Cintya
   lastname: Dutta
+  psfile: Poster 8.png
 - ID: UNK
   type: poster
   order: 9
@@ -220,6 +228,7 @@ containing tumors in the tissue samples.'
   illustrated using simulated as well as real data examples.'
   firstname: Aditi
   lastname: Basu
+  psfile: Poster 9.jpg
 - ID: UNK
   type: poster
   order: 10
@@ -245,6 +254,7 @@ containing tumors in the tissue samples.'
   related to distinct language processing functions.'
   firstname: Meini
   lastname: Tang
+  psfile: Poster 10.png
 - ID: UNK
   type: poster
   order: 11
@@ -269,6 +279,7 @@ containing tumors in the tissue samples.'
   anemia vs control.'
   firstname: Chenlu
   lastname: Shan
+  psfile: Poster 11.jpg
 - ID: UNK
   type: poster
   order: 12
@@ -303,6 +314,7 @@ containing tumors in the tissue samples.'
   power associations among different brain regions.'
   firstname: Guillermo
   lastname: Granados Garcia
+  psfile: Poster 12.jpg
 - ID: UNK
   type: poster
   order: 13
@@ -327,6 +339,7 @@ containing tumors in the tissue samples.'
   and brain network distances in Human Connectome Project (HCP) data.'
   firstname: Chalmer
   lastname: Tomlinson
+  psfile: Poster 13.jpg
 - ID: UNK
   type: poster
   order: 14
@@ -349,6 +362,7 @@ containing tumors in the tissue samples.'
   death curves in 51 US states.'
   firstname: Hanwen
   lastname: Hu
+  psfile: Poster 14.png
 - ID: UNK
   type: poster
   order: 15
@@ -374,6 +388,7 @@ containing tumors in the tissue samples.'
   patterns via extensive simulations and analyses of working-memory task fMRI data in the ABCD study.'
   firstname: Zikai
   lastname: Lin
+  psfile: Poster 16.png
 - ID: UNK
   type: poster
   order: 16
@@ -394,7 +409,8 @@ containing tumors in the tissue samples.'
   method is further applied to resting-state fMRI data from the Philadelphia Neurodevelopmental Cohort (PNC) study.
   We will present our findings on extracted dynamic neurocircuitry traits.'
   firstname: Jialu
-  lastname: Ran
+  lastname: Ran  
+  psfile: Poster 16.png
 - ID: UNK
   type: poster
   order: 17
@@ -413,6 +429,7 @@ containing tumors in the tissue samples.'
   large-scale LMM analyses, implemented in python and designed for use on SGE computer clusters.'
   firstname: Thomas
   lastname: Maullin-Sapey
+  psfile: Poster 17.png
 - ID: UNK
   type: poster
   order: 18
@@ -439,6 +456,7 @@ containing tumors in the tissue samples.'
   systematically borrow information across samples.'
   firstname: Jin
   lastname: Ming
+  psfile: Poster 18.jpg
 - ID: UNK
   type: poster
   order: 19
@@ -461,6 +479,7 @@ containing tumors in the tissue samples.'
   studies using non-verbal stimuli.'
   firstname: Yifan
   lastname: Yu
+  psfile: Poster 19.jpeg
 - ID: UNK
   type: poster
   order: 20
@@ -501,6 +520,7 @@ containing tumors in the tissue samples.'
   might display interesting topological behavior.'
   firstname: Anass
   lastname: Bourakna
+  psfile: 
 - ID: UNK
   type: poster
   order: 21
@@ -523,6 +543,7 @@ containing tumors in the tissue samples.'
   summary measures of the signal shared in our morphometry and cognition measures are associated with Alzheimer’s diagnoses.'
   firstname: Raphiel
   lastname: Murden
+  psfile: Poster 21.jpg
 - ID: UNK
   type: poster
   order: 22
@@ -552,6 +573,7 @@ containing tumors in the tissue samples.'
   fMRI are included to show both improved power and reliability of the spatial Bayesian GLM.'
   firstname: Daniel
   lastname: Spencer
+  psfile: Poster 22.png
 - ID: UNK
   type: poster
   order: 23
@@ -574,6 +596,7 @@ containing tumors in the tissue samples.'
   lobe epilepsy.'
   firstname: Matheus
   lastname: Bartolo Guerrero
+  psfile: Poster 23.png
 - ID: UNK
   type: poster
   order: 24
@@ -591,7 +614,8 @@ containing tumors in the tissue samples.'
   data from the Human Connectome Project and conduct simulation studies to address the 
   SpLoc’s performance compared to the existing methods.'
   firstname: Jun Young
-  lastname: Park
+  lastname: Park  
+  psfile: Poster 24.jpg
 - ID: UNK
   type: poster
   order: 25
@@ -603,6 +627,7 @@ containing tumors in the tissue samples.'
   abstract: ''
   firstname: Andrew
   lastname: Gerlach
+  psfile: Poster 25.ong
 - ID: UNK
   type: poster
   order: 26
@@ -625,6 +650,7 @@ containing tumors in the tissue samples.'
   impaired, or diagnosed with dementia to demonstrate that this framework can improve classification performance.'
   firstname: Justin
   lastname: Leach
+  psfile: Poster 26.png
 - ID: UNK
   type: poster
   order: 27
@@ -652,6 +678,7 @@ containing tumors in the tissue samples.'
   approximation error.'
   firstname: Thilini
   lastname: Jayasinghe
+  psfile: Poster 27.png
 - ID: UNK
   type: poster
   order: 28
@@ -674,6 +701,7 @@ containing tumors in the tissue samples.'
   functional connectivities in the Grady Trauma Project.'
   firstname: Bo
   lastname: Wei
+  psfile: Poster 28.png
 - ID: UNK
   type: poster
   order: 29
@@ -702,6 +730,7 @@ containing tumors in the tissue samples.'
   methodology are studied in extensive simulations.'
   firstname: Emilie
   lastname: Campos
+  psfile: Poster 29.png
 - ID: UNK
   type: poster
   order: 30
@@ -733,6 +762,7 @@ containing tumors in the tissue samples.'
   improves the reliability and sex-predictiveness of FC, but has little effect on their identifiability.'
   firstname: Damon
   lastname: Pham
+  psfile: Poster 30.png
 - ID: UNK
   type: poster
   order: 31
@@ -754,3 +784,4 @@ containing tumors in the tissue samples.'
   structure and related metrics at both the scanner and subject level.'
   firstname: Andrew
   lastname: Chen
+  psfile: Poster 31.png
