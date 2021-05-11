@@ -520,7 +520,7 @@ containing tumors in the tissue samples.'
   might display interesting topological behavior.'
   firstname: Anass
   lastname: Bourakna
-  psfile: 
+  psfile: Poster 20.png
 - ID: UNK
   type: poster
   order: 21
@@ -785,3 +785,16 @@ containing tumors in the tissue samples.'
   firstname: Andrew
   lastname: Chen
   psfile: Poster 31.png
+- ID: UNK
+  type: poster
+  order: 32
+  id: 32
+  name: Danni Tu
+  affil: University of Pennsylvania
+  email: 
+  title: Automated Analysis of Low Field Brain MRI in Cerebral Malaria
+  abstract: ''
+  firstname: Danni
+  lastname: Tu
+  psfile: Poster 32.png
+
