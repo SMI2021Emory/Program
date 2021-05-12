@@ -36,7 +36,9 @@ Please click the thumbnails of posters to see the full-sized posters.
       <a target="_blank" href="{{site.baseurl }}/assets/posters/{{ poster_filename | default: "default.jpg" }}">
         <img class="psimg" alt='{{speaker.id | prepend: "poster" }}'
           src="{{site.baseurl }}/assets/posters/{{ poster_filename | default: "default.jpg" }}"
-          onerror="if (this.src != '{{site.baseurl }}/assets/posters/default.jpg') this.src = '{{site.baseurl }}/assets/posters/default.jpg';">
+          onerror="if (this.src != '{{site.baseurl }}/assets/posters/default.jpg') {
+            this.src = '{{site.baseurl }}/assets/posters/default.jpg';
+            };">
       </a>
     </div>
     <div style="float: right; width: 70%">
