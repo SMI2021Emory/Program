@@ -624,7 +624,24 @@ containing tumors in the tissue samples.'
   affil: University of Pittsburgh
   email: arg151@pitt.edu
   title: Higher Criticism to Understand the Complex Neural Underpinnings of Worry
-  abstract: ''
+  abstract: "Background: Worry is a transdiagnostic phenotype encountered in multiple mental disorders and independently 
+  associated with increased morbidity, including cognitive impairment and cardiovascular diseases. We investigated
+  the neurobiological basis of worry in older adults by analyzing resting fMRI from a systems neuroscience perspective. 
+  Methods: We collected resting fMRI on 77 participants (>50 yo) with varying worry severity. 
+  We computed region-wise connectivity across the Default Mode Network (DMN), Anterior Salience Network (ASN), 
+  and left Executive Control Network (LECN). All 22,366 correlations were regressed on worry severity and adjusted 
+  for age, sex, race, education, disease burden, depression, anxiety, rumination, and neuroticism. We employed higher 
+  criticism (HC) thresholding, a second-level method of significance testing for rare/weak features, for correlation 
+  selection. Aggregate correlations were used to summarize network-level signatures of worry. Results: Half the relevant 
+  intra-network connections are within DMN. Negative correlations with worry severity dominate throughout the cingulate, 
+  temporal lobe, and cuneus, while frontal regions show bidirectional associations with worry. Within ASN, negative correlations 
+  with worry severity abound, particularly in the ACC, inferior frontal regions, and thalamus. Positive correlations with worry
+  severity in the left PCC and right temporal lobe and negative correlations in frontal regions are notable within LECN. 
+  Inter-network analysis reveals a rich, but complex pattern of connectivity. 
+  Conclusions: Worry severity is associated with complex resting state intra- and inter-network 
+  connectivity signatures independent of other clinical and demographic variables. Identifying the 
+  most salient and unique connections may be useful for targeted interventions for reducing morbidity
+  associated with severe worry in older adults."
   firstname: Andrew
   lastname: Gerlach
   psfile: Poster 25.png
