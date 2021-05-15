@@ -42,7 +42,7 @@ Please click the thumbnails of posters to see the full-sized posters.
       </a>
     </div>
     <div style="float: right; width: 70%">
-      {{speaker.id}}. <b>{{speaker.title}}</b> <br />
+      Poster {{speaker.id}}. <b>{{speaker.title}}</b> <br />
       {{speaker.name}}
       <div style="float: right;">
         <button id="{{speaker.id | prepend: 'poster-bn'}}" class="btn btn-ps"
