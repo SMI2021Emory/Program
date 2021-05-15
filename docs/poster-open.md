@@ -21,7 +21,7 @@ order: 4
   data-pdfjs-src="{{site.baseurl }}/assets/js/pdfThumbnails/build/pdf.js"></script>
 
 <h1 style="color: #120659;"> {{page.title}} </h1>
-<h3> Poster Presenters: </h3>
+<h3> Posters: </h3>
 
 Please click the thumbnails of posters to see the full-sized posters.
 
