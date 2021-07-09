@@ -4,6 +4,7 @@ ID: I-5
 type: invited
 order: 14
 title: Statistical methods for functional neuroimaging 
+youtubelink: https://www.youtube.com/watch?v=-TG2vt5hnrw&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=14
 organizer:
     name:   Ying Guo
     affil: Emory University      
