@@ -4,6 +4,7 @@ ID: I-8
 type: invited
 order: 21
 title: Bayesian Supervised and Unsupervised Image Processing and Analysis, with Applications to Radiogenomics and Diffusion Tensor Imaging
+youtubelink: https://www.youtube.com/watch?v=OeKeShdQP0I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=21
 organizer:
     name: Rajarshi Guhaniyogi
     affil: University of California, Santa Cruz 
