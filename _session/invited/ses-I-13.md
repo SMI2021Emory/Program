@@ -4,6 +4,7 @@ ID: I-13
 type: invited
 order: 9
 title: New statistical learning methods for imaging data analysis
+youtubelink: https://www.youtube.com/watch?v=sGoozhQtZ_M&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=9
 organizer:
     name:  Jian Kang
     affil:  University of Michigan
