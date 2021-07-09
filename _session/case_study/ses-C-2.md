@@ -4,6 +4,7 @@ ID: C-2
 type: case_study
 order: 13
 title: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions. 
+youtubelink: https://www.youtube.com/watch?v=VFmupeu_ITQ&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=13
 organizer:
     name:  Sandra Hurtado Rúa
     affil: Cleveland State University
