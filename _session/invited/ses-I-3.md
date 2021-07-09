@@ -4,6 +4,7 @@ ID: I-3
 type: invited
 order: 11
 title: Recent Advances and New Directions in Neuroimaging Statistics
+youtubelink: https://www.youtube.com/watch?v=GOZTBFba4-0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=11
 organizer:
     name: Carolyn Lou
     affil: > 
