@@ -4,6 +4,7 @@ ID: I-4
 type: invited
 order: 6
 title: Recent advances in statistical methods for complex neuroimaging data
+youtubelink: https://www.youtube.com/watch?v=ADs9Vd0qzmk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=6
 organizer:
     name:  Fengqing (Zoe) Zhang
     affil: Drexel University        
