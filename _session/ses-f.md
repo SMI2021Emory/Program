@@ -33,6 +33,8 @@ speakers:
   
   Slides from the Founder's talk can be downloaded <a href="{{ site.baseurl }}/assets/johnson_slides.pdf">here</a>.
   
+  The video recording of this talk can be viewed <a href="https://www.youtube.com/watch?v=z0GVESEpERM&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=2">here</a>.
+  
   <p>
   <b>Chair</b>: Tingting Zhang<br/> 
   University of Pittsburgh <br/> 
