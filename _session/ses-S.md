@@ -4,6 +4,7 @@ ID: S
 type: software
 order: 1
 title: Software Sessions
+youtubelink: https://www.youtube.com/watch?v=sdRT92s-rFo&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=3
 organizer:
     name: Ying Guo
     affil: Emory University
