@@ -4,6 +4,7 @@ ID: I-2
 type: invited
 order: 8
 title: Flexible Bayesian Approaches for Imaging Analysis
+youtubelink: https://www.youtube.com/watch?v=ZlfefTYYC8Q&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=8
 organizer:
     name: Suprateek Kundu
     affil: Emory University        
