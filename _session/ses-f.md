@@ -31,6 +31,8 @@ speakers:
     </a>
   </h2>
   
+  Slides from the Founder's talk can be downloaded <a href="{{ site.baseurl }}/assets/johnson_slides.pdf">here</a>.
+  
   <p>
   <b>Chair</b>: Tingting Zhang<br/> 
   University of Pittsburgh <br/> 
@@ -48,7 +50,4 @@ speakers:
   <b>Title</b>: {{speaker.title}} <br/>
   <b>Abstract</b>:<br/> {{speaker.abstract}} <br/>
   {% endfor %}
-    
-  Slides from the Founder's talk can be downloaded <a href="{{ site.baseurl }}/assets/johnson_slides.pdf">here</a>
-.
 
