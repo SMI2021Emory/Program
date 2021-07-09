@@ -4,6 +4,7 @@ ID: I-1
 type: invited
 order: 5
 title: Statistical methods for neuroimaging studies of Alzheimer’s Disease
+youtubelink: https://www.youtube.com/watch?v=bWS3HqnImYI&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=5
 organizer:
     name: Dana Tudorascu, PhD
     affil: University of Pittsburgh
