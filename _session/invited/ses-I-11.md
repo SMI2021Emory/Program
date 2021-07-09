@@ -4,6 +4,7 @@ ID: I-11
 type: invited
 order: 10
 title: Statistical Shape Modeling and Analysis Using Imaging Data
+youtubelink: https://www.youtube.com/watch?v=2TP0pfFcdO0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=10
 organizer:
     name:  Anuj Srivastava
     affil: Florida State University
