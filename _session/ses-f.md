@@ -48,4 +48,7 @@ speakers:
   <b>Title</b>: {{speaker.title}} <br/>
   <b>Abstract</b>:<br/> {{speaker.abstract}} <br/>
   {% endfor %}
+    
+  Slides from the Founder's talk can be downloaded <a href="{{ site.baseurl }}/assets/johnson_slides.pdf">here</a>
+.
 
