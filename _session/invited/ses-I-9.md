@@ -4,6 +4,7 @@ ID: I-9
 type: invited
 order: 17
 title: Regularization methods in medical imaging
+youtubelink: https://www.youtube.com/watch?v=ZY_r9hOx7hY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=17
 organizer:
     name: John Kornak
     affil: University of California, San Francisco
