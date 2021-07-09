@@ -4,6 +4,7 @@ ID: C-1
 type: case_study
 order: 12
 title: Advanced Imaging
+youtubelink: https://www.youtube.com/watch?v=9BHGERAXwCc&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=12
 organizer:
     name:  Ben Risk
     affil: Emory University
