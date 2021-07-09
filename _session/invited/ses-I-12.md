@@ -4,6 +4,7 @@ ID: I-12
 type: invited
 order: 22
 title: Functional and Spatial Techniques in Neuroimaging Data 
+youtubelink: https://www.youtube.com/watch?v=79XIyGnthXk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=22
 organizer:
     name:  Linglong Kong
     affil:  University of Alberta
