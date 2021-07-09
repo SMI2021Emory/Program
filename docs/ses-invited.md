@@ -22,6 +22,8 @@ order : 1
       Session {{ session.ID }}: {{ session.title }}
     </a>
   </h2>
+  
+  The video recording of this talk can be viewed <a href="{{page.youtubelink}}" style="color: blue">here</a>. <br/><br/>
 
   <p>
   <b>Organizer</b>: {{session.organizer.name}} <br/> 
