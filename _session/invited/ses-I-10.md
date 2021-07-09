@@ -4,6 +4,7 @@ ID: I-10
 type: invited
 order: 15
 title: Complex response, dimension reduction and data integration with application on neuroimaging
+youtubelink: https://www.youtube.com/watch?v=s-UyBYLH2v4&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=15
 organizer:
     name: Yize Zhao
     affil:  Yale University 
