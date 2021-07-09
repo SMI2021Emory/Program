@@ -3,7 +3,8 @@ layout: session
 ID: I-7
 type: invited
 order: 20
-title: Recent advances in brain network statistics   
+title: Recent advances in brain network statistics  
+youtubelink: https://www.youtube.com/watch?v=dglDyMWXRnY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=20
 organizer:
     name:   Shuo Chen
     affil: University of Maryland
