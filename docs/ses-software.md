@@ -10,6 +10,8 @@ order : 3
   <h2 style="color: #120659;">  
       {{ session.title }}
   </h2>
+  
+  The video recording of this talk can be viewed <a href="https://www.youtube.com/watch?v=sdRT92s-rFo&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=3" style="color: blue">here</a>.
 
 <p>
   <b>Organizer</b>: {{session.organizer.name}} <br/> 
