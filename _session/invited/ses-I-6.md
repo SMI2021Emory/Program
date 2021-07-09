@@ -4,6 +4,7 @@ ID: I-6
 type: invited
 order: 19
 title: Advances in Statistical Methods for Multiple Sclerosis Imaging
+youtubelink: https://www.youtube.com/watch?v=QUGKVC-t524&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=19
 organizer:
     name:  Elizabeth Sweeney 
     affil: Weill Cornell  
