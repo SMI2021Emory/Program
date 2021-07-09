@@ -4,6 +4,7 @@ ID: K-1
 type: keynote
 order: 7
 title: Keynote Speakers
+youtubelink: https://www.youtube.com/watch?v=SGnmUyf-d8I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=7
 organizer:
     name: 
     affil: 
