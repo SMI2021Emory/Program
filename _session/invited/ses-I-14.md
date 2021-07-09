@@ -4,6 +4,7 @@ ID: I-14
 type: invited
 order: 18
 title: Statistical Approaches to Addressing Challenges in Neuroimaging Research
+youtubelink: https://www.youtube.com/watch?v=66iI7TtAQJU&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=18
 organizer:
     name:  Dayu Sun
     affil: >
