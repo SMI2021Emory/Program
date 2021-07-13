@@ -26,7 +26,11 @@ In US Eastern Time
                     {% assign currentcount = sescount | append: ". " %}
                 {% endif %}
                 {% if prog.link %}
-                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>                    
+                  {% if prog.isrecorded %}
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td> 
+                  {% else %}
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> </td> 
+                  {% endif %} 
                 {% else %}
                     {% if prog.isopenremark %}
                         <td> {{currentcount}}{{ prog.title }} (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>
