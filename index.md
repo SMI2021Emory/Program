@@ -26,7 +26,7 @@ In US Eastern Time
                     {% assign currentcount = sescount | append: ". " %}
                 {% endif %}
                 {% if prog.link %}
-                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a></td>                    
+                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recordinglink }}" style="color: #0073ee;"> Session Recording </a>) </td>                    
                 {% else %}
                     <td>{{currentcount}}{{ prog.title }}</td>
                 {% endif %}                
