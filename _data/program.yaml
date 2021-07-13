@@ -21,7 +21,7 @@ program:
         ifsubprog: FALSE
         isopenremark: FALSE
         isrecorded: TRUE
-        recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=2
+        recording: https://www.youtube.com/watch?v=z0GVESEpERM&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=2
       - time: 14:55-16:35
         title: Statistical Software for Imaging Analysis   
         iscount: TRUE
@@ -29,7 +29,7 @@ program:
         ifsubprog: FALSE
         isopenremark: FALSE
         isrecorded: TRUE
-        recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=3
+        recording: https://www.youtube.com/watch?v=sdRT92s-rFo&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=3
       - time: 16:35-16:55
         title: Floor Discussion
         iscount: FALSE
@@ -54,7 +54,7 @@ program:
           - speaker: Test
           - speakertime: 8:45-8:50
         isrecorded: TRUE
-        recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=4
+        recording: https://www.youtube.com/watch?v=mHdEysyDC9Q&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=4
       - time: 9:00-10:00
         title: Invited session
         iscount: FALSE
@@ -66,13 +66,13 @@ program:
             id: I-1
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=5
+            recording: https://www.youtube.com/watch?v=bWS3HqnImYI&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=5
           - name: Recent advances in statistical methods for complex neuroimaging data
             organizer: Fengqing Zhang
             id: I-4
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=6
+            recording: https://www.youtube.com/watch?v=ADs9Vd0qzmk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=6
       - time: 10:00-10:30
         title: Floor Discussion  
         iscount: FALSE
@@ -87,7 +87,7 @@ program:
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: TRUE
-        recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=7
+        recording: https://www.youtube.com/watch?v=SGnmUyf-d8I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=7
       - time: 11:30-11:45
         title: Break        
         iscount: FALSE
@@ -105,13 +105,13 @@ program:
             id: I-2
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=8
+            recording: https://www.youtube.com/watch?v=ZlfefTYYC8Q&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=8
           - name: New statistical learning methods for imaging data analysis
             organizer: Jian Kang
             id: I-13
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=9
+            recording: https://www.youtube.com/watch?v=sGoozhQtZ_M&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=9
       - time: 12:45-13:00 
         title: Floor Discussion
         iscount: FALSE
@@ -135,13 +135,13 @@ program:
             id: I-11
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=10
+            recording: https://www.youtube.com/watch?v=2TP0pfFcdO0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=10
           - name: Recent Advances and New Directions in Neuroimaging Statistics
             organizer: Carolyn Lou
             id: I-3
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=11
+            recording: https://www.youtube.com/watch?v=GOZTBFba4-0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=11
       - time: 15:00-15:30  
         title: Floor Discussion   
         iscount: FALSE
@@ -159,13 +159,13 @@ program:
             id: C-1
             type: case_study
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=12
+            recording: https://www.youtube.com/watch?v=9BHGERAXwCc&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=12
           - name: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions
             organizer: Sandra Hurtado Rúa
             id: C-2
             type: case_study
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=13
+            recording: https://www.youtube.com/watch?v=VFmupeu_ITQ&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=13
       - time: 16:30-17:00  
         title: Floor Discussion    
         iscount: FALSE
@@ -185,13 +185,13 @@ program:
             id: I-5
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=14
+            recording: https://www.youtube.com/watch?v=-TG2vt5hnrw&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=14
           - name: Complex response, dimension reduction and data integration with application on neuroimaging
             organizer: Yize Zhao
             id: I-10
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=15
+            recording: https://www.youtube.com/watch?v=s-UyBYLH2v4&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=15
       - time: 10:00-10:30
         title: Floor Discussion 
         iscount: FALSE
@@ -206,7 +206,7 @@ program:
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: TRUE
-        recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=16
+        recording: https://www.youtube.com/watch?v=4OSojKW25ak&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=16
       - time: 11:30-11:45
         title: Break       
         iscount: FALSE
@@ -224,13 +224,13 @@ program:
             id: I-9
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=17
+            recording: https://www.youtube.com/watch?v=ZY_r9hOx7hY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=17
           - name: Statistical Approaches to Addressing Challenges in Neuroimaging Research
             organizer: Dayu Sun
             id: I-14
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=18
+            recording: https://www.youtube.com/watch?v=66iI7TtAQJU&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=18
       - time: 12:45-13:00 
         title: Floor Discussion     
         iscount: FALSE
@@ -254,13 +254,13 @@ program:
             id: I-6
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=19
+            recording: https://www.youtube.com/watch?v=QUGKVC-t524&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=19
           - name: Recent advances in brain network statistics
             organizer: Shuo Chen
             id: I-7
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=20
+            recording: https://www.youtube.com/watch?v=dglDyMWXRnY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=20
       - time: 15:00-15:30  
         title: Floor Discussion    
         iscount: FALSE
@@ -278,13 +278,13 @@ program:
             id: I-8
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=21
+            recording: https://www.youtube.com/watch?v=OeKeShdQP0I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=21
           - name: Functional and Spatial Techniques in Neuroimaging Data
             organizer: Linglong Kong
             id: I-12
             type: invited
             isrecorded: TRUE
-            recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=22
+            recording: https://www.youtube.com/watch?v=79XIyGnthXk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=22
       - time: 16:30-17:00  
         title: Floor Discussion   
         iscount: FALSE
