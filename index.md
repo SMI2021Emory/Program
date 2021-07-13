@@ -4,7 +4,7 @@ title: SMI 2021 Agenda
 <h1 style="color: #120659;"> SMI 2021 Agenda </h1>
 In US Eastern Time
 <br/>
-<b>The Digital Program Book for the SMI 2021 conference contains the Zoom links for each of the sessions and was sent to all registered attendees on Monday, 5/10.  Please email yguo2 at emory.edu if you did not receive it.</b>
+
 
 <!-- Potentially store abstract/session information on this site
 
