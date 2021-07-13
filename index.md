@@ -28,7 +28,11 @@ In US Eastern Time
                 {% if prog.link %}
                     <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>                    
                 {% else %}
-                    <td>{{currentcount}}{{ prog.title }}</td>
+                    {% if prog.isopenremark %}
+                        <td> {{currentcount}}{{ prog.title }} (<a href="{{ eachsubprog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>
+                    {% else %}
+                        <td>{{currentcount}}{{ prog.title }}</td>
+                    {% endif %}
                 {% endif %}                
             </tr>
             {% if prog.isopenremark %}
@@ -46,7 +50,7 @@ In US Eastern Time
                     <tr>
                         <td> </td>
                         {% if eachsubprog.id %}
-                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html" style="color: #0073ee;"> {{sescount | append: ". "}}{{ eachsubprog.name }}</a> (<a href="{{ eachsubprog.recording }}" style="color: #0073ee;"> Session Recording </a>)(organizer: {{ eachsubprog.organizer}})</td>
+                            <td> <a href="{{ site.relative_url }}/sessions/ses-{{ eachsubprog.id | downcase }}.html" style="color: #0073ee;"> {{sescount | append: ". "}}{{ eachsubprog.name }}</a> (<a href="{{ eachsubprog.recording }}" style="color: #0073ee;"> Session Recording </a>) (organizer: {{ eachsubprog.organizer}})</td>
                         {% else %}
                             <td> <div style="color:red;"> {{sescount | append: ". "}}{{ eachsubprog.name }} </div>(organizer: {{ eachsubprog.organizer}})</td>
                         {% endif %}                        
