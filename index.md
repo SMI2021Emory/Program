@@ -29,7 +29,7 @@ In US Eastern Time
                     <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>                    
                 {% else %}
                     {% if prog.isopenremark %}
-                        <td> {{currentcount}}{{ prog.title }} (<a href="{{ eachsubprog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>
+                        <td> {{currentcount}}{{ prog.title }} (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td>
                     {% else %}
                         <td>{{currentcount}}{{ prog.title }}</td>
                     {% endif %}
