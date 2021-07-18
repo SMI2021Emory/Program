@@ -29,9 +29,9 @@ In US Eastern Time
                   {% if prog.isrecorded %}
                     {% if prog.hasslides %}
                           {% if prog.isshortcourse %}
-                            <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>, <a href="{{ prog.slides }}" style="color: #0073ee;">Slides</a>) </td> 
+                            <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;">Session Recording </a>, <a href="{{ prog.slides }}" style="color: #0073ee;">Slides</a>) </td> 
                           {% else %}
-                            <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>, Slides) </td> 
+                            <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;">Session Recording </a>, Slides) </td> 
                           {% endif %}
                         {% else %}
                         <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td> 
