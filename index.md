@@ -27,8 +27,11 @@ In US Eastern Time
                 {% endif %}
                 {% if prog.link %}
                   {% if prog.isrecorded %}
-                    <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>, Slides) </td> 
-                 
+                    {% if prog.hasslides %}
+                      <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>, Slides) </td> 
+                        {% else %}
+                        <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> (<a href="{{ prog.recording }}" style="color: #0073ee;"> Session Recording </a>) </td> 
+                        {% endif %}
                   {% else %}
                     <td><a href="{{ prog.link | prepend: site.relative_url }}" style="color: #0073ee;"> {{currentcount}}{{ prog.title }} </a> </td> 
                   {% endif %} 
