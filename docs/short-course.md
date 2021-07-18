@@ -8,7 +8,7 @@ order : 1
 
 <h3 style="color: #120659;">Introduction to Deep Learning</h3>
 
-The video recording of this talk can be viewed <a href="https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=1" style="color: blue">here</a>.  The short course materials are available at https://smi2021.scientistcafe.com/ <br/> 
+The video recording of this talk can be viewed <a href="https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=1" style="color: blue">here</a>.  The short course materials are available at <a href="https://smi2021.scientistcafe.com/" style="color: blue">https://smi2021.scientistcafe.com/ </a><br/> 
 
 Deep Learning is ubiquitous today across data-driven applications as diverse as machine vision, natural language processing, and super-human game-playing. This half-day workshop will introduce the fundamentals of the main types of deep learning models.  You will also learn the motivation and use cases of deep learning through hands-on exercises using R and Python in the cloud environment. This workshop is designed for the audience with a statistics background. No software download or installation is needed, everything is done through an internet browser (Chrome or Firefox) in Databricks free cloud environment.
 
