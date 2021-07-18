@@ -100,7 +100,8 @@ program:
         ifsubprog: FALSE
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=SGnmUyf-d8I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=7
-        hasslides: FALSE
+        hasslides: TRUE
+        slides: /assets/nichols_slides.pdf
       - time: 11:30-11:45
         title: Break        
         iscount: FALSE
@@ -238,7 +239,8 @@ program:
         ifsubprog: FALSE
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=4OSojKW25ak&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=16
-        hasslides: FALSE
+        hasslides: TRUE
+        slides: /assets/calhoun_slides.pdf
       - time: 11:30-11:45
         title: Break       
         iscount: FALSE
