@@ -40,6 +40,7 @@ program:
         ifsubprog: FALSE
         isopenremark: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 17:00-19:00
         title: Poster Session and Opening Mixer (Gather.Town)    
         iscount: TRUE                                                                                                                   
@@ -47,6 +48,7 @@ program:
         isopenremark: FALSE
         link: "/docs/gathertown.html"   
         isrecorded: FALSE
+        hasslides: FALSE
   - date: Tuesday	5/18/21
     dayprog:
       - time: 8:45-9:00  
@@ -59,11 +61,13 @@ program:
           - speakertime: 8:45-8:50
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=mHdEysyDC9Q&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=4
+        hasslides: FALSE
       - time: 9:00-10:00
         title: Invited session
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Statistical methods for neuroimaging studies of Alzheimer's disease
             organizer: Dana Tudorascu
@@ -71,18 +75,21 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=bWS3HqnImYI&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=5
+            hasslides: FALSE
           - name: Recent advances in statistical methods for complex neuroimaging data
             organizer: Fengqing Zhang
             id: I-4
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=ADs9Vd0qzmk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=6
+            hasslides: FALSE
       - time: 10:00-10:30
         title: Floor Discussion  
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Tom Nichols' 
         link: "/sessions/ses-k-1.html" 
@@ -92,17 +99,20 @@ program:
         ifsubprog: FALSE
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=SGnmUyf-d8I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=7
+        hasslides: FALSE
       - time: 11:30-11:45
         title: Break        
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 11:45-12:45
         title: Invited sessions     
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Flexible Bayesian Approaches for Imaging Analysis
             organizer: Suprateek Kundu
@@ -110,29 +120,34 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=ZlfefTYYC8Q&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=8
+            hasslides: FALSE
           - name: New statistical learning methods for imaging data analysis
             organizer: Jian Kang
             id: I-13
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=sGoozhQtZ_M&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=9
+            hasslides: FALSE
       - time: 12:45-13:00 
         title: Floor Discussion
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE    
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 13:00-14:00  
         title: Lunch Break  
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 14:00-15:00  
         title: Invited sessions 
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Statistical Shape Modeling and Analysis Using Imaging Data
             organizer: Anuj Srivastava
@@ -140,23 +155,27 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=2TP0pfFcdO0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=10
+            hasslides: FALSE
           - name: Recent Advances and New Directions in Neuroimaging Statistics
             organizer: Carolyn Lou
             id: I-3
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=GOZTBFba4-0&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=11
+            hasslides: FALSE
       - time: 15:00-15:30  
         title: Floor Discussion   
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 15:30-16:30  
         title: Collaborative Case Studies                                                                                                                                            
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Advanced imaging
             organizer: Ben Risk
@@ -164,18 +183,21 @@ program:
             type: case_study
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=9BHGERAXwCc&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=12
+            hasslides: FALSE
           - name: Quantitative Susceptibility Mapping (QSM) Analysis of Multiple sclerosis lesions
             organizer: Sandra Hurtado Rúa
             id: C-2
             type: case_study
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=VFmupeu_ITQ&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=13
+            hasslides: FALSE
       - time: 16:30-17:00  
         title: Floor Discussion    
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
   - date: Wednesday	5/19/21
     dayprog:
       - time: 9:00-10:00 
@@ -183,6 +205,7 @@ program:
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Statistical methods for functional neuroimaging
             organizer: Ying Guo
@@ -190,18 +213,21 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=-TG2vt5hnrw&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=14
+            hasslides: FALSE
           - name: Complex response, dimension reduction and data integration with application on neuroimaging
             organizer: Yize Zhao
             id: I-10
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=s-UyBYLH2v4&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=15
+            hasslides: FALSE
       - time: 10:00-10:30
         title: Floor Discussion 
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 10:30-11:30
         title: 'Keynote Address: Vince Calhoun'   
         link: "/sessions/ses-k-2.html"
@@ -211,17 +237,20 @@ program:
         ifsubprog: FALSE
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=4OSojKW25ak&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=16
+        hasslides: FALSE
       - time: 11:30-11:45
         title: Break       
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 11:45-12:45
         title: Invited sessions     
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Regularization methods in medical imaging
             organizer: John Kornak
@@ -229,29 +258,34 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=ZY_r9hOx7hY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=17
+            hasslides: FALSE
           - name: Statistical Approaches to Addressing Challenges in Neuroimaging Research
             organizer: Dayu Sun
             id: I-14
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=66iI7TtAQJU&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=18
+            hasslides: FALSE
       - time: 12:45-13:00 
         title: Floor Discussion     
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 13:00-14:00  
         title: Lunch Break  
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 14:00-15:00  
         title: Invited sessions      
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Advances in Statistical Methods for Multiple Sclerosis Imaging
             organizer: Elizabeth Sweeney
@@ -259,23 +293,27 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=QUGKVC-t524&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=19
+            hasslides: FALSE
           - name: Recent advances in brain network statistics
             organizer: Shuo Chen
             id: I-7
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=dglDyMWXRnY&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=20
+            hasslides: FALSE
       - time: 15:00-15:30  
         title: Floor Discussion    
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
       - time: 15:30-16:30  
         title: Invited sessions    
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: TRUE
+        hasslides: FALSE
         subprog:
           - name: Bayesian supervised and unsupervised image processing and analysis, with applications to radiogenomics and diffusion tensor imaging
             organizer: Rajarshi Guhaniyogi
@@ -283,15 +321,18 @@ program:
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=OeKeShdQP0I&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=21
+            hasslides: FALSE
           - name: Functional and Spatial Techniques in Neuroimaging Data
             organizer: Linglong Kong
             id: I-12
             type: invited
             isrecorded: TRUE
             recording: https://www.youtube.com/watch?v=79XIyGnthXk&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=22
+            hasslides: FALSE
       - time: 16:30-17:00  
         title: Floor Discussion   
         iscount: FALSE
         isopenremark: FALSE
         ifsubprog: FALSE
         isrecorded: FALSE
+        hasslides: FALSE
