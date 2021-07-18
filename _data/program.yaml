@@ -9,7 +9,8 @@ program:
         link: "/docs/short-course.html"   
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=5vNPm7Akp9U&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=1
-        hasdlides: TRUE
+        hasslides: TRUE
+        isshortcourse: TRUE
         slides: https://smi2021.scientistcafe.com/
       - time: 13:00-14:00
         title: Lunch Break
