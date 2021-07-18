@@ -26,7 +26,7 @@ program:
         isrecorded: TRUE
         recording: https://www.youtube.com/watch?v=z0GVESEpERM&list=PLwENUD1LkzXLXYGi5zItDMJLIxDF01WVw&index=2
         hasslides: TRUE
-        slides: assets/johnson
+        slides: /assets/johnson.pdf
       - time: 14:55-16:35
         title: Statistical Software for Imaging Analysis   
         iscount: TRUE
